@@ -1,0 +1,62 @@
+[
+  {
+    "group": 1,
+    "first_beat": 1,
+    "last_beat": 3,
+    "display": "Elias's paper had his obituary. It arrived a day early: his name, his apartment, a fire at 3:07. He was alive.",
+    "spoken": "Elias's paper had his obituary. It arrived a day early: his name, his apartment, a fire at three-oh-seven. He was alive.",
+    "seconds": 9.316,
+    "generation_seconds": 2.7554873999906704,
+    "phonemes": "ɪlˈaɪəsɪz pˈeɪpə had hɪz ɒbˈɪtʃʊəɹi. ɪt ɐɹˈaɪvd ɐ dˈeɪ ˈɜːlɪ: hɪz nˈeɪm, hɪz ɐpˈɑːtmənt, ɐ fˈaɪəɹ at θɹˈiːˈəʊsˈɛvən. hiː wɒz ɐlˈaɪv."
+  },
+  {
+    "group": 2,
+    "first_beat": 4,
+    "last_beat": 4,
+    "display": "He had no subscription. Underneath, in small print: one name per fire.",
+    "spoken": "He had no subscription. Underneath, in small print: one name per fire.",
+    "seconds": 5.089333333333333,
+    "generation_seconds": 1.2811681999883149,
+    "phonemes": "hiː had nˈəʊ sʌbskɹˈɪpʃən. ˌʌndənˈiːθ, ɪn smˈɔːl pɹˈɪnt: wˈɒn nˈeɪm pɜː fˈaɪə."
+  },
+  {
+    "group": 3,
+    "first_beat": 5,
+    "last_beat": 8,
+    "display": "At 2:40, Elias knocked on 4A. Mara's heater had been sparking all week. She'd asked him to fix it. He told her to call the super. He took the stairs and didn't look back. From the hotel, he watched the smoke rise. At 3:07, 4B burned.",
+    "spoken": "At 2:40, Elias knocked on 4A. Mara's heater had been sparking all week. She'd asked him to fix it. He told her to call the super. He took the stairs and didn't look back. From the hotel, he watched the smoke rise. At three-oh-seven, 4B burned.",
+    "seconds": 16.74,
+    "generation_seconds": 4.127500599977793,
+    "phonemes": "at tˈuː:fˈɔːti, ɪlˈaɪəs nˈɒkt ˌɒn fˈɔːɹ ˈeɪ. mˈɑːɹəz hˈiːtə hɐdbɪn spˈɑːkɪŋ ˈɔːl wˈiːk. ʃiːd ˈaskt hˌɪm tə fˈɪks ɪt. hiː tˈəʊld hɜː tə kˈɔːl ðə sˈuːpə. hiː tˈʊk ðə stˈeəz and dˈɪdnt lˈʊk bˈak. fɹʌmðə həʊtˈɛl, hiː wˈɒtʃt ðə smˈəʊk ɹˈaɪz. at θɹˈiːˈəʊsˈɛvən, fˈɔː bˈiː bˈɜːnd."
+  },
+  {
+    "group": 4,
+    "first_beat": 9,
+    "last_beat": 9,
+    "display": "The next paper waited at the front desk. Same fire. Same hour. Different name.",
+    "spoken": "The next paper waited at the front desk. Same fire. Same hour. Different name.",
+    "seconds": 5.70925,
+    "generation_seconds": 1.455079699982889,
+    "phonemes": "ðə nˈɛkst pˈeɪpə wˈeɪtɪd at ðə fɹˈʌnt dˈɛsk. sˈeɪm fˈaɪə. sˈeɪm ˈaʊə. dˈɪfɹənt nˈeɪm."
+  },
+  {
+    "group": 5,
+    "first_beat": 10,
+    "last_beat": 11,
+    "display": "Mara Kwan. Apartment 4A. It said she'd entered 4B to warn him. Elias laid the two obituaries side by side. His name. Mara's.",
+    "spoken": "Mara Kwan. Apartment 4A. It said she'd entered 4B to warn him. Elias laid the two obituaries side by side. His name. Mara's.",
+    "seconds": 10.041333333333334,
+    "generation_seconds": 2.4982209999870975,
+    "phonemes": "mˈɑːɹə kwˈan. ɐpˈɑːtmənt fˈɔːɹ ˈeɪ. ɪt sˈɛd ʃiːd ˈɛntəd fˈɔː bˈiː tə wˈɔːn hˌɪm. ɪlˈaɪəs lˈeɪd ðə tˈuː ɒbˈɪtʃʊəɹiz sˈaɪd baɪ sˈaɪd. hɪz nˈeɪm. mˈɑːɹəz."
+  },
+  {
+    "group": 6,
+    "first_beat": 12,
+    "last_beat": 13,
+    "display": "The paper wasn't predicting the future. It was choosing who paid for it.",
+    "spoken": "The paper wasn't predicting the future. It was choosing who paid for it.",
+    "seconds": 4.601333333333334,
+    "generation_seconds": 1.1465113000012934,
+    "phonemes": "ðə pˈeɪpə wˌɒznt pɹɪdˈɪktɪŋ ðə fjˈuːtʃə. ɪt wɒz tʃˈuːzɪŋ hˌuː pˈeɪd fɔːɹ ɪt."
+  }
+]
