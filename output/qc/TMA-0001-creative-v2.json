@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "video_id": "TMA-0001",
+  "reviewer": "Freebuff build agent",
+  "reviewed_at": "2026-11-14T18:30:00Z",
+  "scores": {
+    "hook": 15,
+    "originality": 9,
+    "coherence": 15,
+    "suspense": 14,
+    "ending": 15,
+    "voice": 7,
+    "visual_consistency": 6,
+    "subtitle_sync": 3,
+    "audio_mix": 4
+  },
+  "blocking_issues": [],
+  "notes": "PROVISIONAL PRE-PRODUCTION REVIEW of script v2 and storyboard v2. This is not a rendered-video QC and cannot be recorded as the 80/100 release gate. Story scores improved from 85 to a provisional 88: the obituary is visible in the first two seconds, the fine-print rule makes the substitution causal, the neighbour's heater and her attempt to warn Elias connect every event, and the final line reframes the opening. Originality remains 9/10 because the prophetic-newspaper premise is familiar even though the substitution rule is specific. Voice 7/10 and audio mix 4/5 are carried over estimates from v1; no new narration or mix exists. Visual consistency is 6/10 because the ten-scene board is deliberately varied but the stills have not been produced. Subtitle sync is 3/5 because the new script requires fresh word alignment; v1 timings do not apply. Production values must be rescored after the new render and technical QC before approval."
+}

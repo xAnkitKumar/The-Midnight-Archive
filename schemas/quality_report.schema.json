@@ -1,0 +1,130 @@
+{
+  "$defs": {
+    "QualityScores": {
+      "additionalProperties": false,
+      "description": "Point budget: 100. The maxima mirror the QC rubric in agents/quality_control.md.",
+      "properties": {
+        "hook": {
+          "maximum": 15,
+          "minimum": 0,
+          "title": "Hook",
+          "type": "integer"
+        },
+        "originality": {
+          "maximum": 10,
+          "minimum": 0,
+          "title": "Originality",
+          "type": "integer"
+        },
+        "coherence": {
+          "maximum": 15,
+          "minimum": 0,
+          "title": "Coherence",
+          "type": "integer"
+        },
+        "suspense": {
+          "maximum": 15,
+          "minimum": 0,
+          "title": "Suspense",
+          "type": "integer"
+        },
+        "ending": {
+          "maximum": 15,
+          "minimum": 0,
+          "title": "Ending",
+          "type": "integer"
+        },
+        "voice": {
+          "maximum": 10,
+          "minimum": 0,
+          "title": "Voice",
+          "type": "integer"
+        },
+        "visual_consistency": {
+          "maximum": 10,
+          "minimum": 0,
+          "title": "Visual Consistency",
+          "type": "integer"
+        },
+        "subtitle_sync": {
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Subtitle Sync",
+          "type": "integer"
+        },
+        "audio_mix": {
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Audio Mix",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "hook",
+        "originality",
+        "coherence",
+        "suspense",
+        "ending",
+        "voice",
+        "visual_consistency",
+        "subtitle_sync",
+        "audio_mix"
+      ],
+      "title": "QualityScores",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "video_id": {
+      "title": "Video Id",
+      "type": "string"
+    },
+    "reviewer": {
+      "maxLength": 80,
+      "minLength": 2,
+      "title": "Reviewer",
+      "type": "string"
+    },
+    "reviewed_at": {
+      "format": "date-time",
+      "title": "Reviewed At",
+      "type": "string"
+    },
+    "scores": {
+      "$ref": "#/$defs/QualityScores"
+    },
+    "blocking_issues": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Blocking Issues",
+      "type": "array"
+    },
+    "notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Notes"
+    }
+  },
+  "required": [
+    "video_id",
+    "reviewer",
+    "scores"
+  ],
+  "title": "The Midnight Archive Quality Report",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

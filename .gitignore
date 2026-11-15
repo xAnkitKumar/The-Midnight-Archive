@@ -1,0 +1,30 @@
+# Credentials and machine-private state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.freebuff/
+threads/
+logs/
+data/*.db
+data/*.db-*
+data/*.sqlite*
+# Python/build/cache state
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+# Local scratch only; retained historical work lives under archive/
+work/
+# OS/editor
+Thumbs.db
+.DS_Store
+desktop.ini
+.idea/
+.vscode/
+# Deliberately track versioned output/ and assets/ in this sharing archive.

@@ -1,0 +1,227 @@
+{
+  "schema_version": "1.0",
+  "video_id": "TMA-0001",
+  "style_bible": {
+    "palette": "sodium amber and ash grey against deep teal-black; one warm paper white; firelight only where fire is present",
+    "lighting": "one hard practical per scene, negative fill, visible darkness; corridor cold, 4A warm, hotel blue, final frame firelit from one side",
+    "lens": "24mm for wides and overheads, 50mm for mediums, 100mm macro for print and hands; shallow focus, subtle halation",
+    "grain": "fine 16mm grain, gentle contrast, blacks that keep texture; no digital clarity sheen",
+    "negative_prompt": "text, watermark, logo, signature, extra fingers, deformed hands, cartoon, anime, oversaturated, stock-photo smile, modern social UI, fisheye, duplicate faces, floating objects, illegible gibberish text"
+  },
+  "music": {
+    "mood": "low cello pulse, tape hiss, a single piano note that stops when the name changes; no percussion until the smoke",
+    "bpm": 58,
+    "volume_db": -20.0
+  },
+  "scenes": [
+    {
+      "scene": 1,
+      "start": 0.0,
+      "end": 7.0,
+      "narration": "Tomorrow's paper had an obituary. Elias Voss. Apartment 4B. Fire. 3:07 a.m. He was alive.",
+      "visual": "Extreme close-up on a folded broadsheet: tomorrow's date and a short obituary box dominate the frame. At the edges, living ink-stained fingers hold the paper; behind it, Elias's unshaven face is a dark shape. The page is the only bright object in the room. The camera begins on the name and pulls back just enough to reveal the living hands.",
+      "characters": [
+        "Elias Voss - 34, gaunt, dark wool coat, close-cropped hair, ink-stained fingers, sleepless"
+      ],
+      "environment": "Kitchen table in apartment 4B, predawn; cold coffee ring, unopened mail, one bare bulb, rain on the window",
+      "lighting": "Hard overhead bulb; the newspaper is overexposed, the room falls to black at the edges; no fill on Elias's face",
+      "camera": "100mm macro, top-down; slow pull-back from the obituary type to the hands and the dark shape of his face, 9:16",
+      "on_screen_text": "ELIAS VOSS — 3:07 A.M.",
+      "sfx": [
+        "paper rustle",
+        "clock tick",
+        "room tone"
+      ],
+      "transition": "cut",
+      "image_prompt": "Cinematic vertical 9:16 macro still, tomorrow's newspaper on a dark kitchen table, a short obituary column under a hard bare bulb, living ink-stained fingers holding the page, a gaunt man's face half-hidden behind it, cold coffee ring, rain-streaked window, teal shadows, sodium amber light, 100mm lens, shallow focus, fine 16mm grain, no legible body text"
+    },
+    {
+      "scene": 2,
+      "start": 7.0,
+      "end": 12.2,
+      "narration": "He had no subscription. The fine print said: one name per fire.",
+      "visual": "Wide low-angle of the apartment corridor. Elias stands small at the far end, newspaper under one arm, facing 4A. Every other door is shut. The stairwell light pulses, and the corridor's perspective lines converge on him.",
+      "characters": [
+        "Elias Voss - far end of corridor, back to camera, newspaper under left arm"
+      ],
+      "environment": "Narrow 1970s corridor, mustard wallpaper, worn carpet, four closed doors, one caged stairwell bulb",
+      "lighting": "Hard sodium light from the stairwell; long shadows stretch toward camera; 4A's door is the only warm rectangle",
+      "camera": "24mm wide, low angle, slow dolly forward down the corridor, one-point perspective, 9:16",
+      "on_screen_text": null,
+      "sfx": [
+        "lift hum",
+        "clock tick",
+        "door creak"
+      ],
+      "transition": "push_in",
+      "image_prompt": "Cinematic vertical 9:16 wide still, low-angle 1970s apartment corridor at night, a small man at the far end holding a newspaper, mustard wallpaper, four closed doors, one caged sodium bulb, deep teal shadows, strong one-point perspective, 24mm lens, fine 16mm grain, no people in foreground, no legible text"
+    },
+    {
+      "scene": 3,
+      "start": 12.2,
+      "end": 19.0,
+      "narration": "At 2:40, he knocked on 4A. His neighbour's heater. The one she'd asked him to fix.",
+      "visual": "Over Elias's shoulder at 4A. The door opens a hand's width; Mara Kwan, sixties, stands in a warm slice of light. Behind her, a coil heater glows orange beside a curtain. Elias's knuckles are still raised in the foreground.",
+      "characters": [
+        "Elias Voss - foreground shoulder and raised hand, coat collar up",
+        "Mara Kwan - 60s, cardigan, reading glasses pushed into grey hair, tired but alert"
+      ],
+      "environment": "4A doorway; warm cluttered flat beyond, coil heater and thin curtain visible, hallway cold behind Elias",
+      "lighting": "Warm interior spill against cold corridor; the heater element is the hottest point in frame; Mara's face is half-lit",
+      "camera": "50mm over-the-shoulder, doorframe splits the frame, slow push toward the heater, 9:16",
+      "on_screen_text": null,
+      "sfx": [
+        "door creak",
+        "clock tick",
+        "low boom"
+      ],
+      "transition": "match_cut",
+      "image_prompt": "Cinematic vertical 9:16 still, over-the-shoulder at an apartment door, a gaunt man's raised knuckles in foreground, a woman in her sixties in a warm slice of doorway light, a glowing coil heater and thin curtain behind her, cold teal corridor, sodium amber interior, 50mm lens, shallow depth of field, fine 16mm grain, no legible text"
+    },
+    {
+      "scene": 4,
+      "start": 19.0,
+      "end": 21.6,
+      "narration": "She said the super would come.",
+      "visual": "Close-up of Mara's hand resting on the heater dial, then her face in the background, unconvinced. The dial is turned to maximum; a red indicator glows. Her hand is old, steady, and too close to the element.",
+      "characters": [
+        "Mara Kwan - hand on dial in foreground, face soft in background"
+      ],
+      "environment": "4A interior, coil heater close to a thin curtain, floral wallpaper, stack of unopened letters",
+      "lighting": "Orange element underlight; Mara's face in half-shadow; the red dial is the only saturated colour",
+      "camera": "100mm macro, rack focus from the dial to her eyes, slight handheld drift, 9:16",
+      "on_screen_text": null,
+      "sfx": [
+        "switch click",
+        "room tone"
+      ],
+      "transition": "cut",
+      "image_prompt": "Vertical 9:16 macro still, an older woman's hand on a glowing coil heater dial turned to maximum, red indicator, thin curtain dangerously close, her tired face soft in the background, floral wallpaper, orange underlight, deep shadows, 100mm lens, shallow focus, fine 16mm grain, no legible text"
+    },
+    {
+      "scene": 5,
+      "start": 21.6,
+      "end": 25.4,
+      "narration": "Elias took the stairs. He did not look back.",
+      "visual": "Wide low-angle stairwell. Elias descends, one hand on the rail, coat billowing; his shadow climbs the wall behind him. The corridor door is a bright rectangle above him, already out of reach.",
+      "characters": [
+        "Elias Voss - centered low on the stairs, back to camera, one hand on rail"
+      ],
+      "environment": "Concrete stairwell, peeling paint, caged bulb, metal handrail, dark landing below",
+      "lighting": "Single caged bulb above; hard vertical shadows; cold blue below, warm sodium above",
+      "camera": "24mm wide, low angle, slow tilt down, strong verticals, 9:16",
+      "on_screen_text": null,
+      "sfx": [
+        "door creak",
+        "lift hum",
+        "heartbeat"
+      ],
+      "transition": "dissolve",
+      "image_prompt": "Cinematic vertical 9:16 still, low-angle concrete stairwell at night, a man in a dark coat descending with one hand on the rail, long shadow climbing the wall, caged bulb above, cold blue below, peeling paint, strong vertical lines, 24mm lens, fine 16mm grain, no legible text"
+    },
+    {
+      "scene": 6,
+      "start": 25.4,
+      "end": 30.2,
+      "narration": "From the hotel, he watched the smoke. At 3:07, 4B burned.",
+      "visual": "Hotel window at night. Elias stands at the left edge, silhouetted; his reflection overlaps the city. Far right, a thin column of smoke rises from his building, lit amber at the base. The window frame traps him between his reflection and the fire.",
+      "characters": [
+        "Elias Voss - left third, back to camera, silhouette and reflection"
+      ],
+      "environment": "Cheap hotel room, rain-streaked window, city lights below, his building visible across the rooftops",
+      "lighting": "Blue room, amber smoke glow outside, no overhead light; reflection doubles his outline",
+      "camera": "35mm, frame-within-frame, slow push-in toward the smoke, 9:16",
+      "on_screen_text": null,
+      "sfx": [
+        "rain",
+        "distant siren",
+        "low boom"
+      ],
+      "transition": "push_in",
+      "image_prompt": "Cinematic vertical 9:16 still, dark hotel room at night, a man silhouetted at the left edge of a rain-streaked window, his reflection overlapping city lights, a thin column of amber-lit smoke rising from a building across the rooftops, blue shadows, frame-within-frame, 35mm lens, fine 16mm grain, no legible text"
+    },
+    {
+      "scene": 7,
+      "start": 30.2,
+      "end": 33.2,
+      "narration": "The next paper waited at the desk.",
+      "visual": "High-angle close-up of the hotel front desk. A fresh broadsheet sits beside a brass bell and a room key. The clerk's hand withdraws from frame. The paper is folded to the obituary page.",
+      "characters": [
+        "Hotel clerk - hand only, withdrawing from frame"
+      ],
+      "environment": "Hotel reception, laminate counter, brass bell, key cubbies, wet glass ring",
+      "lighting": "Single desk lamp, hard pool of light; background dark; paper is the brightest object",
+      "camera": "50mm high angle, static, shallow focus, 9:16",
+      "on_screen_text": null,
+      "sfx": [
+        "clock tick",
+        "paper crease"
+      ],
+      "transition": "match_cut",
+      "image_prompt": "Vertical 9:16 still, high-angle hotel reception desk at night, a fresh folded newspaper beside a brass bell and a room key, a clerk's hand withdrawing at the frame edge, single desk lamp, hard pool of light, dark background, teal and amber, 50mm lens, shallow focus, fine 16mm grain, no legible text"
+    },
+    {
+      "scene": 8,
+      "start": 33.2,
+      "end": 38.4,
+      "narration": "Same fire. Same hour. Different name. Mara Kwan. Apartment 4A. Smoke.",
+      "visual": "Extreme close-up of the new obituary. Elias's thumb presses beside the name MARA KWAN; a line of ash crosses the date. The paper is damp and puckered. The name is the only sharp thing in frame.",
+      "characters": [
+        "Elias Voss - thumb and cuff only"
+      ],
+      "environment": "Hotel desk, lamplight, wet glass ring, a line of ash on the paper",
+      "lighting": "Hard raking lamp from left; paper texture and ash highlighted; right side falls to black",
+      "camera": "100mm macro, slight handheld drift, rack focus across the name, 9:16",
+      "on_screen_text": "MARA KWAN — 4A",
+      "sfx": [
+        "paper crease",
+        "heartbeat",
+        "cello swell"
+      ],
+      "transition": "cut",
+      "image_prompt": "Extreme close-up vertical 9:16 still, a damp puckered newspaper obituary under a hard lamp, a man's thumb beside a printed name, a line of ash across the date, wet glass ring, hard raking light from the left, black falloff at the right edge, 100mm macro, shallow focus, fine 16mm grain, minimal legible text"
+    },
+    {
+      "scene": 9,
+      "start": 38.4,
+      "end": 47.0,
+      "narration": "She had gone in to warn him. Elias spread the editions across the floor. Every one had taken a name.",
+      "visual": "Overhead shot of Elias's apartment floor. Dozens of editions radiate from him like a clock face; each front page has one obituary box circled in red. Elias kneels at the center, small, surrounded by paper. The composition is a broken mandala, not a grid.",
+      "characters": [
+        "Elias Voss - kneeling at center, sleeves rolled, hands ink-stained, face lowered"
+      ],
+      "environment": "4B floor, bare boards, overturned lamp, ash, rain at the window",
+      "lighting": "Single lamp on the floor; hard radial pool; black edges; red pencil marks catch the light",
+      "camera": "24mm top-down, locked overhead, slow zoom out to reveal the full spread, 9:16",
+      "on_screen_text": null,
+      "sfx": [
+        "paper rustle",
+        "glass creak",
+        "cello swell"
+      ],
+      "transition": "fade",
+      "image_prompt": "Overhead vertical 9:16 still, a kneeling man at the center of dozens of newspapers radiating across bare wooden floorboards like a broken clock face, red-circled obituary boxes, one hard lamp pool, ash, overturned lamp, deep black edges, teal shadows, 24mm lens, fine 16mm grain, no legible body text"
+    },
+    {
+      "scene": 10,
+      "start": 47.0,
+      "end": 52.2,
+      "narration": "The paper wasn't predicting the future. It was choosing who paid for it.",
+      "visual": "Close-up of Elias's face, right third, lit from the left by the burning building through the window. A blank newspaper fills the lower foreground. He looks directly at camera for the first time. The low-opacity wordmark sits in the top margin; there is no end card and no logo intro.",
+      "characters": [
+        "Elias Voss - close-up, soot on cheek, no expression left to read"
+      ],
+      "environment": "4B window, smoke outside, blank newspaper in lap, ember light on the glass",
+      "lighting": "Firelight key from the left, deep black on the right, ember flicker; the paper catches a thin rim",
+      "camera": "85mm close-up, very slow push-in, focus on the eyes, 9:16",
+      "on_screen_text": "THE MIDNIGHT ARCHIVE",
+      "sfx": [
+        "cello swell",
+        "heartbeat",
+        "room tone"
+      ],
+      "transition": "fade",
+      "image_prompt": "Cinematic vertical 9:16 close-up, a soot-streaked gaunt man looking directly at camera, firelight from the left, deep black on the right, a blank newspaper in the lower foreground, smoke and ember glow at the window, 85mm lens, shallow depth of field, fine 16mm grain, quiet dread, no legible text"
+    }
+  ]
+}

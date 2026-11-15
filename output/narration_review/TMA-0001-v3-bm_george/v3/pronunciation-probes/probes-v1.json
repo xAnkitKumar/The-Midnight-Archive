@@ -1,0 +1,57 @@
+{
+  "elias-voss": {
+    "text": "Elias Voss.",
+    "path": "output/narration_review/TMA-0001-v3-bm_george/v3/pronunciation-probes/elias-voss.wav",
+    "sha256": "abf807a5790595e41bd3f06501b8424b7eac5c9b9e79e3497b25c2a60f4eac50",
+    "seconds": 1.483,
+    "transcript": "Elias Vos",
+    "tokens": [
+      "elias",
+      "vos"
+    ],
+    "elias": true,
+    "voss": false,
+    "mara": false,
+    "kwan": false,
+    "suspicious": []
+  },
+  "mara-kwan": {
+    "text": "Mara Kwan.",
+    "path": "output/narration_review/TMA-0001-v3-bm_george/v3/pronunciation-probes/mara-kwan.wav",
+    "sha256": "cac4d1a45dac7e283ff210a3a1d2574d502d0f34b677fc9b72f986a73a1ec522",
+    "seconds": 1.322,
+    "transcript": "Mora-Quand",
+    "tokens": [
+      "mora",
+      "quand"
+    ],
+    "elias": false,
+    "voss": false,
+    "mara": false,
+    "kwan": false,
+    "suspicious": []
+  },
+  "pair": {
+    "text": "Elias Voss knocked on apartment 4A. Mara Kwan lived there.",
+    "path": "output/narration_review/TMA-0001-v3-bm_george/v3/pronunciation-probes/pair.wav",
+    "sha256": "f7e463622a6abcc72c67875ae5d8fd8d262cfee513800716d44fab82ad2adbbf",
+    "seconds": 4.842,
+    "transcript": "Elias Vos knocked on apartment 4A. Marquan lived there.",
+    "tokens": [
+      "elias",
+      "vos",
+      "knocked",
+      "on",
+      "apartment",
+      "4a",
+      "marquan",
+      "lived",
+      "there"
+    ],
+    "elias": true,
+    "voss": false,
+    "mara": false,
+    "kwan": false,
+    "suspicious": []
+  }
+}

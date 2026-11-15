@@ -1,0 +1,36 @@
+{
+  "video_id": "TMA-0001",
+  "script_version": 3,
+  "language": "en-gb",
+  "voice": "bm_george",
+  "g2p": {
+    "Elias": "ɪlˈaɪəs",
+    "Voss": "vˈɒs",
+    "Mara": "mˈɑːɹə",
+    "Kwan": "kwˈan"
+  },
+  "full_read_asr": {
+    "elias": true,
+    "voss": false,
+    "mara": true,
+    "kwan": true,
+    "suspicious": [],
+    "note": "Voss is not spoken in the script; it appears only in on-screen obituary text."
+  },
+  "isolated_probes": {
+    "elias-voss": {
+      "transcript": "Elias Vos",
+      "assessment": "Final s is weak in the isolated clip; full read does not contain Voss."
+    },
+    "mara-kwan": {
+      "transcript": "Mora-Quand",
+      "assessment": "Short-clip ASR is unreliable; full-context ASR hears Mara Kwan correctly."
+    },
+    "pair": {
+      "transcript": "Elias Vos knocked on apartment 4A. Marquan lived there.",
+      "assessment": "Short-clip ASR blends the surname; not treated as a pronunciation verdict."
+    }
+  },
+  "human_review_required": true,
+  "not_a_listening_test": true
+}

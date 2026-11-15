@@ -1,0 +1,51 @@
+[
+  {
+    "name": "mara-kwan-text",
+    "text": "Mara Kwan.",
+    "phonemes": false,
+    "seconds": 1.622,
+    "transcript": "Now attach"
+  },
+  {
+    "name": "mara-kwahn-text",
+    "text": "Mara Kwahn.",
+    "phonemes": false,
+    "seconds": 1.633,
+    "transcript": "Americans"
+  },
+  {
+    "name": "mara-kwan-phon-kwan",
+    "text": "mˈɑːɹə kwˈan.",
+    "phonemes": true,
+    "seconds": 1.622,
+    "transcript": "Now attach"
+  },
+  {
+    "name": "mara-kwan-phon-kwahn",
+    "text": "mˈɑːɹə kwˈɑːn.",
+    "phonemes": true,
+    "seconds": 1.633,
+    "transcript": "Americans"
+  },
+  {
+    "name": "mara-kwan-phon-kwon",
+    "text": "mˈɑːɹə kwˈɒn.",
+    "phonemes": true,
+    "seconds": 1.581,
+    "transcript": "Miracles"
+  },
+  {
+    "name": "elias-voss-text",
+    "text": "Elias Voss.",
+    "phonemes": false,
+    "seconds": 1.783,
+    "transcript": "In my yes, voice."
+  },
+  {
+    "name": "elias-voss-phon",
+    "text": "ɪlˈaɪəs vˈɒs.",
+    "phonemes": true,
+    "seconds": 1.783,
+    "transcript": "in lawyer's voice."
+  }
+]

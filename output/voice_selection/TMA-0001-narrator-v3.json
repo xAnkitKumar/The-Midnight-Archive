@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "video_id": "TMA-0001",
+  "script_version": 3,
+  "status": "full_narration_ready_for_human_review",
+  "selected_at": "2026-11-14T19:52:33Z",
+  "handoff": {
+    "path": "C:/Users/LOQ/Documents/Codex/2026-11-15/c-users-loq-config-freebuff-desktop/outputs/tma-0001-v3-audition-review-v1/voice-selection-v1.json",
+    "sha256": "4c7e1854758e33421c461d016a28b407575eb0654350ea41a486b903a3836952",
+    "decision_source": "human reply C",
+    "candidate": "C"
+  },
+  "selected_narrator": {
+    "engine": "Kokoro-82M",
+    "voice": "bm_george",
+    "language": "en-gb",
+    "speed": 0.96,
+    "runtime": "kokoro-onnx 0.6.1",
+    "model_voice_license": "Apache-2.0",
+    "runtime_license": "MIT"
+  },
+  "active_config": {
+    "path": "config/settings.yaml",
+    "sha256_after_selection": "ef613c9f856d5bdf839b7b267a6a672db8549b1aee4792faeb032bcf57dd41c5",
+    "voice": "bm_george",
+    "language": "en-gb",
+    "speed": 0.96
+  },
+  "archived_previous_config": {
+    "path": "config/archive/settings-v2-am_michael.yaml",
+    "sha256": "abd5e5111cbba183ee6f0b9839cc1f4489dcd10faf7f121eddcdd8e02c331d25",
+    "voice": "am_michael",
+    "language": "en-us",
+    "speed": 0.92
+  },
+  "audition": {
+    "path": "output/voice_tests/v2/level-matched/kokoro-bm_george-reference.wav",
+    "sha256": "19dc19596dfb6b6da172630a23f4f9eda95a402348c2ed4405a985336d9c83de",
+    "seconds": 18.293,
+    "language_used_for_audition": "en-us",
+    "matched_handoff_sha256": true
+  },
+  "verification": {
+    "script_path": "output/scripts/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v3.json",
+    "script_sha256": "0bf990c0662f05c1db9e76066a8afbb900b0eb0a32eec6d69e574229b7b4de4c",
+    "storyboard_path": "output/storyboards/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v3.json",
+    "storyboard_sha256": "6df65a9294a3807c4b5aaa9ae847f6a7ba9188f38be492dc343c424153768869",
+    "db_status": "STORYBOARD_READY",
+    "db_script_matches_file": true,
+    "db_storyboard_matches_file": true
+  },
+  "notes": [
+    "The handoff requested en-gb. The approved audition WAV hash was generated with the en-us G2P tag on the British bm_george voice; en-gb changes timing and vowel rendering, so the full narration is a new review item rather than a byte-identical audition replay.",
+    "No production status transition, asset generation, video render, approval or publication was performed by this selection record.",
+    "A TTS-only \"Mara Kwahn\" override was tested and reverted: full-context ASR became less intelligible, so the authored \"Mara Kwan\" is retained."
+  ],
+  "full_narration_review": {
+    "path": "output/narration_review/TMA-0001-v3-bm_george/v3",
+    "narration": "output/narration_review/TMA-0001-v3-bm_george/v3/narration.wav",
+    "narration_sha256": "888d398b4dfa0c3fe8cf29b56746b6a5c9eb81896f3557d67cd92941e3958b87",
+    "seconds": 59.838,
+    "qc": "output/narration_review/TMA-0001-v3-bm_george/v3/audio-qc-v1.json",
+    "qc_passed": true,
+    "project_status": "STORYBOARD_READY",
+    "render_performed": false
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "$defs": {
+    "MusicCue": {
+      "additionalProperties": false,
+      "properties": {
+        "mood": {
+          "minLength": 3,
+          "title": "Mood",
+          "type": "string"
+        },
+        "bpm": {
+          "maximum": 160,
+          "minimum": 40,
+          "title": "Bpm",
+          "type": "integer"
+        },
+        "volume_db": {
+          "default": -18.0,
+          "maximum": 0,
+          "minimum": -40,
+          "title": "Volume Db",
+          "type": "number"
+        }
+      },
+      "required": [
+        "mood",
+        "bpm"
+      ],
+      "title": "MusicCue",
+      "type": "object"
+    },
+    "Scene": {
+      "additionalProperties": false,
+      "properties": {
+        "scene": {
+          "minimum": 1,
+          "title": "Scene",
+          "type": "integer"
+        },
+        "start": {
+          "minimum": 0,
+          "title": "Start",
+          "type": "number"
+        },
+        "end": {
+          "exclusiveMinimum": 0,
+          "title": "End",
+          "type": "number"
+        },
+        "narration": {
+          "minLength": 1,
+          "title": "Narration",
+          "type": "string"
+        },
+        "visual": {
+          "minLength": 15,
+          "title": "Visual",
+          "type": "string"
+        },
+        "characters": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Characters",
+          "type": "array"
+        },
+        "environment": {
+          "minLength": 3,
+          "title": "Environment",
+          "type": "string"
+        },
+        "lighting": {
+          "minLength": 3,
+          "title": "Lighting",
+          "type": "string"
+        },
+        "camera": {
+          "minLength": 3,
+          "title": "Camera",
+          "type": "string"
+        },
+        "on_screen_text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "On Screen Text"
+        },
+        "sfx": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Sfx",
+          "type": "array"
+        },
+        "transition": {
+          "default": "cut",
+          "enum": [
+            "cut",
+            "fade",
+            "dissolve",
+            "whip_pan",
+            "match_cut",
+            "push_in"
+          ],
+          "title": "Transition",
+          "type": "string"
+        },
+        "image_prompt": {
+          "minLength": 20,
+          "title": "Image Prompt",
+          "type": "string"
+        }
+      },
+      "required": [
+        "scene",
+        "start",
+        "end",
+        "narration",
+        "visual",
+        "environment",
+        "lighting",
+        "camera",
+        "image_prompt"
+      ],
+      "title": "Scene",
+      "type": "object"
+    },
+    "StyleBible": {
+      "additionalProperties": false,
+      "properties": {
+        "palette": {
+          "minLength": 3,
+          "title": "Palette",
+          "type": "string"
+        },
+        "lighting": {
+          "minLength": 3,
+          "title": "Lighting",
+          "type": "string"
+        },
+        "lens": {
+          "minLength": 3,
+          "title": "Lens",
+          "type": "string"
+        },
+        "grain": {
+          "minLength": 3,
+          "title": "Grain",
+          "type": "string"
+        },
+        "negative_prompt": {
+          "minLength": 3,
+          "title": "Negative Prompt",
+          "type": "string"
+        }
+      },
+      "required": [
+        "palette",
+        "lighting",
+        "lens",
+        "grain",
+        "negative_prompt"
+      ],
+      "title": "StyleBible",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "video_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Video Id"
+    },
+    "style_bible": {
+      "$ref": "#/$defs/StyleBible"
+    },
+    "music": {
+      "$ref": "#/$defs/MusicCue"
+    },
+    "scenes": {
+      "items": {
+        "$ref": "#/$defs/Scene"
+      },
+      "maxItems": 20,
+      "minItems": 3,
+      "title": "Scenes",
+      "type": "array"
+    }
+  },
+  "required": [
+    "style_bible",
+    "music",
+    "scenes"
+  ],
+  "title": "The Midnight Archive Storyboard",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

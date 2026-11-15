@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "video_id": "TMA-0001",
+  "title": "The Man Who Received Tomorrow's Newspaper",
+  "category": "mind_bending",
+  "logline": "A man reads his own obituary, avoids the fire, and learns the paper has already chosen who will pay for it.",
+  "source": {
+    "type": "original",
+    "reference": null,
+    "public_domain": false,
+    "notes": "Original story written for The Midnight Archive. v3 keeps the approved Substitution ending and makes the heater fault and Mara's entry into 4B explicit. No third-party text used."
+  },
+  "narration": [
+    {
+      "beat": 1,
+      "text": "Elias's paper had his obituary.",
+      "pause_after_ms": 100
+    },
+    {
+      "beat": 2,
+      "text": "It arrived a day early: his name, his apartment, a fire at 3:07.",
+      "pause_after_ms": 150
+    },
+    {
+      "beat": 3,
+      "text": "He was alive.",
+      "pause_after_ms": 250
+    },
+    {
+      "beat": 4,
+      "text": "He had no subscription. Underneath, in small print: one name per fire.",
+      "pause_after_ms": 300
+    },
+    {
+      "beat": 5,
+      "text": "At 2:40, Elias knocked on 4A. Mara's heater had been sparking all week.",
+      "pause_after_ms": 300
+    },
+    {
+      "beat": 6,
+      "text": "She'd asked him to fix it. He told her to call the super.",
+      "pause_after_ms": 250
+    },
+    {
+      "beat": 7,
+      "text": "He took the stairs and didn't look back.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 8,
+      "text": "From the hotel, he watched the smoke rise. At 3:07, 4B burned.",
+      "pause_after_ms": 300
+    },
+    {
+      "beat": 9,
+      "text": "The next paper waited at the front desk. Same fire. Same hour. Different name.",
+      "pause_after_ms": 250
+    },
+    {
+      "beat": 10,
+      "text": "Mara Kwan. Apartment 4A. It said she'd entered 4B to warn him.",
+      "pause_after_ms": 400
+    },
+    {
+      "beat": 11,
+      "text": "Elias laid the two obituaries side by side. His name. Mara's.",
+      "pause_after_ms": 300
+    },
+    {
+      "beat": 12,
+      "text": "The paper wasn't predicting the future.",
+      "pause_after_ms": 250
+    },
+    {
+      "beat": 13,
+      "text": "It was choosing who paid for it.",
+      "pause_after_ms": 500
+    }
+  ],
+  "final_line": "It was choosing who paid for it.",
+  "visual_style": "Sodium amber and ash grey against deep teal-black; one hard practical per scene; 24mm wides, 50mm mediums, 100mm macro details; fine 16mm grain; the newspaper is the only clean white value.",
+  "content_notes": "Speculative fiction. The newspaper is a fictional device, not a factual claim about prediction, archives or fire safety. The heater is narrative cause, not advice.",
+  "claims": []
+}

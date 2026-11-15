@@ -1,0 +1,45 @@
+{
+  "reference": "Elias's paper had his obituary. It arrived a day early: his apartment, a fire at 3:07. He was alive. The next paper said Mara Kwan. She'd entered 4B to warn him. The paper wasn't predicting the future. It was choosing who paid for it.",
+  "samples": [
+    {
+      "file": "kokoro-am_michael-a-natural.wav",
+      "seconds": 19.896,
+      "word_error_rate": 0.159,
+      "transcript": "Elias's paper had his obituary. It arrived a day early, his apartment, a fire at three, zero seven. He was alive. The next paper said Mara quam. She'd entered full B to warn him. The paper wasn't predicting the future. It was choosing who paid for it.",
+      "silence_ratio": 0.293,
+      "longest_pause_s": 0.7,
+      "pauses_over_0_35s": 7,
+      "proper_noun_normalized_wer": 0.091
+    },
+    {
+      "file": "kokoro-am_michael-b-directed.wav",
+      "seconds": 19.947,
+      "word_error_rate": 0.136,
+      "transcript": "Elias's paper had his obituary. It arrived a day early, his apartment, a fire at 3-0-7. He was alive. The next paper said Lara quam. She'd entered 4B to warn him. The paper wasn't predicting the future. It was choosing who paid for it.",
+      "silence_ratio": 0.297,
+      "longest_pause_s": 0.76,
+      "pauses_over_0_35s": 7,
+      "proper_noun_normalized_wer": 0.023
+    },
+    {
+      "file": "kokoro-bm_george-reference.wav",
+      "seconds": 18.293,
+      "word_error_rate": 0.068,
+      "transcript": "Elias's paper had his obituary. It arrived a day early. His apartment, a fire at 307. He was alive. The next paper said Mara quam. She'd entered 4B to warn him. The paper wasn't predicting the future. It was choosing who paid for it.",
+      "silence_ratio": 0.225,
+      "longest_pause_s": 0.5,
+      "pauses_over_0_35s": 5,
+      "proper_noun_normalized_wer": 0.023
+    },
+    {
+      "file": "piper-en_US-ljspeech-high-baseline.wav",
+      "seconds": 15.496,
+      "word_error_rate": 0.114,
+      "transcript": "Eliza's paper had his obituary. It arrived a day early. His apartment, a fire at 307. He was alive. The next paper said, Maracwan. She'd entered 4B to warn him. The paper wasn't predicting the future. It was choosing who paid for it.",
+      "silence_ratio": 0.134,
+      "longest_pause_s": 0.38,
+      "pauses_over_0_35s": 1,
+      "proper_noun_normalized_wer": 0.023
+    }
+  ]
+}

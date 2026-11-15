@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "video_id": "TMA-0001",
+  "mp4_path": "output/rendered/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v3.mp4",
+  "duration": 55.2,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "subtitle_path": "output/drafts/TMA-0001/test-render-v1/audio/subtitles-v2.ass",
+  "narration_path": "output/drafts/TMA-0001/test-render-v1/audio/approved-narration-v4.wav",
+  "mix_path": "output/drafts/TMA-0001/test-render-v1/audio/mix-v1.wav",
+  "scene_timings": [
+    {
+      "scene": 1,
+      "start": 0.0,
+      "end": 10.236,
+      "image": "output/drafts/TMA-0001/test-render-v1/visuals/scene-01-v1.png"
+    },
+    {
+      "scene": 2,
+      "start": 10.236,
+      "end": 15.575,
+      "image": "output/drafts/TMA-0001/test-render-v1/visuals/scene-02-v1.png"
+    },
+    {
+      "scene": 3,
+      "start": 15.575,
+      "end": 21.095,
+      "image": "output/drafts/TMA-0001/test-render-v1/visuals/scene-03-v1.png"
+    },
+    {
+      "scene": 4,
+      "start": 21.095,
+      "end": 24.515,
+      "image": "output/drafts/TMA-0001/test-render-v1/visuals/scene-04-v1.png"
+    },
+    {
+      "scene": 5,
+      "start": 24.515,
+      "end": 26.875,
+      "image": "output/drafts/TMA-0001/test-render-v1/visuals/scene-05-v1.png"
+    },
+    {
+      "scene": 6,
+      "start": 26.875,
+      "end": 32.615,
+      "image": "output/drafts/TMA-0001/test-render-v1/visuals/scene-06-v1.png"
+    },
+    {
+      "scene": 7,
+      "start": 32.615,
+      "end": 39.125,
+      "image": "output/drafts/TMA-0001/test-render-v1/visuals/scene-07-v1.png"
+    },
+    {
+      "scene": 8,
+      "start": 39.125,
+      "end": 44.445,
+      "image": "output/drafts/TMA-0001/test-render-v1/visuals/scene-08-v1.png"
+    },
+    {
+      "scene": 9,
+      "start": 44.445,
+      "end": 49.866,
+      "image": "output/drafts/TMA-0001/test-render-v1/visuals/scene-09-v1.png"
+    },
+    {
+      "scene": 10,
+      "start": 49.866,
+      "end": 55.197,
+      "image": "output/drafts/TMA-0001/test-render-v1/visuals/scene-10-v1.png"
+    }
+  ],
+  "created_at": "2026-11-15T05:36:28.761019Z"
+}

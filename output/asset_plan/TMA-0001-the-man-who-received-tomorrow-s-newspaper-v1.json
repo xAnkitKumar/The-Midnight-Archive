@@ -1,0 +1,210 @@
+{
+  "video_id": "TMA-0001",
+  "script_sha256": "16cf2fb4b96dd64214737d58879020103c5e046647c014ce81b77587b0f8db17",
+  "storyboard_sha256": "20bb28c37eaffa70dd5969c09c315e4d62b94a12687e390612dfdaa236d14b4b",
+  "font": "assets/fonts/Montserrat-Bold.ttf",
+  "voice_model": "assets/voices/en_US-ljspeech-high.onnx",
+  "music": "assets/music/midnight-score.wav",
+  "sfx": {
+    "paper_rustle": "assets/sound_effects/paper_rustle.wav",
+    "paper_crease": "assets/sound_effects/paper_crease.wav",
+    "clock_tick": "assets/sound_effects/clock_tick.wav",
+    "rain": "assets/sound_effects/rain.wav",
+    "room_tone": "assets/sound_effects/room_tone.wav",
+    "heartbeat": "assets/sound_effects/heartbeat.wav",
+    "low_boom": "assets/sound_effects/low_boom.wav",
+    "switch_click": "assets/sound_effects/switch_click.wav",
+    "lift_hum": "assets/sound_effects/lift_hum.wav",
+    "distant_siren": "assets/sound_effects/distant_siren.wav",
+    "cello_swell": "assets/sound_effects/cello_swell.wav",
+    "glass_creak": "assets/sound_effects/glass_creak.wav"
+  },
+  "images": [
+    "output/drafts/TMA-0001/images/scene-01.png",
+    "output/drafts/TMA-0001/images/scene-02.png",
+    "output/drafts/TMA-0001/images/scene-03.png",
+    "output/drafts/TMA-0001/images/scene-04.png",
+    "output/drafts/TMA-0001/images/scene-05.png",
+    "output/drafts/TMA-0001/images/scene-06.png",
+    "output/drafts/TMA-0001/images/scene-07.png",
+    "output/drafts/TMA-0001/images/scene-08.png"
+  ],
+  "scene_count": 8,
+  "licences": [
+    {
+      "kind": "font",
+      "path": "assets/fonts/Montserrat-Bold.ttf",
+      "license": "OFL-1.1",
+      "commercial_use": true,
+      "attribution": "Montserrat by Julieta Ulanovsky, licensed under SIL OFL 1.1"
+    },
+    {
+      "kind": "font_license",
+      "path": "assets/fonts/Montserrat-OFL.txt",
+      "license": "OFL-1.1",
+      "commercial_use": true,
+      "attribution": null
+    },
+    {
+      "kind": "voice_model",
+      "path": "assets/voices/en_US-ljspeech-high.onnx",
+      "license": "Public Domain",
+      "commercial_use": true,
+      "attribution": "LJSpeech dataset (public domain); Piper voice trained by Bryce Beattie"
+    },
+    {
+      "kind": "voice_config",
+      "path": "assets/voices/en_US-ljspeech-high.onnx.json",
+      "license": "Public Domain",
+      "commercial_use": true,
+      "attribution": "LJSpeech dataset (public domain); Piper voice trained by Bryce Beattie"
+    },
+    {
+      "kind": "music",
+      "path": "assets/music/midnight-score.wav",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural score"
+    },
+    {
+      "kind": "sfx",
+      "path": "assets/sound_effects/paper_rustle.wav",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural sound effects"
+    },
+    {
+      "kind": "sfx",
+      "path": "assets/sound_effects/paper_crease.wav",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural sound effects"
+    },
+    {
+      "kind": "sfx",
+      "path": "assets/sound_effects/clock_tick.wav",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural sound effects"
+    },
+    {
+      "kind": "sfx",
+      "path": "assets/sound_effects/rain.wav",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural sound effects"
+    },
+    {
+      "kind": "sfx",
+      "path": "assets/sound_effects/room_tone.wav",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural sound effects"
+    },
+    {
+      "kind": "sfx",
+      "path": "assets/sound_effects/heartbeat.wav",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural sound effects"
+    },
+    {
+      "kind": "sfx",
+      "path": "assets/sound_effects/low_boom.wav",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural sound effects"
+    },
+    {
+      "kind": "sfx",
+      "path": "assets/sound_effects/switch_click.wav",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural sound effects"
+    },
+    {
+      "kind": "sfx",
+      "path": "assets/sound_effects/lift_hum.wav",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural sound effects"
+    },
+    {
+      "kind": "sfx",
+      "path": "assets/sound_effects/distant_siren.wav",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural sound effects"
+    },
+    {
+      "kind": "sfx",
+      "path": "assets/sound_effects/cello_swell.wav",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural sound effects"
+    },
+    {
+      "kind": "sfx",
+      "path": "assets/sound_effects/glass_creak.wav",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural sound effects"
+    },
+    {
+      "kind": "image",
+      "path": "output/drafts/TMA-0001/images/scene-01.png",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural placeholder still"
+    },
+    {
+      "kind": "image",
+      "path": "output/drafts/TMA-0001/images/scene-02.png",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural placeholder still"
+    },
+    {
+      "kind": "image",
+      "path": "output/drafts/TMA-0001/images/scene-03.png",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural placeholder still"
+    },
+    {
+      "kind": "image",
+      "path": "output/drafts/TMA-0001/images/scene-04.png",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural placeholder still"
+    },
+    {
+      "kind": "image",
+      "path": "output/drafts/TMA-0001/images/scene-05.png",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural placeholder still"
+    },
+    {
+      "kind": "image",
+      "path": "output/drafts/TMA-0001/images/scene-06.png",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural placeholder still"
+    },
+    {
+      "kind": "image",
+      "path": "output/drafts/TMA-0001/images/scene-07.png",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural placeholder still"
+    },
+    {
+      "kind": "image",
+      "path": "output/drafts/TMA-0001/images/scene-08.png",
+      "license": "Original",
+      "commercial_use": true,
+      "attribution": "The Midnight Archive procedural placeholder still"
+    }
+  ]
+}

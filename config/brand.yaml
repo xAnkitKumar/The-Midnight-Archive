@@ -1,0 +1,68 @@
+# Editorial identity for The Midnight Archive.
+# This file is the single source of truth for tone and look. Agents must read it.
+
+name: The Midnight Archive
+handle: "@themidnightarchive"
+tagline: "All the news that never was."
+audience: >
+  International English-speaking adults (18-34) who watch mystery, psychological
+  horror and thought-experiment short videos late at night.
+
+categories:
+  psychological_horror:
+    label: Psychological Horror
+    promise: "Ordinary spaces turn hostile. Dread comes from what the character realises, not from gore."
+    must_have: "A specific, human fear and an ending that reframes the opening."
+  mystery:
+    label: Mystery & Detection
+    promise: "A fair-play clue planted early, a deduction the viewer could have made, and a suspect nobody watched."
+    must_have: "Every clue visible in the storyboard; no information withheld from the viewer."
+  mind_bending:
+    label: Mind-Bending
+    promise: "A clean speculative rule, followed honestly, that produces one uncomfortable implication."
+    must_have: "The rule stated or demonstrated early, then used to reach the final line."
+
+narration:
+  tone: "Low, controlled, intimate. A confidant telling you something they should not know."
+  pacing: "Short sentences. Deliberate pauses before reveals. Never rushed."
+  avoid:
+    - "Announcer voice"
+    - "Upbeat YouTube energy"
+    - "Explaining the twist after the final line"
+  first_two_seconds: "Open on the impossible detail, not on a person waking up."
+
+visual_style:
+  palette: "Desaturated teal shadows, sodium-amber practicals, deep blacks, one warm accent per story"
+  lighting: "Single-source chiaroscuro, hard window shadows, practical pools of light, visible darkness"
+  lens: "35mm and 50mm, shallow depth of field, subtle halation, locked-off or slow dolly"
+  grain: "Fine 16mm grain, gentle contrast, no digital clarity sheen"
+  recurring_motifs:
+    - "Paper: newsprint, index cards, filing drawers"
+    - "Clocks stopped at an impossible hour"
+    - "Doors that are slightly too narrow"
+  negative_prompt: >
+    text, watermark, logo, signature, extra fingers, deformed hands, cartoon,
+    anime, oversaturated, stock-photo smile, modern social UI, lens flare spam,
+    fisheye distortion, duplicate faces
+
+captions:
+  style: "One sentence of intrigue, then a question. No clickbait, no emoji spam."
+  max_hashtags: 8
+  hashtags:
+    - "#TheMidnightArchive"
+    - "#Storytime"
+    - "#Mystery"
+    - "#PsychologicalHorror"
+    - "#ShortStory"
+    - "#MindBending"
+    - "#LateNightStories"
+    - "#Fiction"
+
+compliance:
+  rules:
+    - "Original stories only, or public-domain works with the source recorded."
+    - "Never reproduce modern copyrighted text, translations or adaptations."
+    - "Label speculative science as fiction; never present a fabricated claim as established fact."
+    - "No real people, living or dead, as characters in horror or criminal scenarios."
+    - "No graphic gore, sexual content, self-harm instruction or content targeting minors."
+    - "Record the licence and source URL for every third-party asset."

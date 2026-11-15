@@ -1,0 +1,45 @@
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Project state (regenerable / private)
+data/archive.db
+data/archive.db-*
+data/ideas/*.json
+data/analytics/*.json
+logs/*.log*
+
+# Generated production output - keep folder markers only
+output/scripts/*
+output/storyboards/*
+output/drafts/*
+output/rendered/*
+output/approved/*
+output/published/*
+!output/**/.gitkeep
+
+# Generated assets (large binaries; source/licence tracked in assets/MANIFEST.md)
+assets/characters/*
+assets/backgrounds/*
+assets/music/*
+assets/sound_effects/*
+assets/fonts/*
+!assets/**/.gitkeep
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
+desktop.ini
+.idea/
+.vscode/

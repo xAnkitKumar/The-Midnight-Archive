@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0",
+  "video_id": "TMA-0001",
+  "style_bible": {
+    "palette": "desaturated teal shadows, sodium-amber practicals, deep blacks, one warm paper accent",
+    "lighting": "single-source chiaroscuro, hard stairwell light, practical pools, visible darkness",
+    "lens": "35mm and 50mm, shallow depth of field, subtle halation, no digital clarity sheen",
+    "grain": "fine 16mm grain, gentle contrast, crushed blacks that keep detail",
+    "negative_prompt": "text, watermark, logo, signature, extra fingers, deformed hands, cartoon, anime, oversaturated, stock-photo smile, modern social UI, fisheye, duplicate faces"
+  },
+  "music": {
+    "mood": "slow analog dread: sustained cello, tape hiss, a single low piano note every four bars",
+    "bpm": 66,
+    "volume_db": -20.0
+  },
+  "scenes": [
+    {
+      "scene": 1,
+      "start": 0.0,
+      "end": 5.2,
+      "narration": "Elias's newspaper was dated tomorrow. He lived alone. He had no subscription.",
+      "visual": "Predawn apartment corridor. A folded broadsheet lies square on a worn doormat, edges damp. No footsteps, no shadow under any door.",
+      "characters": [
+        "Elias Voss - 34, gaunt, dark wool coat, close-cropped hair, sleepless"
+      ],
+      "environment": "Narrow 1970s apartment corridor, mustard wallpaper, one flickering stairwell light",
+      "lighting": "Hard sodium light from the stairwell; the doormat is the brightest object in frame",
+      "camera": "Top-down slow dolly in, 35mm, 9:16",
+      "on_screen_text": null,
+      "sfx": [
+        "distant lift hum",
+        "paper rustle",
+        "single drip"
+      ],
+      "transition": "cut",
+      "image_prompt": "Cinematic vertical 9:16 still, 1970s apartment corridor at 4:50 a.m., a folded broadsheet newspaper on a worn doormat, mustard wallpaper, one hard sodium stairwell light, deep teal shadows, visible dust, 35mm lens, shallow depth of field, fine 16mm grain, no legible text, no people"
+    },
+    {
+      "scene": 2,
+      "start": 5.2,
+      "end": 11.6,
+      "narration": "A misprint — until page nine reported his death. Apartment fire. Friday. Three a.m. His name.",
+      "visual": "Macro on page nine. A fingertip stops under a short column circled faintly in red pencil. The newsprint is dense and unreadable except for the date at the top.",
+      "characters": [
+        "Elias Voss - hand and forearm only, ink stain on the thumb"
+      ],
+      "environment": "Kitchen table, cold coffee ring, ashtray, overhead bulb",
+      "lighting": "Single bare bulb three feet above the page; hard falloff at the frame edges",
+      "camera": "Macro push in from 50mm, slight handheld drift",
+      "on_screen_text": "FRIDAY — 3:00 A.M.",
+      "sfx": [
+        "paper crease",
+        "clock ticking",
+        "breath held"
+      ],
+      "transition": "match_cut",
+      "image_prompt": "Extreme close-up, vertical 9:16, aged newsprint on a kitchen table lit by one bare bulb, a forefinger resting under a circled column, dense illegible print texture, red pencil mark, cold coffee ring, hard shadows, 50mm macro, shallow focus, fine 16mm grain, no readable words"
+    },
+    {
+      "scene": 3,
+      "start": 11.6,
+      "end": 17.2,
+      "narration": "He booked a hotel across town. Saturday's paper was at the front desk.",
+      "visual": "Cheap hotel room. Elias kneels to unplug a lamp, then the television. A digital clock reads 3:00. Through the window, the city glows without detail.",
+      "characters": [
+        "Elias Voss - 34, coat still on, movements too deliberate"
+      ],
+      "environment": "Budget hotel room, patterned carpet, heavy curtains, laminated headboard",
+      "lighting": "Lamp light on the floor, blue window spill, clock digits red",
+      "camera": "Locked-off wide, then slow tilt down to the clock",
+      "on_screen_text": null,
+      "sfx": [
+        "plug pulled",
+        "clock hum",
+        "traffic below",
+        "rain starting"
+      ],
+      "transition": "fade",
+      "image_prompt": "Cinematic vertical 9:16 still, budget hotel room at night, a man in a dark coat kneeling to unplug a lamp, patterned carpet, heavy curtains, red digital clock reading 3:00, blue window light, teal shadows, 35mm lens, fine 16mm grain, tense stillness, no text besides the clock"
+    },
+    {
+      "scene": 4,
+      "start": 17.2,
+      "end": 26.0,
+      "narration": "The fire happened anyway. Same building. Same hour. Different man. The dead man was his neighbour, who'd knocked to warn him.",
+      "visual": "Hotel front desk at dawn. A newspaper waits beside a brass bell. Dissolve to the neighbour's door: three knocks, a tray of biscuits left untouched, police tape reflected in the brass.",
+      "characters": [
+        "Elias Voss - 34, coat collar up",
+        "Hotel clerk - 50s, avoids eye contact"
+      ],
+      "environment": "Hotel lobby with moth-eaten carpet; later the same corridor as scene 1, now sealed",
+      "lighting": "Dawn through frosted glass, one desk lamp; corridor lit by a single emergency bulb",
+      "camera": "Slow dolly across the desk, dissolve to a locked-off corridor shot",
+      "on_screen_text": null,
+      "sfx": [
+        "desk bell",
+        "phone ringing once",
+        "three knocks",
+        "police tape flutter"
+      ],
+      "transition": "dissolve",
+      "image_prompt": "Cinematic vertical 9:16 still, hotel reception desk at dawn, folded newspaper beside a brass bell, clerk half out of frame, frosted glass light, teal and amber, 35mm lens, shallow depth of field, fine 16mm grain, quiet menace, no legible text, no watermark"
+    },
+    {
+      "scene": 5,
+      "start": 26.0,
+      "end": 34.0,
+      "narration": "Elias spread every paper he'd saved across the floor. All dated tomorrow. Each mentioned him less than the last.",
+      "visual": "Top-down. Dozens of newspapers tile the floor like a grid. Elias kneels at the centre, comparing two front pages. A lamp casts a hard circle over him.",
+      "characters": [
+        "Elias Voss - 34, sleeves rolled, hands ink-stained"
+      ],
+      "environment": "His apartment floor, bare boards, radiator, one lamp with no shade",
+      "lighting": "Single lamp pool from the left; the rest of the room sinks into black",
+      "camera": "Top-down descend, locked perspective, 35mm",
+      "on_screen_text": null,
+      "sfx": [
+        "pages sliding",
+        "lamp buzz",
+        "distant siren"
+      ],
+      "transition": "cut",
+      "image_prompt": "Overhead vertical 9:16 still, dozens of newspapers arranged in a grid across bare wooden floorboards, a kneeling man in shirtsleeves at the centre, one hard lamp pool, deep black edges, teal shadows, 35mm lens, fine 16mm grain, obsessive symmetry, no readable text"
+    },
+    {
+      "scene": 6,
+      "start": 34.0,
+      "end": 41.2,
+      "narration": "First his job. Then his friends. Then the crossword. By Friday, his photograph was a grey rectangle.",
+      "visual": "Close on a crossword with three names erased into grey blocks. Beside it, a framed photograph where one figure has become a flat grey rectangle. Elias's reflection sits in the glass.",
+      "characters": [
+        "Elias Voss - reflection only, out of focus"
+      ],
+      "environment": "Desk by a window, framed photo, half-finished crossword, pencil shavings",
+      "lighting": "Overcast window light, no fill; the grey rectangle reads as absence",
+      "camera": "Static macro, rack focus from crossword to photograph",
+      "on_screen_text": null,
+      "sfx": [
+        "pencil scratch",
+        "glass creak",
+        "soft sub drone"
+      ],
+      "transition": "match_cut",
+      "image_prompt": "Vertical 9:16 macro still, a half-finished crossword with three answers erased into grey blocks, a framed family photograph beside it where one figure is a flat grey rectangle, overcast window light, dust, 50mm lens, shallow depth of field, fine 16mm grain, melancholic, no readable words"
+    },
+    {
+      "scene": 7,
+      "start": 41.2,
+      "end": 48.4,
+      "narration": "Saturday's paper arrived blank. Only the masthead remained. The Midnight Archive: all the news that never was.",
+      "visual": "A blank broadsheet under a desk lamp. The masthead is the only ink on the page. The paper's whiteness is slightly too bright, as if lit from inside.",
+      "characters": [],
+      "environment": "Kitchen table, the same as scene 2, now cleared except for one sheet",
+      "lighting": "Bare bulb directly above; the blank page reflects more light than it should",
+      "camera": "Slow push in on the masthead, 50mm",
+      "on_screen_text": "THE MIDNIGHT ARCHIVE",
+      "sfx": [
+        "room tone dropping out",
+        "single heartbeat",
+        "paper fibre creak"
+      ],
+      "transition": "push_in",
+      "image_prompt": "Vertical 9:16 still, a completely blank broadsheet on a kitchen table under a bare bulb, only a small masthead printed at the top, paper glowing faintly white, hard shadows, teal-black room, 50mm lens, shallow depth of field, fine 16mm grain, uncanny stillness, minimal text"
+    },
+    {
+      "scene": 8,
+      "start": 48.4,
+      "end": 54.4,
+      "narration": "Elias finally understood. It wasn't predicting his future. It was deciding what to keep.",
+      "visual": "Elias sits in the dark, paper in his lap. He looks up at something just off camera. The lamp dies. One beat of black before the end card.",
+      "characters": [
+        "Elias Voss - 34, face half-lit, no expression left to read"
+      ],
+      "environment": "His apartment, everything pushed to the walls, one chair in the middle",
+      "lighting": "Half-face key light, then total darkness on the final word",
+      "camera": "Very slow push in on the face; hard cut to black",
+      "on_screen_text": null,
+      "sfx": [
+        "lamp switch",
+        "room tone cut",
+        "low cello swell"
+      ],
+      "transition": "fade",
+      "image_prompt": "Cinematic vertical 9:16 still, a gaunt man in his thirties seated in a dark apartment holding a blank newspaper, half his face lit by a dying lamp, deep black surroundings, teal shadows, 50mm lens, shallow depth of field, fine 16mm grain, quiet dread, no legible text, no watermark"
+    }
+  ]
+}

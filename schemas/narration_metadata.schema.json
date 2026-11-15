@@ -1,0 +1,168 @@
+{
+  "$defs": {
+    "NarrationBeatTiming": {
+      "additionalProperties": false,
+      "properties": {
+        "beat": {
+          "minimum": 1,
+          "title": "Beat",
+          "type": "integer"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "start": {
+          "minimum": 0,
+          "title": "Start",
+          "type": "number"
+        },
+        "end": {
+          "exclusiveMinimum": 0,
+          "title": "End",
+          "type": "number"
+        },
+        "duration": {
+          "exclusiveMinimum": 0,
+          "title": "Duration",
+          "type": "number"
+        }
+      },
+      "required": [
+        "beat",
+        "text",
+        "start",
+        "end",
+        "duration"
+      ],
+      "title": "NarrationBeatTiming",
+      "type": "object"
+    },
+    "WordTiming": {
+      "additionalProperties": false,
+      "properties": {
+        "word": {
+          "minLength": 1,
+          "title": "Word",
+          "type": "string"
+        },
+        "start": {
+          "minimum": 0,
+          "title": "Start",
+          "type": "number"
+        },
+        "end": {
+          "exclusiveMinimum": 0,
+          "title": "End",
+          "type": "number"
+        },
+        "beat": {
+          "minimum": 1,
+          "title": "Beat",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "word",
+        "start",
+        "end",
+        "beat"
+      ],
+      "title": "WordTiming",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Provenance and timing for one narration track.",
+  "properties": {
+    "schema_version": {
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "video_id": {
+      "title": "Video Id",
+      "type": "string"
+    },
+    "provider": {
+      "title": "Provider",
+      "type": "string"
+    },
+    "voice": {
+      "title": "Voice",
+      "type": "string"
+    },
+    "model_path": {
+      "title": "Model Path",
+      "type": "string"
+    },
+    "license": {
+      "title": "License",
+      "type": "string"
+    },
+    "attribution": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Attribution"
+    },
+    "sample_rate": {
+      "exclusiveMinimum": 0,
+      "title": "Sample Rate",
+      "type": "integer"
+    },
+    "duration": {
+      "exclusiveMinimum": 0,
+      "title": "Duration",
+      "type": "number"
+    },
+    "length_scale": {
+      "exclusiveMinimum": 0,
+      "title": "Length Scale",
+      "type": "number"
+    },
+    "alignment_method": {
+      "title": "Alignment Method",
+      "type": "string"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "beats": {
+      "items": {
+        "$ref": "#/$defs/NarrationBeatTiming"
+      },
+      "title": "Beats",
+      "type": "array"
+    },
+    "words": {
+      "items": {
+        "$ref": "#/$defs/WordTiming"
+      },
+      "title": "Words",
+      "type": "array"
+    }
+  },
+  "required": [
+    "video_id",
+    "provider",
+    "voice",
+    "model_path",
+    "license",
+    "sample_rate",
+    "duration",
+    "length_scale",
+    "alignment_method"
+  ],
+  "title": "The Midnight Archive Narration Metadata",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

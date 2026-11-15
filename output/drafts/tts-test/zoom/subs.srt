@@ -1,0 +1,9 @@
+1
+00:00:00,300 --> 00:00:02,400
+Elias's newspaper was
+dated tomorrow.
+
+2
+00:00:02,700 --> 00:00:05,100
+It was deciding what
+to keep.

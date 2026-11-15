@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "video_id": "TMA-0001",
+  "script_version": 3,
+  "review_only": true,
+  "created_at": "2026-11-14T19:58:26Z",
+  "status_before": "STORYBOARD_READY",
+  "status_after": "STORYBOARD_READY",
+  "narrator": {
+    "provider": "kokoro",
+    "voice": "bm_george",
+    "language": "en-gb",
+    "speed": 0.96,
+    "license": "Apache-2.0",
+    "model": "assets/tts/kokoro/kokoro-v1.0.onnx"
+  },
+  "audio": {
+    "path": "output/narration_review/TMA-0001-v3-bm_george/v2/narration.wav",
+    "trailing_silence_trimmed_s": 0.5,
+    "sha256": "dc45fefd157da3512b12e1319aa96972ae0428303330b4c827492d52cb38f2dd",
+    "seconds": 59.838,
+    "sample_rate": 24000,
+    "channels": 1,
+    "peak_dbfs": -1.5,
+    "rms_dbfs": -18.17,
+    "integrated_lufs": -18.3,
+    "true_peak_dbfs": -1.5,
+    "clipping_samples": 0,
+    "silence_over_0_6s": 5,
+    "longest_silence_s": 1.074,
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "pcm_s16le",
+          "codec_long_name": "PCM signed 16-bit little-endian",
+          "codec_type": "audio",
+          "codec_tag_string": "[1][0][0][0]",
+          "codec_tag": "0x0001",
+          "sample_fmt": "s16",
+          "sample_rate": "24000",
+          "channels": 1,
+          "bits_per_sample": 16,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/24000",
+          "duration_ts": 1436104,
+          "duration": "59.837667",
+          "bit_rate": "384000",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          }
+        }
+      ],
+      "format": {
+        "filename": "output\\narration_review\\TMA-0001-v3-bm_george\\v2\\narration.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "59.837667",
+        "size": "2872252",
+        "bit_rate": "384005",
+        "probe_score": 99
+      }
+    }
+  },
+  "alignment": {
+    "method": "faster-whisper word timestamps per beat",
+    "warnings": [],
+    "words": 129,
+    "script_words": 129,
+    "cues": 26,
+    "subtitle_span": 58.756,
+    "coverage_ratio": 0.982,
+    "text_matches_script": true
+  },
+  "asr": {
+    "transcript": "Elias' paper had his obituary. It arrived a day early, his name, his apartment, a fire at 3.07. He was alive. He had no subscription underneath in small print one name per fire. At 2.40, Elias knocked on 4A. Mara's heater had been sparking all week. She'd asked him to fix it. He told her to call the super. He took the stairs and didn't look back. From the hotel, he watched the smoke rise. At 3.07, 4B burned. The next paper waited at the front desk. Same fire, same hour, different name. Marquan, apartment 4A, it said she'd entered 4B to warn him. Elias laid the two obituaries side by side. His name, Maras. The paper wasn't predicting the future. It was choosing who paid for it.",
+    "wer": 0.093,
+    "names": {
+      "elias": true,
+      "voss": false,
+      "mara": false,
+      "kwan": false,
+      "suspicious": []
+    },
+    "note": "base.en ASR is a machine check, not a listening test."
+  },
+  "pronunciation_probes": {
+    "elias-voss": {
+      "text": "Elias Voss.",
+      "path": "output/narration_review/TMA-0001-v3-bm_george/v2/pronunciation-probes/elias-voss.wav",
+      "sha256": "1336d333edce1b3d0eb05c0e5ceed7ecf13e0afeaa61ec3b8902dfa1ccd6adb8",
+      "seconds": 1.483,
+      "transcript": "Elias Vos",
+      "tokens": [
+        "elias",
+        "vos"
+      ],
+      "elias": true,
+      "voss": false,
+      "mara": false,
+      "kwan": false,
+      "suspicious": []
+    },
+    "mara-kwan": {
+      "text": "Mara Kwan.",
+      "path": "output/narration_review/TMA-0001-v3-bm_george/v2/pronunciation-probes/mara-kwan.wav",
+      "sha256": "8273aeae2dd91fe42844852830b58db2561b93f25fed63114f02b39b44381806",
+      "seconds": 1.322,
+      "transcript": "Mora-Quand",
+      "tokens": [
+        "mora",
+        "quand"
+      ],
+      "elias": false,
+      "voss": false,
+      "mara": false,
+      "kwan": false,
+      "suspicious": []
+    },
+    "pair": {
+      "text": "Elias Voss knocked on apartment 4A. Mara Kwan lived there.",
+      "path": "output/narration_review/TMA-0001-v3-bm_george/v2/pronunciation-probes/pair.wav",
+      "sha256": "99ed4c836fcc25e61ab7b5e917d0c3f3f432da4345bec2bce641c67f29934fb8",
+      "seconds": 4.842,
+      "transcript": "Elias Vos knocked on apartment 4A. Marquan lived there.",
+      "tokens": [
+        "elias",
+        "vos",
+        "knocked",
+        "on",
+        "apartment",
+        "4a",
+        "marquan",
+        "lived",
+        "there"
+      ],
+      "elias": true,
+      "voss": false,
+      "mara": false,
+      "kwan": false,
+      "suspicious": []
+    }
+  },
+  "checks": {
+    "duration_45_to_60": true,
+    "no_clipping": true,
+    "peak_below_minus_1_dbfs": true,
+    "subtitles_present": true,
+    "subtitle_text_matches_script": true,
+    "word_count_matches": true,
+    "status_unchanged": true,
+    "names_detected_in_full_read": false
+  },
+  "passed": false
+}

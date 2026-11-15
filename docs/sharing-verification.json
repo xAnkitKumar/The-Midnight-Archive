@@ -1,0 +1,34 @@
+{
+  "clean_workspace_cli_smoke": {
+    "passed": true,
+    "commands": [
+      "create_workspace --skip-media",
+      "init",
+      "new --select",
+      "import-script",
+      "review",
+      "import-storyboard",
+      "show --json"
+    ],
+    "no_media_rendered": true
+  },
+  "source_archive_files_verified": 372,
+  "archive_hash_mismatches": [],
+  "text_files_scanned": 215,
+  "high_confidence_secret_patterns_found": [],
+  "documentation_local_links_valid": true,
+  "production_modules_modified": false,
+  "original_project_mutated": false,
+  "test_suite_expected_count": 86,
+  "test_result": "86 passed, including 80 existing tests and 6 clean-workspace tests.",
+  "exclusions": [
+    "credentials and .env",
+    "private chat/session directories",
+    "virtual environments",
+    "download caches",
+    "runtime logs",
+    "live SQLite database"
+  ],
+  "tests_passed": 86,
+  "test_exit_code": 0
+}

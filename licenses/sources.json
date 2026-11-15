@@ -1,0 +1,6 @@
+{
+  "Apache-2.0.txt": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+  "kokoro-onnx-MIT.txt": "https://raw.githubusercontent.com/thewh1teagle/kokoro-onnx/main/LICENSE",
+  "piper-ljspeech-MODEL_CARD.txt": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_US/ljspeech/high/MODEL_CARD",
+  "kokoro-model-card.md": "https://huggingface.co/hexgrad/Kokoro-82M/raw/main/README.md"
+}

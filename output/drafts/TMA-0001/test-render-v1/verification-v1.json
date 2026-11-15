@@ -1,0 +1,24 @@
+{
+  "protected_files_verified": 103,
+  "protected_files_changed": [],
+  "approved_narration_sha256": "a45991eeb02afd4b84aa039c60a309e373135dfd11c310cde300753c015e3fa7",
+  "narration_import_byte_identical": true,
+  "output_mp4_sha256": "0e0215aebda91c8d657cebf375e68e4d9c54c18f5813ac6fea58cdfa4cde05f3",
+  "overwrite_refusal_passed": true,
+  "existing_tests": 80,
+  "existing_test_exit_code": 0,
+  "current_status": "RENDERED",
+  "final_audio_measurement": {
+    "input_i": "-14.66",
+    "input_tp": "-1.49",
+    "input_lra": "2.10",
+    "input_thresh": "-25.28",
+    "output_i": "-18.04",
+    "output_tp": "-4.87",
+    "output_lra": "1.90",
+    "output_thresh": "-28.60",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  },
+  "human_review_required": true
+}

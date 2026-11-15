@@ -1,0 +1,38 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Midnight,Montserrat,58,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,4,1.2,2,90,90,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.20,0:00:02.39,Midnight,,0,0,0,,Elias's newspaper was dated\Ntomorrow.
+Dialogue: 0,0:00:02.87,0:00:03.70,Midnight,,0,0,0,,He lived alone.
+Dialogue: 0,0:00:03.85,0:00:04.88,Midnight,,0,0,0,,He had no subscription.
+Dialogue: 0,0:00:05.32,0:00:07.94,Midnight,,0,0,0,,A misprint — until page nine\Nreported his
+Dialogue: 0,0:00:07.94,0:00:09.77,Midnight,,0,0,0,,death. Apartment fire.
+Dialogue: 0,0:00:09.98,0:00:11.21,Midnight,,0,0,0,,Friday. Three a.m.
+Dialogue: 0,0:00:11.21,0:00:13.82,Midnight,,0,0,0,,His name. He booked a hotel across
+Dialogue: 0,0:00:13.82,0:00:16.41,Midnight,,0,0,0,,town. Saturday's paper was at the\Nfront
+Dialogue: 0,0:00:16.41,0:00:18.77,Midnight,,0,0,0,,desk. The fire happened anyway.
+Dialogue: 0,0:00:19.00,0:00:20.59,Midnight,,0,0,0,,Same building. Same hour.
+Dialogue: 0,0:00:20.64,0:00:22.64,Midnight,,0,0,0,,Different man. The dead man was\Nhis
+Dialogue: 0,0:00:22.64,0:00:24.70,Midnight,,0,0,0,,neighbour, who'd knocked to warn\Nhim.
+Dialogue: 0,0:00:24.94,0:00:27.65,Midnight,,0,0,0,,Elias spread every paper he'd\Nsaved across
+Dialogue: 0,0:00:27.65,0:00:29.82,Midnight,,0,0,0,,the floor. All dated tomorrow.
+Dialogue: 0,0:00:29.99,0:00:31.98,Midnight,,0,0,0,,Each mentioned him less than the\Nlast.
+Dialogue: 0,0:00:32.43,0:00:33.44,Midnight,,0,0,0,,First his job.
+Dialogue: 0,0:00:33.61,0:00:34.40,Midnight,,0,0,0,,Then his friends.
+Dialogue: 0,0:00:34.61,0:00:35.66,Midnight,,0,0,0,,Then the crossword.
+Dialogue: 0,0:00:36.00,0:00:38.13,Midnight,,0,0,0,,By Friday, his photograph was a\Ngrey
+Dialogue: 0,0:00:38.13,0:00:41.22,Midnight,,0,0,0,,rectangle. Saturday's paper\Narrived blank.
+Dialogue: 0,0:00:41.39,0:00:42.82,Midnight,,0,0,0,,Only the masthead remained.
+Dialogue: 0,0:00:43.39,0:00:46.08,Midnight,,0,0,0,,The Midnight Archive: all the news\Nthat
+Dialogue: 0,0:00:46.08,0:00:49.41,Midnight,,0,0,0,,never was. Elias finally\Nunderstood.
+Dialogue: 0,0:00:49.58,0:00:51.31,Midnight,,0,0,0,,It wasn't predicting his future.
+Dialogue: 0,0:00:51.64,0:00:53.15,Midnight,,0,0,0,,It was deciding what to keep.

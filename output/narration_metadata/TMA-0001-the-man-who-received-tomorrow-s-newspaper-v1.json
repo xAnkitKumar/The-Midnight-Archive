@@ -1,0 +1,898 @@
+{
+  "schema_version": "1.0",
+  "video_id": "TMA-0001",
+  "provider": "piper",
+  "voice": "en_US-ljspeech-high",
+  "model_path": "C:/Users/LOQ/.config/freebuff-desktop/local-projects/d923bc2c-a2d3-483f-bf76-c47cb7952c0b/assets/voices/en_US-ljspeech-high.onnx",
+  "license": "Public Domain",
+  "attribution": "LJSpeech dataset (public domain); Piper voice trained by Bryce Beattie",
+  "sample_rate": 22050,
+  "duration": 54.793,
+  "length_scale": 1.0,
+  "alignment_method": "faster-whisper word timestamps per beat",
+  "created_at": "2026-11-14T18:34:29.725366Z",
+  "beats": [
+    {
+      "beat": 1,
+      "text": "Elias's newspaper was dated tomorrow.",
+      "start": 0.25,
+      "end": 2.723,
+      "duration": 2.473
+    },
+    {
+      "beat": 2,
+      "text": "He lived alone. He had no subscription.",
+      "start": 2.923,
+      "end": 5.175,
+      "duration": 2.252
+    },
+    {
+      "beat": 3,
+      "text": "A misprint — until page nine reported his death.",
+      "start": 5.375,
+      "end": 8.684,
+      "duration": 3.309
+    },
+    {
+      "beat": 4,
+      "text": "Apartment fire. Friday. Three a.m. His name.",
+      "start": 8.884,
+      "end": 12.634,
+      "duration": 3.75
+    },
+    {
+      "beat": 5,
+      "text": "He booked a hotel across town.",
+      "start": 12.834,
+      "end": 14.808,
+      "duration": 1.974
+    },
+    {
+      "beat": 6,
+      "text": "Saturday's paper was at the front desk.",
+      "start": 15.008,
+      "end": 17.423,
+      "duration": 2.415
+    },
+    {
+      "beat": 7,
+      "text": "The fire happened anyway. Same building. Same hour. Different man.",
+      "start": 17.623,
+      "end": 21.837,
+      "duration": 4.214
+    },
+    {
+      "beat": 8,
+      "text": "The dead man was his neighbour, who'd knocked to warn him.",
+      "start": 22.037,
+      "end": 25.358,
+      "duration": 3.321
+    },
+    {
+      "beat": 9,
+      "text": "Elias spread every paper he'd saved across the floor.",
+      "start": 25.558,
+      "end": 28.983,
+      "duration": 3.425
+    },
+    {
+      "beat": 10,
+      "text": "All dated tomorrow. Each mentioned him less than the last.",
+      "start": 29.183,
+      "end": 32.77,
+      "duration": 3.587
+    },
+    {
+      "beat": 11,
+      "text": "First his job. Then his friends. Then the crossword.",
+      "start": 32.97,
+      "end": 36.36,
+      "duration": 3.39
+    },
+    {
+      "beat": 12,
+      "text": "By Friday, his photograph was a grey rectangle.",
+      "start": 36.56,
+      "end": 39.811,
+      "duration": 3.251
+    },
+    {
+      "beat": 13,
+      "text": "Saturday's paper arrived blank. Only the masthead remained.",
+      "start": 40.011,
+      "end": 44.063,
+      "duration": 4.052
+    },
+    {
+      "beat": 14,
+      "text": "The Midnight Archive: all the news that never was.",
+      "start": 44.263,
+      "end": 47.85,
+      "duration": 3.587
+    },
+    {
+      "beat": 15,
+      "text": "Elias finally understood. It wasn't predicting his future.",
+      "start": 48.05,
+      "end": 52.16,
+      "duration": 4.11
+    },
+    {
+      "beat": 16,
+      "text": "It was deciding what to keep.",
+      "start": 52.36,
+      "end": 53.893,
+      "duration": 1.533
+    }
+  ],
+  "words": [
+    {
+      "word": "Elias's",
+      "start": 0.25,
+      "end": 0.75,
+      "beat": 1
+    },
+    {
+      "word": "newspaper",
+      "start": 0.75,
+      "end": 1.21,
+      "beat": 1
+    },
+    {
+      "word": "was",
+      "start": 1.21,
+      "end": 1.53,
+      "beat": 1
+    },
+    {
+      "word": "dated",
+      "start": 1.53,
+      "end": 1.83,
+      "beat": 1
+    },
+    {
+      "word": "tomorrow.",
+      "start": 1.83,
+      "end": 2.31,
+      "beat": 1
+    },
+    {
+      "word": "He",
+      "start": 2.923,
+      "end": 2.983,
+      "beat": 2
+    },
+    {
+      "word": "lived",
+      "start": 2.983,
+      "end": 3.163,
+      "beat": 2
+    },
+    {
+      "word": "alone.",
+      "start": 3.163,
+      "end": 3.523,
+      "beat": 2
+    },
+    {
+      "word": "He",
+      "start": 3.823,
+      "end": 3.883,
+      "beat": 2
+    },
+    {
+      "word": "had",
+      "start": 3.883,
+      "end": 4.043,
+      "beat": 2
+    },
+    {
+      "word": "no",
+      "start": 4.043,
+      "end": 4.263,
+      "beat": 2
+    },
+    {
+      "word": "subscription.",
+      "start": 4.263,
+      "end": 4.743,
+      "beat": 2
+    },
+    {
+      "word": "A",
+      "start": 5.375,
+      "end": 5.435,
+      "beat": 3
+    },
+    {
+      "word": "misprint —",
+      "start": 5.435,
+      "end": 5.875,
+      "beat": 3
+    },
+    {
+      "word": "until",
+      "start": 5.875,
+      "end": 6.555,
+      "beat": 3
+    },
+    {
+      "word": "page",
+      "start": 6.555,
+      "end": 6.915,
+      "beat": 3
+    },
+    {
+      "word": "nine",
+      "start": 6.915,
+      "end": 7.235,
+      "beat": 3
+    },
+    {
+      "word": "reported",
+      "start": 7.235,
+      "end": 7.675,
+      "beat": 3
+    },
+    {
+      "word": "his",
+      "start": 7.675,
+      "end": 8.055,
+      "beat": 3
+    },
+    {
+      "word": "death.",
+      "start": 8.055,
+      "end": 8.375,
+      "beat": 3
+    },
+    {
+      "word": "Apartment",
+      "start": 8.884,
+      "end": 9.264,
+      "beat": 4
+    },
+    {
+      "word": "fire.",
+      "start": 9.264,
+      "end": 9.744,
+      "beat": 4
+    },
+    {
+      "word": "Friday.",
+      "start": 9.744,
+      "end": 10.504,
+      "beat": 4
+    },
+    {
+      "word": "Three",
+      "start": 10.504,
+      "end": 11.282,
+      "beat": 4
+    },
+    {
+      "word": "a.m.",
+      "start": 11.282,
+      "end": 11.904,
+      "beat": 4
+    },
+    {
+      "word": "His",
+      "start": 11.904,
+      "end": 12.024,
+      "beat": 4
+    },
+    {
+      "word": "name.",
+      "start": 12.024,
+      "end": 12.264,
+      "beat": 4
+    },
+    {
+      "word": "He",
+      "start": 12.834,
+      "end": 12.914,
+      "beat": 5
+    },
+    {
+      "word": "booked",
+      "start": 12.914,
+      "end": 13.094,
+      "beat": 5
+    },
+    {
+      "word": "a",
+      "start": 13.094,
+      "end": 13.274,
+      "beat": 5
+    },
+    {
+      "word": "hotel",
+      "start": 13.274,
+      "end": 13.514,
+      "beat": 5
+    },
+    {
+      "word": "across",
+      "start": 13.514,
+      "end": 14.034,
+      "beat": 5
+    },
+    {
+      "word": "town.",
+      "start": 14.034,
+      "end": 14.394,
+      "beat": 5
+    },
+    {
+      "word": "Saturday's",
+      "start": 15.008,
+      "end": 15.668,
+      "beat": 6
+    },
+    {
+      "word": "paper",
+      "start": 15.668,
+      "end": 15.988,
+      "beat": 6
+    },
+    {
+      "word": "was",
+      "start": 15.988,
+      "end": 16.228,
+      "beat": 6
+    },
+    {
+      "word": "at",
+      "start": 16.228,
+      "end": 16.368,
+      "beat": 6
+    },
+    {
+      "word": "the",
+      "start": 16.368,
+      "end": 16.468,
+      "beat": 6
+    },
+    {
+      "word": "front",
+      "start": 16.468,
+      "end": 16.668,
+      "beat": 6
+    },
+    {
+      "word": "desk.",
+      "start": 16.668,
+      "end": 16.988,
+      "beat": 6
+    },
+    {
+      "word": "The",
+      "start": 17.623,
+      "end": 17.663,
+      "beat": 7
+    },
+    {
+      "word": "fire",
+      "start": 17.663,
+      "end": 17.923,
+      "beat": 7
+    },
+    {
+      "word": "happened",
+      "start": 17.923,
+      "end": 18.363,
+      "beat": 7
+    },
+    {
+      "word": "anyway.",
+      "start": 18.363,
+      "end": 18.803,
+      "beat": 7
+    },
+    {
+      "word": "Same",
+      "start": 19.223,
+      "end": 19.403,
+      "beat": 7
+    },
+    {
+      "word": "building.",
+      "start": 19.403,
+      "end": 19.743,
+      "beat": 7
+    },
+    {
+      "word": "Same",
+      "start": 20.083,
+      "end": 20.303,
+      "beat": 7
+    },
+    {
+      "word": "hour.",
+      "start": 20.303,
+      "end": 20.683,
+      "beat": 7
+    },
+    {
+      "word": "Different",
+      "start": 20.923,
+      "end": 21.183,
+      "beat": 7
+    },
+    {
+      "word": "man.",
+      "start": 21.183,
+      "end": 21.837,
+      "beat": 7
+    },
+    {
+      "word": "The",
+      "start": 22.037,
+      "end": 22.077,
+      "beat": 8
+    },
+    {
+      "word": "dead",
+      "start": 22.077,
+      "end": 22.277,
+      "beat": 8
+    },
+    {
+      "word": "man",
+      "start": 22.277,
+      "end": 22.537,
+      "beat": 8
+    },
+    {
+      "word": "was",
+      "start": 22.537,
+      "end": 22.817,
+      "beat": 8
+    },
+    {
+      "word": "his",
+      "start": 22.817,
+      "end": 23.057,
+      "beat": 8
+    },
+    {
+      "word": "neighbour,",
+      "start": 23.057,
+      "end": 23.737,
+      "beat": 8
+    },
+    {
+      "word": "who'd",
+      "start": 23.737,
+      "end": 24.077,
+      "beat": 8
+    },
+    {
+      "word": "knocked",
+      "start": 24.077,
+      "end": 24.277,
+      "beat": 8
+    },
+    {
+      "word": "to",
+      "start": 24.277,
+      "end": 24.617,
+      "beat": 8
+    },
+    {
+      "word": "warn",
+      "start": 24.617,
+      "end": 24.877,
+      "beat": 8
+    },
+    {
+      "word": "him.",
+      "start": 24.877,
+      "end": 25.137,
+      "beat": 8
+    },
+    {
+      "word": "Elias",
+      "start": 25.558,
+      "end": 25.838,
+      "beat": 9
+    },
+    {
+      "word": "spread",
+      "start": 25.838,
+      "end": 26.318,
+      "beat": 9
+    },
+    {
+      "word": "every",
+      "start": 26.318,
+      "end": 26.638,
+      "beat": 9
+    },
+    {
+      "word": "paper",
+      "start": 26.638,
+      "end": 27.078,
+      "beat": 9
+    },
+    {
+      "word": "he'd",
+      "start": 27.078,
+      "end": 27.478,
+      "beat": 9
+    },
+    {
+      "word": "saved",
+      "start": 27.478,
+      "end": 27.658,
+      "beat": 9
+    },
+    {
+      "word": "across",
+      "start": 27.658,
+      "end": 28.038,
+      "beat": 9
+    },
+    {
+      "word": "the",
+      "start": 28.038,
+      "end": 28.358,
+      "beat": 9
+    },
+    {
+      "word": "floor.",
+      "start": 28.358,
+      "end": 28.638,
+      "beat": 9
+    },
+    {
+      "word": "All",
+      "start": 29.183,
+      "end": 29.343,
+      "beat": 10
+    },
+    {
+      "word": "dated",
+      "start": 29.343,
+      "end": 29.543,
+      "beat": 10
+    },
+    {
+      "word": "tomorrow.",
+      "start": 29.543,
+      "end": 30.023,
+      "beat": 10
+    },
+    {
+      "word": "Each",
+      "start": 30.443,
+      "end": 30.623,
+      "beat": 10
+    },
+    {
+      "word": "mentioned",
+      "start": 30.623,
+      "end": 31.023,
+      "beat": 10
+    },
+    {
+      "word": "him",
+      "start": 31.023,
+      "end": 31.283,
+      "beat": 10
+    },
+    {
+      "word": "less",
+      "start": 31.283,
+      "end": 31.543,
+      "beat": 10
+    },
+    {
+      "word": "than",
+      "start": 31.543,
+      "end": 31.823,
+      "beat": 10
+    },
+    {
+      "word": "the",
+      "start": 31.823,
+      "end": 31.963,
+      "beat": 10
+    },
+    {
+      "word": "last.",
+      "start": 31.963,
+      "end": 32.263,
+      "beat": 10
+    },
+    {
+      "word": "First",
+      "start": 32.97,
+      "end": 33.15,
+      "beat": 11
+    },
+    {
+      "word": "his",
+      "start": 33.15,
+      "end": 33.39,
+      "beat": 11
+    },
+    {
+      "word": "job.",
+      "start": 33.39,
+      "end": 33.81,
+      "beat": 11
+    },
+    {
+      "word": "Then",
+      "start": 34.15,
+      "end": 34.23,
+      "beat": 11
+    },
+    {
+      "word": "his",
+      "start": 34.23,
+      "end": 34.47,
+      "beat": 11
+    },
+    {
+      "word": "friends.",
+      "start": 34.47,
+      "end": 34.81,
+      "beat": 11
+    },
+    {
+      "word": "Then",
+      "start": 34.81,
+      "end": 35.33,
+      "beat": 11
+    },
+    {
+      "word": "the",
+      "start": 35.33,
+      "end": 35.47,
+      "beat": 11
+    },
+    {
+      "word": "crossword.",
+      "start": 35.47,
+      "end": 36.09,
+      "beat": 11
+    },
+    {
+      "word": "By",
+      "start": 36.56,
+      "end": 36.64,
+      "beat": 12
+    },
+    {
+      "word": "Friday,",
+      "start": 36.64,
+      "end": 37.14,
+      "beat": 12
+    },
+    {
+      "word": "his",
+      "start": 37.5,
+      "end": 37.68,
+      "beat": 12
+    },
+    {
+      "word": "photograph",
+      "start": 37.68,
+      "end": 38.12,
+      "beat": 12
+    },
+    {
+      "word": "was",
+      "start": 38.12,
+      "end": 38.58,
+      "beat": 12
+    },
+    {
+      "word": "a",
+      "start": 38.58,
+      "end": 38.7,
+      "beat": 12
+    },
+    {
+      "word": "grey",
+      "start": 38.7,
+      "end": 38.9,
+      "beat": 12
+    },
+    {
+      "word": "rectangle.",
+      "start": 38.9,
+      "end": 39.4,
+      "beat": 12
+    },
+    {
+      "word": "Saturday's",
+      "start": 40.011,
+      "end": 40.671,
+      "beat": 13
+    },
+    {
+      "word": "paper",
+      "start": 40.671,
+      "end": 40.971,
+      "beat": 13
+    },
+    {
+      "word": "arrived",
+      "start": 40.971,
+      "end": 41.391,
+      "beat": 13
+    },
+    {
+      "word": "blank.",
+      "start": 41.391,
+      "end": 41.831,
+      "beat": 13
+    },
+    {
+      "word": "Only",
+      "start": 42.231,
+      "end": 42.471,
+      "beat": 13
+    },
+    {
+      "word": "the",
+      "start": 42.471,
+      "end": 42.651,
+      "beat": 13
+    },
+    {
+      "word": "masthead",
+      "start": 42.651,
+      "end": 43.211,
+      "beat": 13
+    },
+    {
+      "word": "remained.",
+      "start": 43.211,
+      "end": 43.571,
+      "beat": 13
+    },
+    {
+      "word": "The",
+      "start": 44.263,
+      "end": 44.323,
+      "beat": 14
+    },
+    {
+      "word": "Midnight",
+      "start": 44.323,
+      "end": 44.503,
+      "beat": 14
+    },
+    {
+      "word": "Archive:",
+      "start": 44.503,
+      "end": 45.143,
+      "beat": 14
+    },
+    {
+      "word": "all",
+      "start": 45.823,
+      "end": 46.083,
+      "beat": 14
+    },
+    {
+      "word": "the",
+      "start": 46.083,
+      "end": 46.223,
+      "beat": 14
+    },
+    {
+      "word": "news",
+      "start": 46.223,
+      "end": 46.443,
+      "beat": 14
+    },
+    {
+      "word": "that",
+      "start": 46.443,
+      "end": 46.763,
+      "beat": 14
+    },
+    {
+      "word": "never",
+      "start": 46.763,
+      "end": 47.023,
+      "beat": 14
+    },
+    {
+      "word": "was.",
+      "start": 47.023,
+      "end": 47.363,
+      "beat": 14
+    },
+    {
+      "word": "Elias",
+      "start": 48.05,
+      "end": 48.35,
+      "beat": 15
+    },
+    {
+      "word": "finally",
+      "start": 48.35,
+      "end": 48.83,
+      "beat": 15
+    },
+    {
+      "word": "understood.",
+      "start": 48.83,
+      "end": 49.75,
+      "beat": 15
+    },
+    {
+      "word": "It",
+      "start": 49.75,
+      "end": 50.31,
+      "beat": 15
+    },
+    {
+      "word": "wasn't",
+      "start": 50.31,
+      "end": 50.73,
+      "beat": 15
+    },
+    {
+      "word": "predicting",
+      "start": 50.73,
+      "end": 51.05,
+      "beat": 15
+    },
+    {
+      "word": "his",
+      "start": 51.05,
+      "end": 51.43,
+      "beat": 15
+    },
+    {
+      "word": "future.",
+      "start": 51.43,
+      "end": 51.83,
+      "beat": 15
+    },
+    {
+      "word": "It",
+      "start": 52.36,
+      "end": 52.42,
+      "beat": 16
+    },
+    {
+      "word": "was",
+      "start": 52.42,
+      "end": 52.54,
+      "beat": 16
+    },
+    {
+      "word": "deciding",
+      "start": 52.54,
+      "end": 52.88,
+      "beat": 16
+    },
+    {
+      "word": "what",
+      "start": 52.88,
+      "end": 53.24,
+      "beat": 16
+    },
+    {
+      "word": "to",
+      "start": 53.24,
+      "end": 53.44,
+      "beat": 16
+    },
+    {
+      "word": "keep.",
+      "start": 53.44,
+      "end": 53.64,
+      "beat": 16
+    }
+  ]
+}

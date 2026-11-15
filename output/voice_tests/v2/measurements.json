@@ -1,0 +1,36 @@
+{
+  "samples": [
+    {
+      "file": "output/voice_tests/v2/kokoro-am_michael-a-natural.wav",
+      "seconds": 19.896,
+      "sample_rate": 24000,
+      "channels": 1,
+      "peak_dbfs": -1.5,
+      "rms_dbfs": -22.41
+    },
+    {
+      "file": "output/voice_tests/v2/kokoro-am_michael-b-directed.wav",
+      "seconds": 19.947,
+      "sample_rate": 24000,
+      "channels": 1,
+      "peak_dbfs": -1.5,
+      "rms_dbfs": -21.89
+    },
+    {
+      "file": "output/voice_tests/v2/kokoro-bm_george-reference.wav",
+      "seconds": 18.293,
+      "sample_rate": 24000,
+      "channels": 1,
+      "peak_dbfs": -1.5,
+      "rms_dbfs": -16.03
+    },
+    {
+      "file": "output/voice_tests/v2/piper-en_US-ljspeech-high-baseline.wav",
+      "seconds": 15.496,
+      "sample_rate": 22050,
+      "channels": 1,
+      "peak_dbfs": -1.5,
+      "rms_dbfs": -18.03
+    }
+  ]
+}

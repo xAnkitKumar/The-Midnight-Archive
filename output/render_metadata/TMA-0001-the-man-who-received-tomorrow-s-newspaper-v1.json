@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "video_id": "TMA-0001",
+  "mp4_path": "output/rendered/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v1.mp4",
+  "duration": 54.8,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "subtitle_path": "output/drafts/TMA-0001/audio/subtitles-v1.ass",
+  "narration_path": "output/drafts/TMA-0001/audio/narration-v1.wav",
+  "mix_path": "output/drafts/TMA-0001/audio/mix-v1.wav",
+  "scene_timings": [
+    {
+      "scene": 1,
+      "start": 0.0,
+      "end": 5.238,
+      "image": "output/drafts/TMA-0001/images/scene-01.png"
+    },
+    {
+      "scene": 2,
+      "start": 5.238,
+      "end": 11.684,
+      "image": "output/drafts/TMA-0001/images/scene-02.png"
+    },
+    {
+      "scene": 3,
+      "start": 11.684,
+      "end": 17.324,
+      "image": "output/drafts/TMA-0001/images/scene-03.png"
+    },
+    {
+      "scene": 4,
+      "start": 17.324,
+      "end": 26.188,
+      "image": "output/drafts/TMA-0001/images/scene-04.png"
+    },
+    {
+      "scene": 5,
+      "start": 26.188,
+      "end": 34.246,
+      "image": "output/drafts/TMA-0001/images/scene-05.png"
+    },
+    {
+      "scene": 6,
+      "start": 34.246,
+      "end": 41.498,
+      "image": "output/drafts/TMA-0001/images/scene-06.png"
+    },
+    {
+      "scene": 7,
+      "start": 41.498,
+      "end": 48.75,
+      "image": "output/drafts/TMA-0001/images/scene-07.png"
+    },
+    {
+      "scene": 8,
+      "start": 48.75,
+      "end": 54.793,
+      "image": "output/drafts/TMA-0001/images/scene-08.png"
+    }
+  ],
+  "created_at": "2026-11-14T18:35:37.686217Z"
+}

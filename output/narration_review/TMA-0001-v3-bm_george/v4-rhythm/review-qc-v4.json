@@ -1,0 +1,485 @@
+{
+  "review_only": true,
+  "human_approval_required": true,
+  "duration": 55.19725,
+  "previous_duration": 59.83770833333333,
+  "speed": 0.96,
+  "voice": "bm_george",
+  "language": "en-gb",
+  "model_sha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+  "voice_bank_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+  "script_sha256": "0bf990c0662f05c1db9e76066a8afbb900b0eb0a32eec6d69e574229b7b4de4c",
+  "generation_groups": [
+    {
+      "group": 1,
+      "first_beat": 1,
+      "last_beat": 3,
+      "display": "Elias's paper had his obituary. It arrived a day early: his name, his apartment, a fire at 3:07. He was alive.",
+      "spoken": "Elias's paper had his obituary. It arrived a day early: his name, his apartment, a fire at three-oh-seven. He was alive.",
+      "seconds": 9.316,
+      "generation_seconds": 2.7554873999906704,
+      "phonemes": "ɪlˈaɪəsɪz pˈeɪpə had hɪz ɒbˈɪtʃʊəɹi. ɪt ɐɹˈaɪvd ɐ dˈeɪ ˈɜːlɪ: hɪz nˈeɪm, hɪz ɐpˈɑːtmənt, ɐ fˈaɪəɹ at θɹˈiːˈəʊsˈɛvən. hiː wɒz ɐlˈaɪv.",
+      "start_sample": 6000,
+      "end_sample": 229584,
+      "pause_after_s": 0.75
+    },
+    {
+      "group": 2,
+      "first_beat": 4,
+      "last_beat": 4,
+      "display": "He had no subscription. Underneath, in small print: one name per fire.",
+      "spoken": "He had no subscription. Underneath, in small print: one name per fire.",
+      "seconds": 5.089333333333333,
+      "generation_seconds": 1.2811681999883149,
+      "phonemes": "hiː had nˈəʊ sʌbskɹˈɪpʃən. ˌʌndənˈiːθ, ɪn smˈɔːl pɹˈɪnt: wˈɒn nˈeɪm pɜː fˈaɪə.",
+      "start_sample": 247584,
+      "end_sample": 369728,
+      "pause_after_s": 0.25
+    },
+    {
+      "group": 3,
+      "first_beat": 5,
+      "last_beat": 8,
+      "display": "At 2:40, Elias knocked on 4A. Mara's heater had been sparking all week. She'd asked him to fix it. He told her to call the super. He took the stairs and didn't look back. From the hotel, he watched the smoke rise. At 3:07, 4B burned.",
+      "spoken": "At 2:40, Elias knocked on 4A. Mara's heater had been sparking all week. She'd asked him to fix it. He told her to call the super. He took the stairs and didn't look back. From the hotel, he watched the smoke rise. At three-oh-seven, 4B burned.",
+      "seconds": 16.74,
+      "generation_seconds": 4.127500599977793,
+      "phonemes": "at tˈuː:fˈɔːti, ɪlˈaɪəs nˈɒkt ˌɒn fˈɔːɹ ˈeɪ. mˈɑːɹəz hˈiːtə hɐdbɪn spˈɑːkɪŋ ˈɔːl wˈiːk. ʃiːd ˈaskt hˌɪm tə fˈɪks ɪt. hiː tˈəʊld hɜː tə kˈɔːl ðə sˈuːpə. hiː tˈʊk ðə stˈeəz and dˈɪdnt lˈʊk bˈak. fɹʌmðə həʊtˈɛl, hiː wˈɒtʃt ðə smˈəʊk ɹˈaɪz. at θɹˈiːˈəʊsˈɛvən, fˈɔː bˈiː bˈɜːnd.",
+      "start_sample": 375728,
+      "end_sample": 777488,
+      "pause_after_s": 0.3
+    },
+    {
+      "group": 4,
+      "first_beat": 9,
+      "last_beat": 9,
+      "display": "The next paper waited at the front desk. Same fire. Same hour. Different name.",
+      "spoken": "The next paper waited at the front desk. Same fire. Same hour. Different name.",
+      "seconds": 5.70925,
+      "generation_seconds": 1.455079699982889,
+      "phonemes": "ðə nˈɛkst pˈeɪpə wˈeɪtɪd at ðə fɹˈʌnt dˈɛsk. sˈeɪm fˈaɪə. sˈeɪm ˈaʊə. dˈɪfɹənt nˈeɪm.",
+      "start_sample": 784688,
+      "end_sample": 921710,
+      "pause_after_s": 0.8
+    },
+    {
+      "group": 5,
+      "first_beat": 10,
+      "last_beat": 11,
+      "display": "Mara Kwan. Apartment 4A. It said she'd entered 4B to warn him. Elias laid the two obituaries side by side. His name. Mara's.",
+      "spoken": "Mara Kwan. Apartment 4A. It said she'd entered 4B to warn him. Elias laid the two obituaries side by side. His name. Mara's.",
+      "seconds": 10.041333333333334,
+      "generation_seconds": 2.4982209999870975,
+      "phonemes": "mˈɑːɹə kwˈan. ɐpˈɑːtmənt fˈɔːɹ ˈeɪ. ɪt sˈɛd ʃiːd ˈɛntəd fˈɔː bˈiː tə wˈɔːn hˌɪm. ɪlˈaɪəs lˈeɪd ðə tˈuː ɒbˈɪtʃʊəɹiz sˈaɪd baɪ sˈaɪd. hɪz nˈeɪm. mˈɑːɹəz.",
+      "start_sample": 940910,
+      "end_sample": 1181902,
+      "pause_after_s": 0.7
+    },
+    {
+      "group": 6,
+      "first_beat": 12,
+      "last_beat": 13,
+      "display": "The paper wasn't predicting the future. It was choosing who paid for it.",
+      "spoken": "The paper wasn't predicting the future. It was choosing who paid for it.",
+      "seconds": 4.601333333333334,
+      "generation_seconds": 1.1465113000012934,
+      "phonemes": "ðə pˈeɪpə wˌɒznt pɹɪdˈɪktɪŋ ðə fjˈuːtʃə. ɪt wɒz tʃˈuːzɪŋ hˌuː pˈeɪd fɔːɹ ɪt.",
+      "start_sample": 1198702,
+      "end_sample": 1309134,
+      "pause_after_s": 0.65
+    }
+  ],
+  "source_wording_unchanged": true,
+  "displayed_text_unchanged": true,
+  "spoken_substitution": {
+    "3:07": "three-oh-seven"
+  },
+  "names_spelling_changed": false,
+  "new_pauses": [
+    {
+      "start": 0.0,
+      "end": 0.2755,
+      "duration": 0.2755
+    },
+    {
+      "start": 2.425125,
+      "end": 2.849167,
+      "duration": 0.424
+    },
+    {
+      "start": 4.249667,
+      "end": 4.563833,
+      "duration": 0.3142
+    },
+    {
+      "start": 6.145167,
+      "end": 6.408583,
+      "duration": 0.2634
+    },
+    {
+      "start": 8.109417,
+      "end": 8.472625,
+      "duration": 0.3632
+    },
+    {
+      "start": 9.3755,
+      "end": 10.343458,
+      "duration": 0.968
+    },
+    {
+      "start": 11.682208,
+      "end": 11.983083,
+      "duration": 0.3009
+    },
+    {
+      "start": 13.5865,
+      "end": 13.890625,
+      "duration": 0.3041
+    },
+    {
+      "start": 15.197625,
+      "end": 15.700083,
+      "duration": 0.5025
+    },
+    {
+      "start": 18.292333,
+      "end": 18.711542,
+      "duration": 0.4192
+    },
+    {
+      "start": 20.860917,
+      "end": 21.161417,
+      "duration": 0.3005
+    },
+    {
+      "start": 22.428042,
+      "end": 22.797833,
+      "duration": 0.3698
+    },
+    {
+      "start": 24.25525,
+      "end": 24.597708,
+      "duration": 0.3425
+    },
+    {
+      "start": 26.5915,
+      "end": 26.9405,
+      "duration": 0.349
+    },
+    {
+      "start": 29.479792,
+      "end": 29.917833,
+      "duration": 0.438
+    },
+    {
+      "start": 32.206292,
+      "end": 32.73825,
+      "duration": 0.532
+    },
+    {
+      "start": 34.815208,
+      "end": 35.211417,
+      "duration": 0.3962
+    },
+    {
+      "start": 37.140708,
+      "end": 37.362208,
+      "duration": 0.2215
+    },
+    {
+      "start": 38.211458,
+      "end": 39.234208,
+      "duration": 1.0228
+    },
+    {
+      "start": 40.003333,
+      "end": 40.242417,
+      "duration": 0.2391
+    },
+    {
+      "start": 41.478,
+      "end": 41.823125,
+      "duration": 0.3451
+    },
+    {
+      "start": 43.953,
+      "end": 44.317792,
+      "duration": 0.3648
+    },
+    {
+      "start": 47.177292,
+      "end": 47.519917,
+      "duration": 0.3426
+    },
+    {
+      "start": 48.158833,
+      "end": 48.426667,
+      "duration": 0.2678
+    },
+    {
+      "start": 49.062458,
+      "end": 49.985708,
+      "duration": 0.9233
+    },
+    {
+      "start": 52.167542,
+      "end": 52.563167,
+      "duration": 0.3956
+    },
+    {
+      "start": 54.364917,
+      "end": 55.19725,
+      "duration": 0.8323
+    }
+  ],
+  "previous_pauses": [
+    {
+      "start": 0.0,
+      "end": 0.285667,
+      "duration": 0.2857
+    },
+    {
+      "start": 1.476958,
+      "end": 1.743,
+      "duration": 0.266
+    },
+    {
+      "start": 2.8835,
+      "end": 3.290125,
+      "duration": 0.4066
+    },
+    {
+      "start": 4.560833,
+      "end": 4.926,
+      "duration": 0.3652
+    },
+    {
+      "start": 7.611042,
+      "end": 7.899583,
+      "duration": 0.2885
+    },
+    {
+      "start": 8.882125,
+      "end": 9.348625,
+      "duration": 0.4665
+    },
+    {
+      "start": 10.410417,
+      "end": 10.975667,
+      "duration": 0.5652
+    },
+    {
+      "start": 12.310125,
+      "end": 12.611042,
+      "duration": 0.3009
+    },
+    {
+      "start": 14.232708,
+      "end": 14.537458,
+      "duration": 0.3048
+    },
+    {
+      "start": 15.845542,
+      "end": 16.464708,
+      "duration": 0.6192
+    },
+    {
+      "start": 17.561917,
+      "end": 17.826917,
+      "duration": 0.265
+    },
+    {
+      "start": 19.430083,
+      "end": 19.854042,
+      "duration": 0.424
+    },
+    {
+      "start": 22.192958,
+      "end": 22.788625,
+      "duration": 0.5957
+    },
+    {
+      "start": 24.248583,
+      "end": 24.585583,
+      "duration": 0.337
+    },
+    {
+      "start": 26.243333,
+      "end": 26.820542,
+      "duration": 0.5772
+    },
+    {
+      "start": 27.942625,
+      "end": 28.177958,
+      "duration": 0.2353
+    },
+    {
+      "start": 29.265708,
+      "end": 29.792583,
+      "duration": 0.5269
+    },
+    {
+      "start": 32.326875,
+      "end": 32.802417,
+      "duration": 0.4755
+    },
+    {
+      "start": 33.375292,
+      "end": 33.637917,
+      "duration": 0.2626
+    },
+    {
+      "start": 35.629708,
+      "end": 36.231458,
+      "duration": 0.6018
+    },
+    {
+      "start": 38.307667,
+      "end": 38.70475,
+      "duration": 0.3971
+    },
+    {
+      "start": 39.658542,
+      "end": 39.921,
+      "duration": 0.2625
+    },
+    {
+      "start": 40.70375,
+      "end": 40.976917,
+      "duration": 0.2732
+    },
+    {
+      "start": 41.824208,
+      "end": 42.377625,
+      "duration": 0.5534
+    },
+    {
+      "start": 43.186375,
+      "end": 43.451792,
+      "duration": 0.2654
+    },
+    {
+      "start": 44.719625,
+      "end": 45.106458,
+      "duration": 0.3868
+    },
+    {
+      "start": 47.286875,
+      "end": 48.000333,
+      "duration": 0.7135
+    },
+    {
+      "start": 50.882708,
+      "end": 51.250417,
+      "duration": 0.3677
+    },
+    {
+      "start": 51.905542,
+      "end": 52.203875,
+      "duration": 0.2983
+    },
+    {
+      "start": 52.837042,
+      "end": 53.43875,
+      "duration": 0.6017
+    },
+    {
+      "start": 56.09475,
+      "end": 56.651625,
+      "duration": 0.5569
+    },
+    {
+      "start": 58.763667,
+      "end": 59.837708,
+      "duration": 1.074
+    }
+  ],
+  "suspense": [
+    {
+      "after": "He was alive.",
+      "boundary": 9.566,
+      "added_gap": 0.75,
+      "detected_gap": [
+        {
+          "start": 9.3755,
+          "end": 10.343458,
+          "duration": 0.968
+        }
+      ]
+    },
+    {
+      "after": "Different name.",
+      "boundary": 38.404583333333335,
+      "added_gap": 0.8,
+      "detected_gap": [
+        {
+          "start": 38.211458,
+          "end": 39.234208,
+          "duration": 1.0228
+        }
+      ]
+    },
+    {
+      "after": "His name. Mara's.",
+      "boundary": 49.245916666666666,
+      "added_gap": 0.7,
+      "detected_gap": [
+        {
+          "start": 49.062458,
+          "end": 49.985708,
+          "duration": 0.9233
+        }
+      ]
+    }
+  ],
+  "integrated_lufs": -17.6,
+  "true_peak_dbtp": -1.5,
+  "clipping_samples": 0,
+  "transcript": "Elias's paper had his obituary. It arrived a day early, his name, his apartment, a fire at 307. He was alive. He had no subscription. Underneath, in small print, one name per fire. At 240, Elias knocked on 4A. Mara's heater had been sparking all week. She'd asked him to fix it. He told her to call the super. He took the stairs and didn't look back. From the hotel, he watched the smoke rise at 307, 4B burned. The next paper waited at the front desk, same fire, same hour, different name. Marquan, apartment 4A, it said she'd entered 4B to warn him, Elias laid the two obituaries side by side, his name, Maras. The paper wasn't predicting the future, it was choosing who paid for it.",
+  "alignment_interpolation": [
+    {
+      "group": 1,
+      "interpolated_tokens": []
+    },
+    {
+      "group": 2,
+      "interpolated_tokens": []
+    },
+    {
+      "group": 3,
+      "interpolated_tokens": [
+        "2:40,"
+      ]
+    },
+    {
+      "group": 4,
+      "interpolated_tokens": []
+    },
+    {
+      "group": 5,
+      "interpolated_tokens": [
+        "Mara",
+        "Kwan."
+      ]
+    },
+    {
+      "group": 6,
+      "interpolated_tokens": []
+    }
+  ],
+  "protected_existing_files_changed": [],
+  "packages": {
+    "kokoro-onnx": "0.6.1",
+    "onnxruntime": "1.32.0",
+    "faster-whisper": "1.2.1",
+    "numpy": "2.5.4"
+  },
+  "checks": {
+    "duration_55_58": true,
+    "subtitle_text_exact": true,
+    "word_timings_ordered": true,
+    "subtitle_cues_valid": true,
+    "no_existing_files_changed": true,
+    "suspense_gaps_present": true
+  }
+}

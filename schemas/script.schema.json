@@ -1,0 +1,178 @@
+{
+  "$defs": {
+    "Beat": {
+      "additionalProperties": false,
+      "properties": {
+        "beat": {
+          "minimum": 1,
+          "title": "Beat",
+          "type": "integer"
+        },
+        "text": {
+          "maxLength": 400,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "pause_after_ms": {
+          "default": 0,
+          "maximum": 2000,
+          "minimum": 0,
+          "title": "Pause After Ms",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "beat",
+        "text"
+      ],
+      "title": "Beat",
+      "type": "object"
+    },
+    "SourceInfo": {
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "default": "original",
+          "enum": [
+            "original",
+            "public_domain_adaptation"
+          ],
+          "title": "Type",
+          "type": "string"
+        },
+        "reference": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reference"
+        },
+        "public_domain": {
+          "default": false,
+          "title": "Public Domain",
+          "type": "boolean"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        }
+      },
+      "title": "SourceInfo",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "video_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Video Id"
+    },
+    "title": {
+      "maxLength": 140,
+      "minLength": 3,
+      "title": "Title",
+      "type": "string"
+    },
+    "category": {
+      "enum": [
+        "psychological_horror",
+        "mystery",
+        "mind_bending"
+      ],
+      "title": "Category",
+      "type": "string"
+    },
+    "logline": {
+      "maxLength": 300,
+      "minLength": 10,
+      "title": "Logline",
+      "type": "string"
+    },
+    "source": {
+      "$ref": "#/$defs/SourceInfo"
+    },
+    "narration": {
+      "items": {
+        "$ref": "#/$defs/Beat"
+      },
+      "maxItems": 40,
+      "minItems": 3,
+      "title": "Narration",
+      "type": "array"
+    },
+    "final_line": {
+      "maxLength": 240,
+      "minLength": 1,
+      "title": "Final Line",
+      "type": "string"
+    },
+    "visual_style": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Visual Style"
+    },
+    "content_notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Content Notes"
+    },
+    "claims": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Claims",
+      "type": "array"
+    }
+  },
+  "required": [
+    "title",
+    "category",
+    "logline",
+    "narration",
+    "final_line"
+  ],
+  "title": "The Midnight Archive Script",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

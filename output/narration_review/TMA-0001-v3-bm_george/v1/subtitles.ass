@@ -1,0 +1,39 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Midnight,Montserrat,58,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,4,1.2,2,90,90,260,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.20,0:00:02.79,Midnight,,0,0,0,,Elias's paper had his obituary.
+Dialogue: 0,0:00:03.21,0:00:05.40,Midnight,,0,0,0,,It arrived a day\Nearly: his name,
+Dialogue: 0,0:00:05.51,0:00:08.06,Midnight,,0,0,0,,his apartment, a fire at 3:07.
+Dialogue: 0,0:00:09.26,0:00:10.01,Midnight,,0,0,0,,He was alive.
+Dialogue: 0,0:00:10.89,0:00:11.78,Midnight,,0,0,0,,He had no subscription.
+Dialogue: 0,0:00:11.78,0:00:15.16,Midnight,,0,0,0,,Underneath, in small\Nprint: one name per
+Dialogue: 0,0:00:15.16,0:00:19.36,Midnight,,0,0,0,,fire. At 2:40,\NElias knocked on 4A.
+Dialogue: 0,0:00:19.75,0:00:22.08,Midnight,,0,0,0,,Mara's heater had been\Nsparking all week.
+Dialogue: 0,0:00:22.70,0:00:24.35,Midnight,,0,0,0,,She'd asked him to fix it.
+Dialogue: 0,0:00:24.50,0:00:25.95,Midnight,,0,0,0,,He told her to call the super.
+Dialogue: 0,0:00:26.72,0:00:28.66,Midnight,,0,0,0,,He took the stairs\Nand didn't look
+Dialogue: 0,0:00:28.66,0:00:31.25,Midnight,,0,0,0,,back. From the\Nhotel, he watched the
+Dialogue: 0,0:00:31.25,0:00:31.93,Midnight,,0,0,0,,smoke rise.
+Dialogue: 0,0:00:31.93,0:00:35.51,Midnight,,0,0,0,,At 3:07, 4B burned.
+Dialogue: 0,0:00:36.14,0:00:37.65,Midnight,,0,0,0,,The next paper\Nwaited at the front
+Dialogue: 0,0:00:37.65,0:00:39.47,Midnight,,0,0,0,,desk. Same fire.
+Dialogue: 0,0:00:39.80,0:00:40.65,Midnight,,0,0,0,,Same hour.
+Dialogue: 0,0:00:40.88,0:00:41.63,Midnight,,0,0,0,,Different name.
+Dialogue: 0,0:00:42.30,0:00:43.05,Midnight,,0,0,0,,Mara Kwan.
+Dialogue: 0,0:00:43.42,0:00:44.69,Midnight,,0,0,0,,Apartment 4A.
+Dialogue: 0,0:00:45.06,0:00:46.85,Midnight,,0,0,0,,It said she'd entered 4B to warn
+Dialogue: 0,0:00:46.85,0:00:49.90,Midnight,,0,0,0,,him. Elias laid the\Ntwo obituaries side
+Dialogue: 0,0:00:49.90,0:00:50.84,Midnight,,0,0,0,,by side.
+Dialogue: 0,0:00:51.21,0:00:51.56,Midnight,,0,0,0,,His name.
+Dialogue: 0,0:00:51.56,0:00:55.84,Midnight,,0,0,0,,Mara's. The paper wasn't\Npredicting the future.
+Dialogue: 0,0:00:56.59,0:00:58.78,Midnight,,0,0,0,,It was choosing who paid for it.

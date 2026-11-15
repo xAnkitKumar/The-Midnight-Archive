@@ -1,0 +1,211 @@
+{
+  "schema_version": "1.0",
+  "video_id": "TMA-0001",
+  "mp4_path": "output/rendered/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v3.mp4",
+  "mp4_sha256": "0e0215aebda91c8d657cebf375e68e4d9c54c18f5813ac6fea58cdfa4cde05f3",
+  "checks": [
+    {
+      "name": "file_exists",
+      "passed": true,
+      "detail": "Found TMA-0001-the-man-who-received-tomorrow-s-newspaper-v3.mp4",
+      "value": "21425787 bytes"
+    },
+    {
+      "name": "file_size",
+      "passed": true,
+      "detail": "21.43 MB",
+      "value": "21425787"
+    },
+    {
+      "name": "video_stream",
+      "passed": true,
+      "detail": "One video stream present",
+      "value": null
+    },
+    {
+      "name": "video_codec",
+      "passed": true,
+      "detail": "h264",
+      "value": null
+    },
+    {
+      "name": "resolution",
+      "passed": true,
+      "detail": "1080x1920",
+      "value": "1080x1920"
+    },
+    {
+      "name": "aspect_ratio",
+      "passed": true,
+      "detail": "0.56250 (target 0.5625)",
+      "value": "0.56250"
+    },
+    {
+      "name": "frame_rate",
+      "passed": true,
+      "detail": "30.000 fps",
+      "value": "30.000"
+    },
+    {
+      "name": "pixel_format",
+      "passed": true,
+      "detail": "yuv420p",
+      "value": null
+    },
+    {
+      "name": "duration_limit",
+      "passed": true,
+      "detail": "55.200 s (Instagram Reel limit 60 s)",
+      "value": "55.200"
+    },
+    {
+      "name": "duration_matches_audio",
+      "passed": true,
+      "detail": "video 55.200s vs narration 55.197s",
+      "value": null
+    },
+    {
+      "name": "scene_timing",
+      "passed": true,
+      "detail": "10 scenes, 0.00s\u201355.20s",
+      "value": "10"
+    },
+    {
+      "name": "expected_scene_count",
+      "passed": true,
+      "detail": "10 rendered scenes (expected 10)",
+      "value": "10"
+    },
+    {
+      "name": "audio_stream",
+      "passed": true,
+      "detail": "One audio stream present",
+      "value": null
+    },
+    {
+      "name": "audio_codec",
+      "passed": true,
+      "detail": "aac",
+      "value": null
+    },
+    {
+      "name": "audio_sample_rate",
+      "passed": true,
+      "detail": "48000 Hz",
+      "value": "48000"
+    },
+    {
+      "name": "audio_duration",
+      "passed": true,
+      "detail": "audio 55.197s vs container 55.200s",
+      "value": null
+    },
+    {
+      "name": "peak_level",
+      "passed": true,
+      "detail": "max -1.5 dBFS",
+      "value": "-1.5"
+    },
+    {
+      "name": "mean_level",
+      "passed": true,
+      "detail": "mean -17.3 dBFS",
+      "value": "-17.3"
+    },
+    {
+      "name": "integrated_loudness",
+      "passed": true,
+      "detail": "-14.6 LUFS (target about -14)",
+      "value": "-14.6"
+    },
+    {
+      "name": "black_frames",
+      "passed": true,
+      "detail": "No unexpected black intervals",
+      "value": "0"
+    },
+    {
+      "name": "silent_sections",
+      "passed": true,
+      "detail": "No unexpected silent sections",
+      "value": "0"
+    },
+    {
+      "name": "subtitles_present",
+      "passed": true,
+      "detail": "31 cues",
+      "value": null
+    },
+    {
+      "name": "subtitle_start",
+      "passed": true,
+      "detail": "first cue at 0.21s",
+      "value": "0.210"
+    },
+    {
+      "name": "subtitle_end",
+      "passed": true,
+      "detail": "last cue ends 54.37s / video 55.20s",
+      "value": "54.366"
+    },
+    {
+      "name": "subtitle_tail",
+      "passed": true,
+      "detail": "0.83s after last subtitle",
+      "value": null
+    },
+    {
+      "name": "subtitle_order",
+      "passed": true,
+      "detail": "Cues are monotonic with no overlap",
+      "value": null
+    },
+    {
+      "name": "subtitle_cue_duration",
+      "passed": true,
+      "detail": "All cue durations are 0.25\u20135.5 s",
+      "value": null
+    },
+    {
+      "name": "subtitle_text",
+      "passed": true,
+      "detail": "129 subtitle words vs 129 script words",
+      "value": "129"
+    },
+    {
+      "name": "subtitle_narration_coverage",
+      "passed": true,
+      "detail": "last subtitle 54.37s, narration 55.20s",
+      "value": null
+    },
+    {
+      "name": "narration_not_cut",
+      "passed": true,
+      "detail": "narration 55.197s within video 55.200s",
+      "value": null
+    },
+    {
+      "name": "file_integrity",
+      "passed": true,
+      "detail": "Full decode completed without errors",
+      "value": null
+    }
+  ],
+  "passed": true,
+  "blocking_issues": [],
+  "probe": {
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration": 55.2,
+    "size": 21425787,
+    "video_codec": "h264",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "audio_codec": "aac",
+    "sample_rate": 48000,
+    "mean_volume_db": -17.3,
+    "max_volume_db": -1.5,
+    "integrated_loudness": -14.6
+  },
+  "created_at": "2026-11-15T05:36:33.779486Z"
+}

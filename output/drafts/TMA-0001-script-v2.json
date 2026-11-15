@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "video_id": "TMA-0001",
+  "title": "The Man Who Received Tomorrow's Newspaper",
+  "category": "mind_bending",
+  "logline": "A man reads his own obituary in tomorrow's paper, avoids the fire, and learns the edition only needs one name.",
+  "source": {
+    "type": "original",
+    "reference": null,
+    "public_domain": false,
+    "notes": "Original story written for The Midnight Archive. No third-party text used. Revised v2 keeps the prophetic-newspaper premise but replaces the erasure montage with a single causal substitution rule."
+  },
+  "narration": [
+    {
+      "beat": 1,
+      "text": "Tomorrow's paper had an obituary.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 2,
+      "text": "Elias Voss. Apartment 4B. Fire. 3:07 a.m.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 3,
+      "text": "He was alive.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 4,
+      "text": "He had no subscription.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 5,
+      "text": "The fine print said: one name per fire.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 6,
+      "text": "At 2:40, he knocked on 4A.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 7,
+      "text": "His neighbour's heater. The one she'd asked him to fix.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 8,
+      "text": "She said the super would come.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 9,
+      "text": "Elias took the stairs. He did not look back.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 10,
+      "text": "From the hotel, he watched the smoke.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 11,
+      "text": "At 3:07, 4B burned.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 12,
+      "text": "The next paper waited at the desk.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 13,
+      "text": "Same fire. Same hour. Different name.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 14,
+      "text": "Mara Kwan. Apartment 4A. Smoke.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 15,
+      "text": "She had gone in to warn him.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 16,
+      "text": "Elias spread the editions across the floor.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 17,
+      "text": "Every one had taken a name.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 18,
+      "text": "The paper wasn't predicting the future.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 19,
+      "text": "It was choosing who paid for it.",
+      "pause_after_ms": 200
+    }
+  ],
+  "final_line": "It was choosing who paid for it.",
+  "visual_style": "Sodium amber and ash grey against deep teal-black; one hard practical per scene; 24mm wides, 50mm mediums, 100mm macro details; fine 16mm grain; the newspaper is the only clean white value.",
+  "content_notes": "Speculative fiction. The newspaper is a fictional device, not a factual claim about prediction, archives or fire safety. The neighbour's heater is narrative cause, not advice.",
+  "claims": []
+}

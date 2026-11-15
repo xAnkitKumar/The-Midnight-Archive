@@ -1,0 +1,206 @@
+{
+  "video": {
+    "id": "TMA-0001",
+    "title": "The Man Who Received Tomorrow's Newspaper",
+    "title_key": "themanwhoreceivedtomorrowsnewspaper",
+    "category": "mind_bending",
+    "status": "STORYBOARD_READY",
+    "premise": "A man receives a newspaper dated tomorrow that begins erasing him from the record.",
+    "source_type": "original",
+    "source_reference": null,
+    "slug": "the-man-who-received-tomorrow-s-newspaper",
+    "idea_id": null,
+    "script_json": "{\"schema_version\": \"1.0\", \"video_id\": \"TMA-0001\", \"title\": \"The Man Who Received Tomorrow's Newspaper\", \"category\": \"mind_bending\", \"logline\": \"A man reads his own obituary, avoids the fire, and learns the paper has already chosen who will pay for it.\", \"source\": {\"type\": \"original\", \"reference\": null, \"public_domain\": false, \"notes\": \"Original story written for The Midnight Archive. v3 keeps the approved Substitution ending and makes the heater fault and Mara's entry into 4B explicit. No third-party text used.\"}, \"narration\": [{\"beat\": 1, \"text\": \"Elias's paper had his obituary.\", \"pause_after_ms\": 100}, {\"beat\": 2, \"text\": \"It arrived a day early: his name, his apartment, a fire at 3:07.\", \"pause_after_ms\": 150}, {\"beat\": 3, \"text\": \"He was alive.\", \"pause_after_ms\": 250}, {\"beat\": 4, \"text\": \"He had no subscription. Underneath, in small print: one name per fire.\", \"pause_after_ms\": 300}, {\"beat\": 5, \"text\": \"At 2:40, Elias knocked on 4A. Mara's heater had been sparking all week.\", \"pause_after_ms\": 300}, {\"beat\": 6, \"text\": \"She'd asked him to fix it. He told her to call the super.\", \"pause_after_ms\": 250}, {\"beat\": 7, \"text\": \"He took the stairs and didn't look back.\", \"pause_after_ms\": 200}, {\"beat\": 8, \"text\": \"From the hotel, he watched the smoke rise. At 3:07, 4B burned.\", \"pause_after_ms\": 300}, {\"beat\": 9, \"text\": \"The next paper waited at the front desk. Same fire. Same hour. Different name.\", \"pause_after_ms\": 250}, {\"beat\": 10, \"text\": \"Mara Kwan. Apartment 4A. It said she'd entered 4B to warn him.\", \"pause_after_ms\": 400}, {\"beat\": 11, \"text\": \"Elias laid the two obituaries side by side. His name. Mara's.\", \"pause_after_ms\": 300}, {\"beat\": 12, \"text\": \"The paper wasn't predicting the future.\", \"pause_after_ms\": 250}, {\"beat\": 13, \"text\": \"It was choosing who paid for it.\", \"pause_after_ms\": 500}], \"final_line\": \"It was choosing who paid for it.\", \"visual_style\": \"Sodium amber and ash grey against deep teal-black; one hard practical per scene; 24mm wides, 50mm mediums, 100mm macro details; fine 16mm grain; the newspaper is the only clean white value.\", \"content_notes\": \"Speculative fiction. The newspaper is a fictional device, not a factual claim about prediction, archives or fire safety. The heater is narrative cause, not advice.\", \"claims\": []}",
+    "storyboard_json": "{\"schema_version\": \"1.0\", \"video_id\": \"TMA-0001\", \"style_bible\": {\"palette\": \"sodium amber and ash grey against deep teal-black; one warm paper white; firelight only where fire is present\", \"lighting\": \"one hard practical per scene, negative fill, visible darkness; corridor cold, 4A warm with an intermittent blue-white spark, hotel blue, final frame firelit from one side\", \"lens\": \"24mm for wides and overheads, 50mm for mediums, 100mm macro for print and hands; shallow focus, subtle halation\", \"grain\": \"fine 16mm grain, gentle contrast, blacks that keep texture; no digital clarity sheen\", \"negative_prompt\": \"text, watermark, logo, signature, extra fingers, deformed hands, cartoon, anime, oversaturated, stock-photo smile, modern social UI, fisheye, duplicate faces, floating objects, illegible gibberish text\"}, \"music\": {\"mood\": \"low cello pulse, tape hiss, one distant piano note; no percussion until the smoke; the piano stops when Mara's name appears\", \"bpm\": 58, \"volume_db\": -20.0}, \"scenes\": [{\"scene\": 1, \"start\": 0.0, \"end\": 8.65, \"narration\": \"Elias's paper had his obituary. It arrived a day early: his name, his apartment, a fire at 3:07. He was alive.\", \"visual\": \"Extreme close-up on a folded broadsheet: tomorrow's date and a short obituary box dominate the frame. At the edges, living ink-stained fingers hold the paper; behind it, Elias's unshaven face is a dark shape. The page is the only bright object. A low-opacity wordmark sits in the top margin from the first frame; there is no logo card.\", \"characters\": [\"Elias Voss - 34, gaunt, dark wool coat, close-cropped hair, ink-stained fingers, sleepless\"], \"environment\": \"Kitchen table in apartment 4B, predawn; cold coffee ring, unopened mail, one bare bulb, rain on the window\", \"lighting\": \"Hard overhead bulb; the newspaper is overexposed, the room falls to black at the edges; no fill on Elias's face\", \"camera\": \"100mm macro, top-down; slow pull-back from the obituary type to the hands and the dark shape of his face, 9:16\", \"on_screen_text\": \"ELIAS VOSS \u2014 4B \u2014 FIRE 3:07 A.M.\", \"sfx\": [\"paper rustle\", \"clock tick\", \"room tone\"], \"transition\": \"cut\", \"image_prompt\": \"Cinematic vertical 9:16 macro still, tomorrow's newspaper on a dark kitchen table, a short obituary column under a hard bare bulb, living ink-stained fingers holding the page, a gaunt man's face half-hidden behind it, cold coffee ring, rain-streaked window, teal shadows, sodium amber light, 100mm lens, shallow focus, fine 16mm grain, no legible body text, faint wordmark in top margin\"}, {\"scene\": 2, \"start\": 8.65, \"end\": 13.75, \"narration\": \"He had no subscription. Underneath, in small print: one name per fire.\", \"visual\": \"Macro on the bottom corner of the same page. Elias's fingertip traces a line of tiny print beneath a subscription notice. The words ONE NAME PER FIRE sit in a ruled box, almost too small to photograph. The paper fibres and a coffee stain are visible.\", \"characters\": [\"Elias Voss - fingertip and cuff only, ink under the nail\"], \"environment\": \"Kitchen table, paper edge, cold coffee ring, cheap letter opener\", \"lighting\": \"Low raking desk lamp from the right; the fine print is in a hard pool of light, the rest of the page falls to black\", \"camera\": \"100mm macro, slight handheld drift, rack focus from the subscription notice to the fine-print rule, 9:16\", \"on_screen_text\": \"ONE NAME PER FIRE\", \"sfx\": [\"paper crease\", \"clock tick\"], \"transition\": \"push_in\", \"image_prompt\": \"Extreme macro vertical 9:16 still, a fingertip tracing tiny newspaper fine print in a ruled box under a hard desk lamp, visible paper fibres, cold coffee stain, deep black falloff, teal shadows, 100mm lens, shallow focus, fine 16mm grain, minimal legible text\"}, {\"scene\": 3, \"start\": 13.75, \"end\": 19.65, \"narration\": \"At 2:40, Elias knocked on 4A. Mara's heater had been sparking all week.\", \"visual\": \"Wide low-angle corridor. Elias stands at 4A, small in frame, one hand raised to knock. Under Mara's door, a blue-white spark stutters across the carpet and dies. The other doors are shut; the stairwell light pulses.\", \"characters\": [\"Elias Voss - at 4A door, back three-quarters to camera, coat collar up\"], \"environment\": \"Narrow 1970s corridor, mustard wallpaper, worn carpet, one caged stairwell bulb, a thin line of warm light under 4A\", \"lighting\": \"Hard sodium stairwell light; the spark throws a brief cold blue flash on the carpet; long shadows toward camera\", \"camera\": \"24mm wide, low angle, slow dolly forward; the spark is the only moving light, 9:16\", \"on_screen_text\": null, \"sfx\": [\"lift hum\", \"switch click\", \"low boom\"], \"transition\": \"match_cut\", \"image_prompt\": \"Cinematic vertical 9:16 wide still, low-angle 1970s apartment corridor at night, a man at the 4A door with one hand raised, a blue-white electrical spark under the door, mustard wallpaper, one caged sodium bulb, deep teal shadows, 24mm lens, fine 16mm grain, no legible text\"}, {\"scene\": 4, \"start\": 19.65, \"end\": 25.1, \"narration\": \"She'd asked him to fix it. He told her to call the super.\", \"visual\": \"Over Elias's shoulder at 4A. Mara stands in the doorway in a cardigan, tired and defensive. Behind her, the coil heater pops and spits a blue spark; the thin curtain lifts. Elias's knuckles are still raised in the foreground. The faulty heater is unmistakable.\", \"characters\": [\"Elias Voss - foreground shoulder and raised hand, coat collar up\", \"Mara Kwan - 60s, cardigan, reading glasses pushed into grey hair, tired but alert\"], \"environment\": \"4A doorway; warm cluttered flat beyond, coil heater against a thin curtain, stack of unopened letters\", \"lighting\": \"Warm interior spill against cold corridor; the heater element is the hottest point, with an intermittent cold blue spark\", \"camera\": \"50mm over-the-shoulder, doorframe splits the frame; slow push past Elias toward the heater, 9:16\", \"on_screen_text\": null, \"sfx\": [\"switch click\", \"low boom\", \"room tone\"], \"transition\": \"cut\", \"image_prompt\": \"Cinematic vertical 9:16 still, over-the-shoulder at an apartment door, a gaunt man's raised knuckles in foreground, a woman in her sixties in warm doorway light, a coil heater sparking blue behind her beside a thin curtain, cold teal corridor, sodium amber interior, 50mm lens, shallow depth of field, fine 16mm grain, no legible text\"}, {\"scene\": 5, \"start\": 25.1, \"end\": 28.5, \"narration\": \"He took the stairs and didn't look back.\", \"visual\": \"Wide low-angle stairwell. Elias descends, one hand on the rail, coat billowing; his shadow climbs the wall behind him. The corridor door is a bright rectangle above him, already out of reach.\", \"characters\": [\"Elias Voss - centered low on the stairs, back to camera, one hand on rail\"], \"environment\": \"Concrete stairwell, peeling paint, caged bulb, metal handrail, dark landing below\", \"lighting\": \"Single caged bulb above; hard vertical shadows; cold blue below, warm sodium above\", \"camera\": \"24mm wide, low angle, slow tilt down, strong verticals, 9:16\", \"on_screen_text\": null, \"sfx\": [\"door creak\", \"lift hum\", \"heartbeat\"], \"transition\": \"dissolve\", \"image_prompt\": \"Cinematic vertical 9:16 still, low-angle concrete stairwell at night, a man in a dark coat descending with one hand on the rail, long shadow climbing the wall, caged bulb above, cold blue below, peeling paint, strong vertical lines, 24mm lens, fine 16mm grain, no legible text\"}, {\"scene\": 6, \"start\": 28.5, \"end\": 33.6, \"narration\": \"From the hotel, he watched the smoke rise. At 3:07, 4B burned.\", \"visual\": \"Hotel window at night. Elias stands at the left edge, silhouetted; his reflection overlaps the city. Far right, a thin column of smoke rises from his building, lit amber at the base. The window frame traps him between his reflection and the fire.\", \"characters\": [\"Elias Voss - left third, back to camera, silhouette and reflection\"], \"environment\": \"Cheap hotel room, rain-streaked window, city lights below, his building visible across the rooftops\", \"lighting\": \"Blue room, amber smoke glow outside, no overhead light; reflection doubles his outline\", \"camera\": \"35mm, frame-within-frame, slow push-in toward the smoke, 9:16\", \"on_screen_text\": null, \"sfx\": [\"rain\", \"distant siren\", \"low boom\"], \"transition\": \"push_in\", \"image_prompt\": \"Cinematic vertical 9:16 still, dark hotel room at night, a man silhouetted at the left edge of a rain-streaked window, his reflection overlapping city lights, a thin column of amber-lit smoke rising from a building across the rooftops, blue shadows, frame-within-frame, 35mm lens, fine 16mm grain, no legible text\"}, {\"scene\": 7, \"start\": 33.6, \"end\": 39.45, \"narration\": \"The next paper waited at the front desk. Same fire. Same hour. Different name.\", \"visual\": \"High-angle close-up of the hotel front desk. A fresh broadsheet sits beside a brass bell and a room key. The clerk's hand withdraws from frame. The paper is folded to the obituary page, and the room key still has a paper tag.\", \"characters\": [\"Hotel clerk - hand only, withdrawing from frame\"], \"environment\": \"Hotel reception, laminate counter, brass bell, key cubbies, wet glass ring\", \"lighting\": \"Single desk lamp, hard pool of light; background dark; paper is the brightest object\", \"camera\": \"50mm high angle, static, shallow focus, 9:16\", \"on_screen_text\": null, \"sfx\": [\"clock tick\", \"paper crease\"], \"transition\": \"match_cut\", \"image_prompt\": \"Vertical 9:16 still, high-angle hotel reception desk at night, a fresh folded newspaper beside a brass bell and a paper-tagged room key, a clerk's hand withdrawing at the frame edge, single desk lamp, hard pool of light, dark background, teal and amber, 50mm lens, shallow focus, fine 16mm grain, no legible text\"}, {\"scene\": 8, \"start\": 39.45, \"end\": 44.65, \"narration\": \"Mara Kwan. Apartment 4A. It said she'd entered 4B to warn him.\", \"visual\": \"Extreme close-up of the second obituary. Elias's thumb presses beside the name MARA KWAN. Below it, a smaller line reads: ENTERED 4B TO WARN OCCUPANT. A line of ash crosses the date. The paper is damp and puckered. The subhead is the only sharp thing in frame.\", \"characters\": [\"Elias Voss - thumb and cuff only\"], \"environment\": \"Hotel desk, lamplight, wet glass ring, a line of ash on the paper\", \"lighting\": \"Hard raking lamp from left; paper texture, ash and the subhead are highlighted; right side falls to black\", \"camera\": \"100mm macro, slight handheld drift, rack focus from the name to the subhead, 9:16\", \"on_screen_text\": \"MARA KWAN \u2014 4A\", \"sfx\": [\"paper crease\", \"heartbeat\", \"cello swell\"], \"transition\": \"cut\", \"image_prompt\": \"Extreme close-up vertical 9:16 still, a damp puckered newspaper obituary under a hard lamp, a man's thumb beside a printed name, a smaller subhead about entering 4B to warn the occupant, a line of ash across the date, wet glass ring, hard raking light from the left, black falloff at the right edge, 100mm macro, shallow focus, fine 16mm grain, minimal legible text\"}, {\"scene\": 9, \"start\": 44.65, \"end\": 49.35, \"narration\": \"Elias laid the two obituaries side by side. His name. Mara's.\", \"visual\": \"Top-down on the bare floor. Exactly two broadsheets: Elias's obituary on the left, Mara's on the right, both edged in red pencil. Elias kneels between them, one hand on each page. His shadow joins the two sheets. There are no other editions in frame.\", \"characters\": [\"Elias Voss - kneeling between the two papers, sleeves rolled, head lowered\"], \"environment\": \"4B floor, bare boards, two newspapers only, ash, overturned lamp, rain at the window\", \"lighting\": \"Single lamp on the floor; a hard pool covers both obituaries; black edges; red pencil marks catch the light\", \"camera\": \"50mm top-down, locked overhead, very slow pull-back to reveal the symmetry of the two pages, 9:16\", \"on_screen_text\": \"ELIAS VOSS \u2014 MARA KWAN\", \"sfx\": [\"paper rustle\", \"glass creak\", \"cello swell\"], \"transition\": \"fade\", \"image_prompt\": \"Overhead vertical 9:16 still, exactly two newspaper obituaries laid side by side on bare wooden floorboards, one on the left and one on the right, red-pencilled edges, a kneeling man between them with one hand on each page, his shadow joining the sheets, single hard lamp pool, ash, deep black edges, 50mm lens, fine 16mm grain, minimal legible text\"}, {\"scene\": 10, \"start\": 49.35, \"end\": 54.65, \"narration\": \"The paper wasn't predicting the future. It was choosing who paid for it.\", \"visual\": \"Close-up of Elias's face, right third, lit from the left by the burning building through the window. A blank newspaper fills the lower foreground. He looks directly at camera for the first time. The low-opacity wordmark sits in the top margin; there is no end card and no logo intro.\", \"characters\": [\"Elias Voss - close-up, soot on cheek, no expression left to read\"], \"environment\": \"4B window, smoke outside, blank newspaper in lap, ember light on the glass\", \"lighting\": \"Firelight key from the left, deep black on the right, ember flicker; the paper catches a thin rim\", \"camera\": \"85mm close-up, very slow push-in, focus on the eyes, 9:16\", \"on_screen_text\": \"THE MIDNIGHT ARCHIVE\", \"sfx\": [\"cello swell\", \"heartbeat\", \"room tone\"], \"transition\": \"fade\", \"image_prompt\": \"Cinematic vertical 9:16 close-up, a soot-streaked gaunt man looking directly at camera, firelight from the left, deep black on the right, a blank newspaper in the lower foreground, smoke and ember glow at the window, 85mm lens, shallow depth of field, fine 16mm grain, quiet dread, no legible text, faint wordmark in top margin\"}]}",
+    "script_hash": "28314d9c21933f7a6a72a32b650e7e5c9d4fd6602198652d15e4956111cadd6d",
+    "latest_qc_total": 85.0,
+    "latest_qc_verdict": "pass",
+    "created_at": "2026-11-14T17:49:59Z",
+    "updated_at": "2026-11-14T19:27:09Z",
+    "approved_at": null,
+    "published_at": null,
+    "notes": null
+  },
+  "artifacts": [
+    {
+      "id": 3,
+      "video_id": "TMA-0001",
+      "kind": "asset_plan",
+      "version": 1,
+      "path": "output/asset_plan/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v1.json",
+      "sha256": "6168c4d24462911db8ee1a1fe75a6bb373c79d338aa45c3e9b6efd675aa4bdaa",
+      "created_at": "2026-11-14T18:33:43Z"
+    },
+    {
+      "id": 8,
+      "video_id": "TMA-0001",
+      "kind": "audio_mix",
+      "version": 1,
+      "path": "output/drafts/TMA-0001/audio/mix-v1.wav",
+      "sha256": "842270e63dc1a77728ae9feddfe3c6310e3469df75d0a2507f5ea9fb4effd5b0",
+      "created_at": "2026-11-14T18:34:30Z"
+    },
+    {
+      "id": 5,
+      "video_id": "TMA-0001",
+      "kind": "narration",
+      "version": 1,
+      "path": "output/drafts/TMA-0001/audio/narration-v1.wav",
+      "sha256": "6774c29e3c5b5dc052dc7762f76f24667ab9e949fd508a16043524beda4ec6b7",
+      "created_at": "2026-11-14T18:34:29Z"
+    },
+    {
+      "id": 4,
+      "video_id": "TMA-0001",
+      "kind": "narration_metadata",
+      "version": 1,
+      "path": "output/narration_metadata/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v1.json",
+      "sha256": "379c8b550a2338eba5ed7af7b95169525ef00a2159fea6b418fab2aaefcdc6b5",
+      "created_at": "2026-11-14T18:34:29Z"
+    },
+    {
+      "id": 10,
+      "video_id": "TMA-0001",
+      "kind": "render",
+      "version": 1,
+      "path": "output/rendered/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v1.mp4",
+      "sha256": "18850110274a4a88e8cc2a08d9bd1f7741fa998de6eb8e7d698b796bea05386f",
+      "created_at": "2026-11-14T18:35:37Z"
+    },
+    {
+      "id": 15,
+      "video_id": "TMA-0001",
+      "kind": "render",
+      "version": 2,
+      "path": "output/rendered/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v2.mp4",
+      "sha256": "01ccad71d28535bf9a46f6ac38cd1806a33fe1eb74370dae0bb12b26df4e6384",
+      "created_at": "2026-11-14T18:38:35Z"
+    },
+    {
+      "id": 9,
+      "video_id": "TMA-0001",
+      "kind": "render_metadata",
+      "version": 1,
+      "path": "output/render_metadata/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v1.json",
+      "sha256": "c56b1fa06da035d222015532de0551b56561fb89e4f07d32a64c0381a962da5a",
+      "created_at": "2026-11-14T18:35:37Z"
+    },
+    {
+      "id": 14,
+      "video_id": "TMA-0001",
+      "kind": "render_metadata",
+      "version": 2,
+      "path": "output/render_metadata/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v2.json",
+      "sha256": "97136b271fad97f5dfa1f3dc0439630a0a2ab054a795504bbdb0baeb9391775c",
+      "created_at": "2026-11-14T18:38:35Z"
+    },
+    {
+      "id": 1,
+      "video_id": "TMA-0001",
+      "kind": "script",
+      "version": 1,
+      "path": "output/scripts/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v1.json",
+      "sha256": "909dc1044db21c39f6838ca43a7107fe7c70c69e5098a6f6f5ba8b2b1e87ccae",
+      "created_at": "2026-11-14T17:50:00Z"
+    },
+    {
+      "id": 17,
+      "video_id": "TMA-0001",
+      "kind": "script",
+      "version": 2,
+      "path": "output/scripts/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v2.json",
+      "sha256": "93eaf4c9f602239a46094691e75d82742cf7a4bbaa9e7e1ef205d2c0d15cc944",
+      "created_at": "2026-11-14T19:02:57Z"
+    },
+    {
+      "id": 19,
+      "video_id": "TMA-0001",
+      "kind": "script",
+      "version": 3,
+      "path": "output/scripts/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v3.json",
+      "sha256": "0bf990c0662f05c1db9e76066a8afbb900b0eb0a32eec6d69e574229b7b4de4c",
+      "created_at": "2026-11-14T19:27:08Z"
+    },
+    {
+      "id": 2,
+      "video_id": "TMA-0001",
+      "kind": "storyboard",
+      "version": 1,
+      "path": "output/storyboards/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v1.json",
+      "sha256": "2463813de9fb5cc11f6cea79e591f7f6a8f5ea7ad1e672e6f45da930026ccfcb",
+      "created_at": "2026-11-14T17:50:01Z"
+    },
+    {
+      "id": 18,
+      "video_id": "TMA-0001",
+      "kind": "storyboard",
+      "version": 2,
+      "path": "output/storyboards/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v2.json",
+      "sha256": "54c336a14b0454b285b55b3c7429b23ce0f604ce92846da07549b84e2f1f3e8c",
+      "created_at": "2026-11-14T19:02:58Z"
+    },
+    {
+      "id": 20,
+      "video_id": "TMA-0001",
+      "kind": "storyboard",
+      "version": 3,
+      "path": "output/storyboards/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v3.json",
+      "sha256": "6df65a9294a3807c4b5aaa9ae847f6a7ba9188f38be492dc343c424153768869",
+      "created_at": "2026-11-14T19:27:09Z"
+    },
+    {
+      "id": 7,
+      "video_id": "TMA-0001",
+      "kind": "subtitle_stylesheet",
+      "version": 1,
+      "path": "output/drafts/TMA-0001/audio/subtitles-v1.ass",
+      "sha256": "e5fdb5b5d8e3a4c2ad93a6b725be086658940f6a82fa3212c73b4624678bf846",
+      "created_at": "2026-11-14T18:34:30Z"
+    },
+    {
+      "id": 13,
+      "video_id": "TMA-0001",
+      "kind": "subtitle_stylesheet",
+      "version": 2,
+      "path": "output/drafts/TMA-0001/audio/subtitles-v2.ass",
+      "sha256": "435441a90b22167b26a01211008ad41839c94d0543df7f217d1f464641f42162",
+      "created_at": "2026-11-14T18:38:00Z"
+    },
+    {
+      "id": 6,
+      "video_id": "TMA-0001",
+      "kind": "subtitles",
+      "version": 1,
+      "path": "output/drafts/TMA-0001/audio/subtitles-v1.srt",
+      "sha256": "4ef28baf17a20e38013fa3059113d1526759c2c702d4ec68fe6c1d34951f52b7",
+      "created_at": "2026-11-14T18:34:29Z"
+    },
+    {
+      "id": 12,
+      "video_id": "TMA-0001",
+      "kind": "subtitles",
+      "version": 2,
+      "path": "output/drafts/TMA-0001/audio/subtitles-v2.srt",
+      "sha256": "2a4fea5d7ee07a02538ba1f31f63b322b9fea9d20084b09b4e24f73b2b63858d",
+      "created_at": "2026-11-14T18:38:00Z"
+    },
+    {
+      "id": 11,
+      "video_id": "TMA-0001",
+      "kind": "technical_qc",
+      "version": 1,
+      "path": "output/technical_qc/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v1.json",
+      "sha256": "c5d6ef38972be3e77df3ffb6995fdad4df138e7e6fd7aefe4de14e981a62deac",
+      "created_at": "2026-11-14T18:35:58Z"
+    },
+    {
+      "id": 16,
+      "video_id": "TMA-0001",
+      "kind": "technical_qc",
+      "version": 2,
+      "path": "output/technical_qc/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v2.json",
+      "sha256": "cc987186cd8d5ed29ca4934e9b8695c82527fcae9150df20b3829f0b6f941740",
+      "created_at": "2026-11-14T18:38:47Z"
+    }
+  ]
+}

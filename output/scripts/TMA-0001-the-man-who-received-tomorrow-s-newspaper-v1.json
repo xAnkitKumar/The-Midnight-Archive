@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "video_id": "TMA-0001",
+  "title": "The Man Who Received Tomorrow's Newspaper",
+  "category": "mind_bending",
+  "logline": "A man starts receiving tomorrow's newspaper, and every edition erases a little more of him.",
+  "source": {
+    "type": "original",
+    "reference": null,
+    "public_domain": false,
+    "notes": "Original story written for The Midnight Archive. No third-party text used."
+  },
+  "narration": [
+    {
+      "beat": 1,
+      "text": "Elias's newspaper was dated tomorrow.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 2,
+      "text": "He lived alone. He had no subscription.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 3,
+      "text": "A misprint — until page nine reported his death.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 4,
+      "text": "Apartment fire. Friday. Three a.m. His name.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 5,
+      "text": "He booked a hotel across town.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 6,
+      "text": "Saturday's paper was at the front desk.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 7,
+      "text": "The fire happened anyway. Same building. Same hour. Different man.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 8,
+      "text": "The dead man was his neighbour, who'd knocked to warn him.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 9,
+      "text": "Elias spread every paper he'd saved across the floor.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 10,
+      "text": "All dated tomorrow. Each mentioned him less than the last.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 11,
+      "text": "First his job. Then his friends. Then the crossword.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 12,
+      "text": "By Friday, his photograph was a grey rectangle.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 13,
+      "text": "Saturday's paper arrived blank. Only the masthead remained.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 14,
+      "text": "The Midnight Archive: all the news that never was.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 15,
+      "text": "Elias finally understood. It wasn't predicting his future.",
+      "pause_after_ms": 200
+    },
+    {
+      "beat": 16,
+      "text": "It was deciding what to keep.",
+      "pause_after_ms": 200
+    }
+  ],
+  "final_line": "It was deciding what to keep.",
+  "visual_style": "Desaturated teal shadows, sodium-amber practical light, fine 16mm grain, 35mm lens, locked-off or slow dolly, one hard source per scene.",
+  "content_notes": "Speculative fiction. The newspaper is a fictional device, not a factual claim about prediction or archives.",
+  "claims": []
+}

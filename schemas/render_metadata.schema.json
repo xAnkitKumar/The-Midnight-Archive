@@ -1,0 +1,120 @@
+{
+  "$defs": {
+    "SceneRenderTiming": {
+      "additionalProperties": false,
+      "properties": {
+        "scene": {
+          "minimum": 1,
+          "title": "Scene",
+          "type": "integer"
+        },
+        "start": {
+          "minimum": 0,
+          "title": "Start",
+          "type": "number"
+        },
+        "end": {
+          "exclusiveMinimum": 0,
+          "title": "End",
+          "type": "number"
+        },
+        "image": {
+          "title": "Image",
+          "type": "string"
+        }
+      },
+      "required": [
+        "scene",
+        "start",
+        "end",
+        "image"
+      ],
+      "title": "SceneRenderTiming",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "video_id": {
+      "title": "Video Id",
+      "type": "string"
+    },
+    "mp4_path": {
+      "title": "Mp4 Path",
+      "type": "string"
+    },
+    "duration": {
+      "exclusiveMinimum": 0,
+      "title": "Duration",
+      "type": "number"
+    },
+    "width": {
+      "exclusiveMinimum": 0,
+      "title": "Width",
+      "type": "integer"
+    },
+    "height": {
+      "exclusiveMinimum": 0,
+      "title": "Height",
+      "type": "integer"
+    },
+    "fps": {
+      "exclusiveMinimum": 0,
+      "title": "Fps",
+      "type": "integer"
+    },
+    "video_codec": {
+      "title": "Video Codec",
+      "type": "string"
+    },
+    "audio_codec": {
+      "title": "Audio Codec",
+      "type": "string"
+    },
+    "subtitle_path": {
+      "title": "Subtitle Path",
+      "type": "string"
+    },
+    "narration_path": {
+      "title": "Narration Path",
+      "type": "string"
+    },
+    "mix_path": {
+      "title": "Mix Path",
+      "type": "string"
+    },
+    "scene_timings": {
+      "items": {
+        "$ref": "#/$defs/SceneRenderTiming"
+      },
+      "title": "Scene Timings",
+      "type": "array"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "video_id",
+    "mp4_path",
+    "duration",
+    "width",
+    "height",
+    "fps",
+    "video_codec",
+    "audio_codec",
+    "subtitle_path",
+    "narration_path",
+    "mix_path"
+  ],
+  "title": "The Midnight Archive Render Metadata",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

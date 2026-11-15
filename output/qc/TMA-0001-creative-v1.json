@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "video_id": "TMA-0001",
+  "reviewer": "Freebuff build agent",
+  "scores": {
+    "hook": 14,
+    "originality": 8,
+    "coherence": 14,
+    "suspense": 13,
+    "ending": 15,
+    "voice": 7,
+    "visual_consistency": 5,
+    "subtitle_sync": 5,
+    "audio_mix": 4
+  },
+  "blocking_issues": [],
+  "notes": "Creative review is deliberately separate from the passing 31/31 technical QC. The impossible opening, causal escalation and final reframing are strong. Originality is held back by the familiar prophetic-newspaper premise. Voice is clear and correctly paced (128 words in about 53.6 s) but was not auditioned by a human and does not fully match the brand's low, intimate timbre. Visual consistency is the weakest area: the eight Pillow placeholders share the teal/amber palette and composition language, but they are stylised tableaux rather than finished character art. Subtitles were checked against actual frames and word timings. The procedural score is intentionally restrained and ducked under narration; a human listening pass is still recommended before publication. No blocking issue was found for the 80/100 gate."
+}

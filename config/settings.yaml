@@ -1,0 +1,182 @@
+# The Midnight Archive - production settings
+# Secrets do NOT belong here. See .env.example.
+
+app:
+  name: The Midnight Archive
+  environment: local
+  timezone: Asia/Kolkata
+
+paths:
+  database: data/archive.db
+  ideas: data/ideas
+  analytics: data/analytics
+  logs: logs
+  output: output
+  qc: output/qc
+  assets: assets
+
+# Narration timing: 2.5 words/second is a slow, atmospheric read.
+# Keep in sync with the TTS voice once a voice is chosen in Phase 3.
+script:
+  words_per_second: 2.5
+  min_words: 90
+  max_words: 130
+  min_duration_seconds: 35
+  max_duration_seconds: 60
+  max_hook_words: 12
+  max_sentence_words: 22
+  banned_phrases:
+    - "it was all a dream"
+    - "and then they woke up"
+    - "to be continued"
+    - "you won't believe"
+    - "what happens next will"
+  weak_phrases:
+    - "little did he know"
+    - "little did she know"
+    - "suddenly, everything changed"
+    - "without warning"
+    - "in that moment"
+    - "chills down his spine"
+    - "chills down her spine"
+
+storyboard:
+  min_scenes: 4
+  max_scenes: 14
+  min_scene_seconds: 1.2
+  max_scene_seconds: 12
+  # Storyboard length may differ from the script estimate by this fraction.
+  duration_tolerance: 0.10
+
+ideas:
+  default_count: 15
+  min_total_score: 55
+  categories:
+    - psychological_horror
+    - mystery
+    - mind_bending
+  minimum_originality: 6
+  # Weighted 0-100 score for Agent 1. Components are scored 1-10.
+  score_weights:
+    hook: 0.30
+    originality: 0.15
+    suspense: 0.20
+    visual: 0.20
+    ending: 0.15
+
+qc:
+  minimum_total: 80
+  require_no_blocking_issues: true
+
+# Phase 1 uses the offline generator. The openai_compatible adapter is
+# disabled unless BOTH the env gate and the --allow-paid-api CLI flag are set.
+llm:
+  provider: offline
+  base_url: https://freebuff.com/api/v1/paid
+  model: ""
+  timeout_seconds: 60
+  max_retries: 2
+
+video:
+  width: 1080
+  height: 1920
+  fps: 30
+  aspect_ratio: "9:16"
+  codec: libx264
+  audio_codec: aac
+  container: mp4
+  subtitle_format: srt
+  initial_min_seconds: 35
+  initial_max_seconds: 60
+
+logging:
+  level: INFO
+  max_bytes: 2000000
+  backup_count: 3
+
+# ---------------------------------------------------------------------------
+# Phase 2 - local audio and rendering
+# The engine and the voice model have separate licences. Every voice must be
+# declared here with its dataset licence before narration is allowed.
+# ---------------------------------------------------------------------------
+audio:
+  # Kokoro bm_george is the human-selected narrator for TMA-0001 v3 (British
+  # English). Piper remains available as a fast fallback. Do not render a full
+  # video until explicitly authorized.
+  provider: kokoro
+  voice: bm_george
+  language: en-gb
+  voice_dir: assets/voices
+  voices:
+    en_US-ljspeech-high:
+      provider: piper
+      model: assets/voices/en_US-ljspeech-high.onnx
+      license: Public Domain
+      commercial_use: true
+      source_url: https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/high
+      attribution: "LJSpeech dataset (public domain); Piper voice trained by Bryce Beattie"
+    am_michael:
+      provider: kokoro
+      model: assets/tts/kokoro/kokoro-v1.0.onnx
+      voices: assets/tts/kokoro/voices-v1.0.bin
+      license: Apache-2.0
+      commercial_use: true
+      source_url: https://huggingface.co/hexgrad/Kokoro-82M
+      attribution: "Kokoro-82M (Apache-2.0) by hexgrad; voice am_michael; ONNX runtime kokoro-onnx (MIT)"
+      speed: 0.92
+    bm_george:
+      provider: kokoro
+      model: assets/tts/kokoro/kokoro-v1.0.onnx
+      voices: assets/tts/kokoro/voices-v1.0.bin
+      license: Apache-2.0
+      commercial_use: true
+      source_url: https://huggingface.co/hexgrad/Kokoro-82M
+      attribution: "Kokoro-82M (Apache-2.0) by hexgrad; voice bm_george; ONNX runtime kokoro-onnx (MIT)"
+      speed: 0.96
+  # Piper: 1.0 is natural pace; >1.0 slows the narrator down.
+  length_scale: 1.0
+  noise_scale: 0.667
+  noise_w_scale: 0.8
+  lead_in_ms: 250
+  tail_ms: 800
+  music_volume_db: -24.0
+  sfx_volume_db: -20.0
+  duck_db: -10.0
+  target_lufs: -14.0
+  # Gentle level consistency, not a dramatic broadcast chain.
+  mastering:
+    enabled: true
+    highpass_hz: 70.0
+    threshold_db: -20.0
+    ratio: 1.8
+    target_peak_db: -1.5
+  aligner:
+    provider: faster_whisper
+    model: base.en
+    compute_type: int8
+    beam_size: 5
+
+render:
+  crf: 18
+  preset: veryfast
+  transition_seconds: 0.45
+  cut_seconds: 0.12
+  zoom: 0.075
+  subtitle:
+    font_name: Montserrat
+    font_file: assets/fonts/Montserrat-Bold.ttf
+    font_size: 58
+    margin_v: 260
+    margin_lr: 90
+    outline: 4
+    shadow: 1.2
+
+visuals:
+  placeholder: true
+  width: 1350
+  height: 2400
+  palette_hint: "desaturated teal shadows, sodium-amber practicals, deep blacks"
+
+assets:
+  manifest: assets/manifest.json
+  allow_unlicensed: false

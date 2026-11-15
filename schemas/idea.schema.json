@@ -1,0 +1,144 @@
+{
+  "$defs": {
+    "IdeaScores": {
+      "additionalProperties": false,
+      "properties": {
+        "hook": {
+          "maximum": 10,
+          "minimum": 1,
+          "title": "Hook",
+          "type": "integer"
+        },
+        "originality": {
+          "maximum": 10,
+          "minimum": 1,
+          "title": "Originality",
+          "type": "integer"
+        },
+        "suspense": {
+          "maximum": 10,
+          "minimum": 1,
+          "title": "Suspense",
+          "type": "integer"
+        },
+        "visual": {
+          "maximum": 10,
+          "minimum": 1,
+          "title": "Visual",
+          "type": "integer"
+        },
+        "ending": {
+          "maximum": 10,
+          "minimum": 1,
+          "title": "Ending",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "hook",
+        "originality",
+        "suspense",
+        "visual",
+        "ending"
+      ],
+      "title": "IdeaScores",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "id": {
+      "pattern": "^IDEA-\\d{4}$",
+      "title": "Id",
+      "type": "string"
+    },
+    "title": {
+      "maxLength": 140,
+      "minLength": 3,
+      "title": "Title",
+      "type": "string"
+    },
+    "category": {
+      "enum": [
+        "psychological_horror",
+        "mystery",
+        "mind_bending"
+      ],
+      "title": "Category",
+      "type": "string"
+    },
+    "premise": {
+      "maxLength": 600,
+      "minLength": 20,
+      "title": "Premise",
+      "type": "string"
+    },
+    "hook": {
+      "maxLength": 240,
+      "minLength": 5,
+      "title": "Hook",
+      "type": "string"
+    },
+    "twist": {
+      "maxLength": 300,
+      "minLength": 5,
+      "title": "Twist",
+      "type": "string"
+    },
+    "visual_hook": {
+      "maxLength": 300,
+      "minLength": 5,
+      "title": "Visual Hook",
+      "type": "string"
+    },
+    "scores": {
+      "$ref": "#/$defs/IdeaScores"
+    },
+    "total": {
+      "maximum": 100,
+      "minimum": 0,
+      "title": "Total",
+      "type": "number"
+    },
+    "source": {
+      "default": "local_generator",
+      "enum": [
+        "local_generator",
+        "llm",
+        "human"
+      ],
+      "title": "Source",
+      "type": "string"
+    },
+    "premise_hash": {
+      "minLength": 8,
+      "title": "Premise Hash",
+      "type": "string"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "category",
+    "premise",
+    "hook",
+    "twist",
+    "visual_hook",
+    "scores",
+    "total",
+    "premise_hash"
+  ],
+  "title": "The Midnight Archive Idea",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

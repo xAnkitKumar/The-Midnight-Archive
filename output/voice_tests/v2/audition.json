@@ -1,0 +1,65 @@
+{
+  "video_id": "TMA-0001",
+  "status": "awaiting_human_review",
+  "selected": {
+    "model": "Kokoro-82M",
+    "voice": "am_michael",
+    "runtime": "kokoro-onnx 0.6.1",
+    "sample_rate": 24000,
+    "license": "Apache-2.0",
+    "runtime_license": "MIT",
+    "speed": 0.96
+  },
+  "passage": "Elias's paper had his obituary. It arrived a day early: his apartment, a fire at 3:07. He was alive. The next paper said Mara Kwan. She'd entered 4B to warn him. The paper wasn't predicting the future. It was choosing who paid for it.",
+  "candidates": [
+    {
+      "id": "A",
+      "role": "recommended natural single pass",
+      "file": "output/voice_tests/v2/level-matched/kokoro-am_michael-a-natural.wav",
+      "seconds": 19.896,
+      "speed": 0.96,
+      "raw_wer": 0.159,
+      "proper_noun_normalized_wer": 0.091
+    },
+    {
+      "id": "B",
+      "role": "directed pacing alternate",
+      "file": "output/voice_tests/v2/level-matched/kokoro-am_michael-b-directed.wav",
+      "seconds": 19.947,
+      "speed": "0.98 exposition / 0.93 final lines; 300 ms bridge",
+      "raw_wer": 0.136,
+      "proper_noun_normalized_wer": 0.023
+    },
+    {
+      "id": "C",
+      "role": "British reference",
+      "file": "output/voice_tests/v2/level-matched/kokoro-bm_george-reference.wav",
+      "seconds": 18.293,
+      "speed": 0.96,
+      "raw_wer": 0.068,
+      "proper_noun_normalized_wer": 0.023
+    },
+    {
+      "id": "D",
+      "role": "Piper baseline",
+      "file": "output/voice_tests/v2/level-matched/piper-en_US-ljspeech-high-baseline.wav",
+      "seconds": 15.496,
+      "speed": "Piper length_scale 1.0",
+      "raw_wer": 0.114,
+      "proper_noun_normalized_wer": 0.023
+    }
+  ],
+  "licensing": [
+    "Kokoro-82M model and voices: Apache-2.0",
+    "kokoro-onnx runtime: MIT",
+    "Piper engine: GPL-3.0",
+    "Piper en_US-ljspeech-high voice: public-domain LJSpeech"
+  ],
+  "not_done": [
+    "No human listening review",
+    "No full narration",
+    "No render",
+    "No QC pass",
+    "No approval or publication"
+  ]
+}

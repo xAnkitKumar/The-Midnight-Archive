@@ -1,0 +1,1709 @@
+{
+  "method": "fresh faster-whisper base.en int8 word timestamps from approved WAV in six connected passages; canonical time tokens; disclosed unmatched-token interpolation",
+  "source_audio_sha256": "a45991eeb02afd4b84aa039c60a309e373135dfd11c310cde300753c015e3fa7",
+  "words": [
+    {
+      "word": "Elias's",
+      "start": 0.25,
+      "end": 0.77,
+      "beat": 1
+    },
+    {
+      "word": "paper",
+      "start": 0.77,
+      "end": 1.17,
+      "beat": 1
+    },
+    {
+      "word": "had",
+      "start": 1.17,
+      "end": 1.49,
+      "beat": 1
+    },
+    {
+      "word": "his",
+      "start": 1.49,
+      "end": 1.65,
+      "beat": 1
+    },
+    {
+      "word": "obituary.",
+      "start": 1.65,
+      "end": 2.21,
+      "beat": 1
+    },
+    {
+      "word": "It",
+      "start": 2.87,
+      "end": 2.89,
+      "beat": 2
+    },
+    {
+      "word": "arrived",
+      "start": 2.89,
+      "end": 3.15,
+      "beat": 2
+    },
+    {
+      "word": "a",
+      "start": 3.15,
+      "end": 3.47,
+      "beat": 2
+    },
+    {
+      "word": "day",
+      "start": 3.47,
+      "end": 3.69,
+      "beat": 2
+    },
+    {
+      "word": "early:",
+      "start": 3.69,
+      "end": 4.03,
+      "beat": 2
+    },
+    {
+      "word": "his",
+      "start": 4.57,
+      "end": 4.65,
+      "beat": 2
+    },
+    {
+      "word": "name,",
+      "start": 4.65,
+      "end": 4.93,
+      "beat": 2
+    },
+    {
+      "word": "his",
+      "start": 5.31,
+      "end": 5.41,
+      "beat": 2
+    },
+    {
+      "word": "apartment,",
+      "start": 5.41,
+      "end": 5.87,
+      "beat": 2
+    },
+    {
+      "word": "a",
+      "start": 6.25,
+      "end": 6.45,
+      "beat": 2
+    },
+    {
+      "word": "fire",
+      "start": 6.45,
+      "end": 6.79,
+      "beat": 2
+    },
+    {
+      "word": "at",
+      "start": 6.79,
+      "end": 7.07,
+      "beat": 2
+    },
+    {
+      "word": "3:07.",
+      "start": 7.07,
+      "end": 7.37,
+      "beat": 2
+    },
+    {
+      "word": "He",
+      "start": 8.39,
+      "end": 8.51,
+      "beat": 3
+    },
+    {
+      "word": "was",
+      "start": 8.51,
+      "end": 8.61,
+      "beat": 3
+    },
+    {
+      "word": "alive.",
+      "start": 8.61,
+      "end": 8.89,
+      "beat": 3
+    },
+    {
+      "word": "He",
+      "start": 10.316,
+      "end": 10.416,
+      "beat": 4
+    },
+    {
+      "word": "had",
+      "start": 10.416,
+      "end": 10.556,
+      "beat": 4
+    },
+    {
+      "word": "no",
+      "start": 10.556,
+      "end": 10.776,
+      "beat": 4
+    },
+    {
+      "word": "subscription.",
+      "start": 10.776,
+      "end": 11.256,
+      "beat": 4
+    },
+    {
+      "word": "Underneath,",
+      "start": 11.256,
+      "end": 12.196,
+      "beat": 4
+    },
+    {
+      "word": "in",
+      "start": 12.196,
+      "end": 12.756,
+      "beat": 4
+    },
+    {
+      "word": "small",
+      "start": 12.756,
+      "end": 13.016,
+      "beat": 4
+    },
+    {
+      "word": "print:",
+      "start": 13.016,
+      "end": 13.396,
+      "beat": 4
+    },
+    {
+      "word": "one",
+      "start": 13.396,
+      "end": 13.996,
+      "beat": 4
+    },
+    {
+      "word": "name",
+      "start": 13.996,
+      "end": 14.296,
+      "beat": 4
+    },
+    {
+      "word": "per",
+      "start": 14.296,
+      "end": 14.556,
+      "beat": 4
+    },
+    {
+      "word": "fire.",
+      "start": 14.556,
+      "end": 14.956,
+      "beat": 4
+    },
+    {
+      "word": "At",
+      "start": 15.655,
+      "end": 15.775,
+      "beat": 5
+    },
+    {
+      "word": "2:40,",
+      "start": 15.775,
+      "end": 16.075,
+      "beat": 5
+    },
+    {
+      "word": "Elias",
+      "start": 16.775,
+      "end": 17.055,
+      "beat": 5
+    },
+    {
+      "word": "knocked",
+      "start": 17.055,
+      "end": 17.295,
+      "beat": 5
+    },
+    {
+      "word": "on",
+      "start": 17.295,
+      "end": 17.535,
+      "beat": 5
+    },
+    {
+      "word": "4A.",
+      "start": 17.535,
+      "end": 18.095,
+      "beat": 5
+    },
+    {
+      "word": "Mara's",
+      "start": 18.895,
+      "end": 19.075,
+      "beat": 5
+    },
+    {
+      "word": "heater",
+      "start": 19.075,
+      "end": 19.235,
+      "beat": 5
+    },
+    {
+      "word": "had",
+      "start": 19.235,
+      "end": 19.555,
+      "beat": 5
+    },
+    {
+      "word": "been",
+      "start": 19.555,
+      "end": 19.675,
+      "beat": 5
+    },
+    {
+      "word": "sparking",
+      "start": 19.675,
+      "end": 19.995,
+      "beat": 5
+    },
+    {
+      "word": "all",
+      "start": 19.995,
+      "end": 20.415,
+      "beat": 5
+    },
+    {
+      "word": "week.",
+      "start": 20.415,
+      "end": 20.675,
+      "beat": 5
+    },
+    {
+      "word": "She'd",
+      "start": 21.175,
+      "end": 21.295,
+      "beat": 6
+    },
+    {
+      "word": "asked",
+      "start": 21.295,
+      "end": 21.435,
+      "beat": 6
+    },
+    {
+      "word": "him",
+      "start": 21.435,
+      "end": 21.695,
+      "beat": 6
+    },
+    {
+      "word": "to",
+      "start": 21.695,
+      "end": 21.835,
+      "beat": 6
+    },
+    {
+      "word": "fix",
+      "start": 21.835,
+      "end": 22.115,
+      "beat": 6
+    },
+    {
+      "word": "it.",
+      "start": 22.115,
+      "end": 22.315,
+      "beat": 6
+    },
+    {
+      "word": "He",
+      "start": 22.755,
+      "end": 22.835,
+      "beat": 6
+    },
+    {
+      "word": "told",
+      "start": 22.835,
+      "end": 23.015,
+      "beat": 6
+    },
+    {
+      "word": "her",
+      "start": 23.015,
+      "end": 23.215,
+      "beat": 6
+    },
+    {
+      "word": "to",
+      "start": 23.215,
+      "end": 23.315,
+      "beat": 6
+    },
+    {
+      "word": "call",
+      "start": 23.315,
+      "end": 23.495,
+      "beat": 6
+    },
+    {
+      "word": "the",
+      "start": 23.495,
+      "end": 23.735,
+      "beat": 6
+    },
+    {
+      "word": "super.",
+      "start": 23.735,
+      "end": 23.915,
+      "beat": 6
+    },
+    {
+      "word": "He",
+      "start": 24.595,
+      "end": 24.635,
+      "beat": 7
+    },
+    {
+      "word": "took",
+      "start": 24.635,
+      "end": 24.775,
+      "beat": 7
+    },
+    {
+      "word": "the",
+      "start": 24.775,
+      "end": 24.975,
+      "beat": 7
+    },
+    {
+      "word": "stairs",
+      "start": 24.975,
+      "end": 25.395,
+      "beat": 7
+    },
+    {
+      "word": "and",
+      "start": 25.395,
+      "end": 25.655,
+      "beat": 7
+    },
+    {
+      "word": "didn't",
+      "start": 25.655,
+      "end": 25.975,
+      "beat": 7
+    },
+    {
+      "word": "look",
+      "start": 25.975,
+      "end": 26.115,
+      "beat": 7
+    },
+    {
+      "word": "back.",
+      "start": 26.115,
+      "end": 26.395,
+      "beat": 7
+    },
+    {
+      "word": "From",
+      "start": 26.955,
+      "end": 27.015,
+      "beat": 8
+    },
+    {
+      "word": "the",
+      "start": 27.015,
+      "end": 27.135,
+      "beat": 8
+    },
+    {
+      "word": "hotel,",
+      "start": 27.135,
+      "end": 27.335,
+      "beat": 8
+    },
+    {
+      "word": "he",
+      "start": 27.875,
+      "end": 27.955,
+      "beat": 8
+    },
+    {
+      "word": "watched",
+      "start": 27.955,
+      "end": 28.135,
+      "beat": 8
+    },
+    {
+      "word": "the",
+      "start": 28.135,
+      "end": 28.435,
+      "beat": 8
+    },
+    {
+      "word": "smoke",
+      "start": 28.435,
+      "end": 28.695,
+      "beat": 8
+    },
+    {
+      "word": "rise.",
+      "start": 28.695,
+      "end": 29.135,
+      "beat": 8
+    },
+    {
+      "word": "At",
+      "start": 29.955,
+      "end": 29.975,
+      "beat": 8
+    },
+    {
+      "word": "3:07,",
+      "start": 29.975,
+      "end": 30.255,
+      "beat": 8
+    },
+    {
+      "word": "4B",
+      "start": 31.175,
+      "end": 31.535,
+      "beat": 8
+    },
+    {
+      "word": "burned.",
+      "start": 31.535,
+      "end": 31.875,
+      "beat": 8
+    },
+    {
+      "word": "The",
+      "start": 32.695,
+      "end": 32.775,
+      "beat": 9
+    },
+    {
+      "word": "next",
+      "start": 32.775,
+      "end": 32.895,
+      "beat": 9
+    },
+    {
+      "word": "paper",
+      "start": 32.895,
+      "end": 33.255,
+      "beat": 9
+    },
+    {
+      "word": "waited",
+      "start": 33.255,
+      "end": 33.635,
+      "beat": 9
+    },
+    {
+      "word": "at",
+      "start": 33.635,
+      "end": 33.895,
+      "beat": 9
+    },
+    {
+      "word": "the",
+      "start": 33.895,
+      "end": 33.975,
+      "beat": 9
+    },
+    {
+      "word": "front",
+      "start": 33.975,
+      "end": 34.195,
+      "beat": 9
+    },
+    {
+      "word": "desk.",
+      "start": 34.195,
+      "end": 34.515,
+      "beat": 9
+    },
+    {
+      "word": "Same",
+      "start": 35.115,
+      "end": 35.435,
+      "beat": 9
+    },
+    {
+      "word": "fire.",
+      "start": 35.435,
+      "end": 35.895,
+      "beat": 9
+    },
+    {
+      "word": "Same",
+      "start": 36.355,
+      "end": 36.555,
+      "beat": 9
+    },
+    {
+      "word": "hour.",
+      "start": 36.555,
+      "end": 36.955,
+      "beat": 9
+    },
+    {
+      "word": "Different",
+      "start": 37.315,
+      "end": 37.555,
+      "beat": 9
+    },
+    {
+      "word": "name.",
+      "start": 37.555,
+      "end": 37.855,
+      "beat": 9
+    },
+    {
+      "word": "Mara",
+      "start": 39.205,
+      "end": 39.613,
+      "beat": 10
+    },
+    {
+      "word": "Kwan.",
+      "start": 39.613,
+      "end": 40.125,
+      "beat": 10
+    },
+    {
+      "word": "Apartment",
+      "start": 40.125,
+      "end": 40.565,
+      "beat": 10
+    },
+    {
+      "word": "4A.",
+      "start": 40.565,
+      "end": 41.305,
+      "beat": 10
+    },
+    {
+      "word": "It",
+      "start": 41.705,
+      "end": 41.865,
+      "beat": 10
+    },
+    {
+      "word": "said",
+      "start": 41.865,
+      "end": 42.065,
+      "beat": 10
+    },
+    {
+      "word": "she'd",
+      "start": 42.065,
+      "end": 42.325,
+      "beat": 10
+    },
+    {
+      "word": "entered",
+      "start": 42.325,
+      "end": 42.545,
+      "beat": 10
+    },
+    {
+      "word": "4B",
+      "start": 42.545,
+      "end": 43.085,
+      "beat": 10
+    },
+    {
+      "word": "to",
+      "start": 43.085,
+      "end": 43.305,
+      "beat": 10
+    },
+    {
+      "word": "warn",
+      "start": 43.305,
+      "end": 43.565,
+      "beat": 10
+    },
+    {
+      "word": "him.",
+      "start": 43.565,
+      "end": 43.785,
+      "beat": 10
+    },
+    {
+      "word": "Elias",
+      "start": 44.525,
+      "end": 44.545,
+      "beat": 11
+    },
+    {
+      "word": "laid",
+      "start": 44.545,
+      "end": 44.925,
+      "beat": 11
+    },
+    {
+      "word": "the",
+      "start": 44.925,
+      "end": 45.125,
+      "beat": 11
+    },
+    {
+      "word": "two",
+      "start": 45.125,
+      "end": 45.325,
+      "beat": 11
+    },
+    {
+      "word": "obituaries",
+      "start": 45.325,
+      "end": 45.885,
+      "beat": 11
+    },
+    {
+      "word": "side",
+      "start": 45.885,
+      "end": 46.205,
+      "beat": 11
+    },
+    {
+      "word": "by",
+      "start": 46.205,
+      "end": 46.545,
+      "beat": 11
+    },
+    {
+      "word": "side.",
+      "start": 46.545,
+      "end": 47.005,
+      "beat": 11
+    },
+    {
+      "word": "His",
+      "start": 47.525,
+      "end": 47.605,
+      "beat": 11
+    },
+    {
+      "word": "name.",
+      "start": 47.605,
+      "end": 47.865,
+      "beat": 11
+    },
+    {
+      "word": "Mara's.",
+      "start": 48.385,
+      "end": 48.945,
+      "beat": 11
+    },
+    {
+      "word": "The",
+      "start": 49.946,
+      "end": 50.026,
+      "beat": 12
+    },
+    {
+      "word": "paper",
+      "start": 50.026,
+      "end": 50.326,
+      "beat": 12
+    },
+    {
+      "word": "wasn't",
+      "start": 50.326,
+      "end": 50.786,
+      "beat": 12
+    },
+    {
+      "word": "predicting",
+      "start": 50.786,
+      "end": 51.146,
+      "beat": 12
+    },
+    {
+      "word": "the",
+      "start": 51.146,
+      "end": 51.546,
+      "beat": 12
+    },
+    {
+      "word": "future.",
+      "start": 51.546,
+      "end": 51.826,
+      "beat": 12
+    },
+    {
+      "word": "It",
+      "start": 52.466,
+      "end": 52.606,
+      "beat": 13
+    },
+    {
+      "word": "was",
+      "start": 52.606,
+      "end": 52.706,
+      "beat": 13
+    },
+    {
+      "word": "choosing",
+      "start": 52.706,
+      "end": 53.086,
+      "beat": 13
+    },
+    {
+      "word": "who",
+      "start": 53.086,
+      "end": 53.486,
+      "beat": 13
+    },
+    {
+      "word": "paid",
+      "start": 53.486,
+      "end": 53.726,
+      "beat": 13
+    },
+    {
+      "word": "for",
+      "start": 53.726,
+      "end": 54.046,
+      "beat": 13
+    },
+    {
+      "word": "it.",
+      "start": 54.046,
+      "end": 54.226,
+      "beat": 13
+    }
+  ],
+  "cues": [
+    {
+      "index": 1,
+      "start": 0.21,
+      "end": 2.35,
+      "text": "Elias's paper had his obituary."
+    },
+    {
+      "index": 2,
+      "start": 2.83,
+      "end": 5.07,
+      "text": "It arrived a day\nearly: his name,"
+    },
+    {
+      "index": 3,
+      "start": 5.27,
+      "end": 7.51,
+      "text": "his apartment, a fire at 3:07."
+    },
+    {
+      "index": 4,
+      "start": 8.35,
+      "end": 9.03,
+      "text": "He was alive."
+    },
+    {
+      "index": 5,
+      "start": 10.276,
+      "end": 11.186,
+      "text": "He had no subscription."
+    },
+    {
+      "index": 6,
+      "start": 11.216,
+      "end": 13.326,
+      "text": "Underneath, in small print:"
+    },
+    {
+      "index": 7,
+      "start": 13.356,
+      "end": 15.096,
+      "text": "one name per fire."
+    },
+    {
+      "index": 8,
+      "start": 15.615,
+      "end": 18.235,
+      "text": "At 2:40, Elias knocked on 4A."
+    },
+    {
+      "index": 9,
+      "start": 18.855,
+      "end": 20.815,
+      "text": "Mara's heater had been\nsparking all week."
+    },
+    {
+      "index": 10,
+      "start": 21.135,
+      "end": 22.455,
+      "text": "She'd asked him to fix it."
+    },
+    {
+      "index": 11,
+      "start": 22.715,
+      "end": 24.055,
+      "text": "He told her to call the super."
+    },
+    {
+      "index": 12,
+      "start": 24.555,
+      "end": 25.325,
+      "text": "He took the stairs"
+    },
+    {
+      "index": 13,
+      "start": 25.355,
+      "end": 26.535,
+      "text": "and didn't look back."
+    },
+    {
+      "index": 14,
+      "start": 26.915,
+      "end": 27.885,
+      "text": "From the hotel, he"
+    },
+    {
+      "index": 15,
+      "start": 27.915,
+      "end": 29.275,
+      "text": "watched the smoke rise."
+    },
+    {
+      "index": 16,
+      "start": 29.915,
+      "end": 32.015,
+      "text": "At 3:07, 4B burned."
+    },
+    {
+      "index": 17,
+      "start": 32.655,
+      "end": 33.565,
+      "text": "The next paper waited"
+    },
+    {
+      "index": 18,
+      "start": 33.595,
+      "end": 34.655,
+      "text": "at the front desk."
+    },
+    {
+      "index": 19,
+      "start": 35.075,
+      "end": 36.035,
+      "text": "Same fire."
+    },
+    {
+      "index": 20,
+      "start": 36.315,
+      "end": 37.095,
+      "text": "Same hour."
+    },
+    {
+      "index": 21,
+      "start": 37.275,
+      "end": 37.995,
+      "text": "Different name."
+    },
+    {
+      "index": 22,
+      "start": 39.165,
+      "end": 40.055,
+      "text": "Mara Kwan."
+    },
+    {
+      "index": 23,
+      "start": 40.085,
+      "end": 41.445,
+      "text": "Apartment 4A."
+    },
+    {
+      "index": 24,
+      "start": 41.665,
+      "end": 42.475,
+      "text": "It said she'd entered"
+    },
+    {
+      "index": 25,
+      "start": 42.505,
+      "end": 43.925,
+      "text": "4B to warn him."
+    },
+    {
+      "index": 26,
+      "start": 44.485,
+      "end": 45.255,
+      "text": "Elias laid the two"
+    },
+    {
+      "index": 27,
+      "start": 45.285,
+      "end": 47.145,
+      "text": "obituaries side by side."
+    },
+    {
+      "index": 28,
+      "start": 47.485,
+      "end": 48.135,
+      "text": "His name."
+    },
+    {
+      "index": 29,
+      "start": 48.345,
+      "end": 49.085,
+      "text": "Mara's."
+    },
+    {
+      "index": 30,
+      "start": 49.906,
+      "end": 51.966,
+      "text": "The paper wasn't\npredicting the future."
+    },
+    {
+      "index": 31,
+      "start": 52.426,
+      "end": 54.366,
+      "text": "It was choosing who paid for it."
+    }
+  ],
+  "recognitions": [
+    {
+      "group": 1,
+      "audio_start": 0.25,
+      "audio_end": 9.566,
+      "raw_words": [
+        [
+          "Elias's",
+          0.0,
+          0.52
+        ],
+        [
+          "paper",
+          0.52,
+          0.92
+        ],
+        [
+          "had",
+          0.92,
+          1.24
+        ],
+        [
+          "his",
+          1.24,
+          1.4
+        ],
+        [
+          "obituary.",
+          1.4,
+          1.96
+        ],
+        [
+          "It",
+          2.62,
+          2.64
+        ],
+        [
+          "arrived",
+          2.64,
+          2.9
+        ],
+        [
+          "a",
+          2.9,
+          3.22
+        ],
+        [
+          "day",
+          3.22,
+          3.44
+        ],
+        [
+          "early,",
+          3.44,
+          3.78
+        ],
+        [
+          "his",
+          4.32,
+          4.4
+        ],
+        [
+          "name,",
+          4.4,
+          4.68
+        ],
+        [
+          "his",
+          5.06,
+          5.16
+        ],
+        [
+          "apartment,",
+          5.16,
+          5.62
+        ],
+        [
+          "a",
+          6.0,
+          6.2
+        ],
+        [
+          "fire",
+          6.2,
+          6.54
+        ],
+        [
+          "at",
+          6.54,
+          6.82
+        ],
+        [
+          "307.",
+          6.82,
+          7.12
+        ],
+        [
+          "He",
+          8.14,
+          8.26
+        ],
+        [
+          "was",
+          8.26,
+          8.36
+        ],
+        [
+          "alive.",
+          8.36,
+          8.64
+        ]
+      ],
+      "canonical_time_mappings": [
+        {
+          "original": [
+            "307."
+          ],
+          "mapped": "3:07"
+        }
+      ]
+    },
+    {
+      "group": 2,
+      "audio_start": 10.316,
+      "audio_end": 15.405333333333333,
+      "raw_words": [
+        [
+          "He",
+          0.0,
+          0.1
+        ],
+        [
+          "had",
+          0.1,
+          0.24
+        ],
+        [
+          "no",
+          0.24,
+          0.46
+        ],
+        [
+          "subscription",
+          0.46,
+          0.94
+        ],
+        [
+          "underneath",
+          0.94,
+          1.88
+        ],
+        [
+          "in",
+          1.88,
+          2.44
+        ],
+        [
+          "small",
+          2.44,
+          2.7
+        ],
+        [
+          "print",
+          2.7,
+          3.08
+        ],
+        [
+          "one",
+          3.08,
+          3.68
+        ],
+        [
+          "name",
+          3.68,
+          3.98
+        ],
+        [
+          "per",
+          3.98,
+          4.24
+        ],
+        [
+          "fire.",
+          4.24,
+          4.64
+        ]
+      ],
+      "canonical_time_mappings": []
+    },
+    {
+      "group": 3,
+      "audio_start": 15.655333333333333,
+      "audio_end": 32.39533333333333,
+      "raw_words": [
+        [
+          "At",
+          0.0,
+          0.12
+        ],
+        [
+          "240,",
+          0.12,
+          0.42
+        ],
+        [
+          "Elias",
+          1.12,
+          1.4
+        ],
+        [
+          "knocked",
+          1.4,
+          1.64
+        ],
+        [
+          "on",
+          1.64,
+          1.88
+        ],
+        [
+          "4A.",
+          1.88,
+          2.44
+        ],
+        [
+          "Mara's",
+          3.24,
+          3.42
+        ],
+        [
+          "heater",
+          3.42,
+          3.58
+        ],
+        [
+          "had",
+          3.58,
+          3.9
+        ],
+        [
+          "been",
+          3.9,
+          4.02
+        ],
+        [
+          "sparking",
+          4.02,
+          4.34
+        ],
+        [
+          "all",
+          4.34,
+          4.76
+        ],
+        [
+          "week.",
+          4.76,
+          5.02
+        ],
+        [
+          "She'd",
+          5.52,
+          5.64
+        ],
+        [
+          "asked",
+          5.64,
+          5.78
+        ],
+        [
+          "him",
+          5.78,
+          6.04
+        ],
+        [
+          "to",
+          6.04,
+          6.18
+        ],
+        [
+          "fix",
+          6.18,
+          6.46
+        ],
+        [
+          "it.",
+          6.46,
+          6.66
+        ],
+        [
+          "He",
+          7.1,
+          7.18
+        ],
+        [
+          "told",
+          7.18,
+          7.36
+        ],
+        [
+          "her",
+          7.36,
+          7.56
+        ],
+        [
+          "to",
+          7.56,
+          7.66
+        ],
+        [
+          "call",
+          7.66,
+          7.84
+        ],
+        [
+          "the",
+          7.84,
+          8.08
+        ],
+        [
+          "super.",
+          8.08,
+          8.26
+        ],
+        [
+          "He",
+          8.94,
+          8.98
+        ],
+        [
+          "took",
+          8.98,
+          9.12
+        ],
+        [
+          "the",
+          9.12,
+          9.32
+        ],
+        [
+          "stairs",
+          9.32,
+          9.74
+        ],
+        [
+          "and",
+          9.74,
+          10.0
+        ],
+        [
+          "didn't",
+          10.0,
+          10.32
+        ],
+        [
+          "look",
+          10.32,
+          10.46
+        ],
+        [
+          "back.",
+          10.46,
+          10.74
+        ],
+        [
+          "From",
+          11.3,
+          11.36
+        ],
+        [
+          "the",
+          11.36,
+          11.48
+        ],
+        [
+          "hotel,",
+          11.48,
+          11.68
+        ],
+        [
+          "he",
+          12.22,
+          12.3
+        ],
+        [
+          "watched",
+          12.3,
+          12.48
+        ],
+        [
+          "the",
+          12.48,
+          12.78
+        ],
+        [
+          "smoke",
+          12.78,
+          13.04
+        ],
+        [
+          "rise.",
+          13.04,
+          13.48
+        ],
+        [
+          "At",
+          14.3,
+          14.32
+        ],
+        [
+          "307,",
+          14.32,
+          14.6
+        ],
+        [
+          "4B",
+          15.52,
+          15.88
+        ],
+        [
+          "burned.",
+          15.88,
+          16.22
+        ]
+      ],
+      "canonical_time_mappings": [
+        {
+          "original": [
+            "240,"
+          ],
+          "mapped": "2:40"
+        },
+        {
+          "original": [
+            "307,"
+          ],
+          "mapped": "3:07"
+        }
+      ]
+    },
+    {
+      "group": 4,
+      "audio_start": 32.69533333333333,
+      "audio_end": 38.404583333333335,
+      "raw_words": [
+        [
+          "The",
+          0.0,
+          0.08
+        ],
+        [
+          "next",
+          0.08,
+          0.2
+        ],
+        [
+          "paper",
+          0.2,
+          0.56
+        ],
+        [
+          "waited",
+          0.56,
+          0.94
+        ],
+        [
+          "at",
+          0.94,
+          1.2
+        ],
+        [
+          "the",
+          1.2,
+          1.28
+        ],
+        [
+          "front",
+          1.28,
+          1.5
+        ],
+        [
+          "desk,",
+          1.5,
+          1.82
+        ],
+        [
+          "same",
+          2.42,
+          2.74
+        ],
+        [
+          "fire,",
+          2.74,
+          3.2
+        ],
+        [
+          "same",
+          3.66,
+          3.86
+        ],
+        [
+          "hour,",
+          3.86,
+          4.26
+        ],
+        [
+          "different",
+          4.62,
+          4.86
+        ],
+        [
+          "name.",
+          4.86,
+          5.16
+        ]
+      ],
+      "canonical_time_mappings": []
+    },
+    {
+      "group": 5,
+      "audio_start": 39.20458333333333,
+      "audio_end": 49.245916666666666,
+      "raw_words": [
+        [
+          "Maraquan,",
+          0.0,
+          0.58
+        ],
+        [
+          "Apartment",
+          0.92,
+          1.36
+        ],
+        [
+          "4A,",
+          1.36,
+          2.1
+        ],
+        [
+          "it",
+          2.5,
+          2.66
+        ],
+        [
+          "said",
+          2.66,
+          2.86
+        ],
+        [
+          "she'd",
+          2.86,
+          3.12
+        ],
+        [
+          "entered",
+          3.12,
+          3.34
+        ],
+        [
+          "4B",
+          3.34,
+          3.88
+        ],
+        [
+          "to",
+          3.88,
+          4.1
+        ],
+        [
+          "warn",
+          4.1,
+          4.36
+        ],
+        [
+          "him.",
+          4.36,
+          4.58
+        ],
+        [
+          "Elias",
+          5.32,
+          5.32
+        ],
+        [
+          "laid",
+          5.32,
+          5.72
+        ],
+        [
+          "the",
+          5.72,
+          5.92
+        ],
+        [
+          "two",
+          5.92,
+          6.12
+        ],
+        [
+          "obituaries",
+          6.12,
+          6.68
+        ],
+        [
+          "side",
+          6.68,
+          7.0
+        ],
+        [
+          "by",
+          7.0,
+          7.34
+        ],
+        [
+          "side.",
+          7.34,
+          7.8
+        ],
+        [
+          "His",
+          8.32,
+          8.4
+        ],
+        [
+          "name,",
+          8.4,
+          8.66
+        ],
+        [
+          "Mara's.",
+          9.18,
+          9.74
+        ]
+      ],
+      "canonical_time_mappings": []
+    },
+    {
+      "group": 6,
+      "audio_start": 49.94591666666667,
+      "audio_end": 54.54725,
+      "raw_words": [
+        [
+          "The",
+          0.0,
+          0.08
+        ],
+        [
+          "paper",
+          0.08,
+          0.38
+        ],
+        [
+          "wasn't",
+          0.38,
+          0.84
+        ],
+        [
+          "predicting",
+          0.84,
+          1.2
+        ],
+        [
+          "the",
+          1.2,
+          1.6
+        ],
+        [
+          "future,",
+          1.6,
+          1.88
+        ],
+        [
+          "it",
+          2.52,
+          2.66
+        ],
+        [
+          "was",
+          2.66,
+          2.76
+        ],
+        [
+          "choosing",
+          2.76,
+          3.14
+        ],
+        [
+          "who",
+          3.14,
+          3.54
+        ],
+        [
+          "paid",
+          3.54,
+          3.78
+        ],
+        [
+          "for",
+          3.78,
+          4.1
+        ],
+        [
+          "it.",
+          4.1,
+          4.28
+        ]
+      ],
+      "canonical_time_mappings": []
+    }
+  ],
+  "interpolation": [
+    {
+      "group": 1,
+      "tokens": []
+    },
+    {
+      "group": 2,
+      "tokens": []
+    },
+    {
+      "group": 3,
+      "tokens": []
+    },
+    {
+      "group": 4,
+      "tokens": []
+    },
+    {
+      "group": 5,
+      "tokens": [
+        "Mara",
+        "Kwan."
+      ]
+    },
+    {
+      "group": 6,
+      "tokens": []
+    }
+  ],
+  "text_matches_script": true,
+  "subtitle_policy": "Sentence and beat boundaries preserved, including one-word revelations."
+}

@@ -1,0 +1,55 @@
+{
+  "approved_source": "output/narration_review/TMA-0001-v3-bm_george/v4-rhythm/narration-v4.wav",
+  "source_sha256": "a45991eeb02afd4b84aa039c60a309e373135dfd11c310cde300753c015e3fa7",
+  "audio_copied_byte_identically": true,
+  "duration": 55.19725,
+  "voice": "bm_george",
+  "speed": 0.96,
+  "script_path": "output/scripts/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v3.json",
+  "script_sha256": "0bf990c0662f05c1db9e76066a8afbb900b0eb0a32eec6d69e574229b7b4de4c",
+  "source_storyboard_path": "output/storyboards/TMA-0001-the-man-who-received-tomorrow-s-newspaper-v3.json",
+  "source_storyboard_sha256": "6df65a9294a3807c4b5aaa9ae847f6a7ba9188f38be492dc343c424153768869",
+  "interpolation": [
+    {
+      "group": 1,
+      "tokens": []
+    },
+    {
+      "group": 2,
+      "tokens": []
+    },
+    {
+      "group": 3,
+      "tokens": []
+    },
+    {
+      "group": 4,
+      "tokens": []
+    },
+    {
+      "group": 5,
+      "tokens": [
+        "Mara",
+        "Kwan."
+      ]
+    },
+    {
+      "group": 6,
+      "tokens": []
+    }
+  ],
+  "scene_bounds": [
+    0.0,
+    10.236,
+    15.575,
+    21.095,
+    24.515,
+    26.875,
+    32.615,
+    39.125,
+    44.445,
+    49.866,
+    55.197
+  ],
+  "review_only": true
+}

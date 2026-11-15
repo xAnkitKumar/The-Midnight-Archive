@@ -1,0 +1,77 @@
+{
+  "voice_gain_db": 0,
+  "voice_source_byte_identical": true,
+  "processing": "24 to 48kHz resample for mix only; no narration time or pitch change, no compression/limiter",
+  "music_gain_db": -26,
+  "duck_max_db": -6.94,
+  "piano_stops_at": 39.125,
+  "events": [
+    {
+      "kind": "paper_rustle",
+      "time": 0.05,
+      "duration": 0.65,
+      "peak_dbfs": -36
+    },
+    {
+      "kind": "paper_crease",
+      "time": 10.286,
+      "duration": 0.4,
+      "peak_dbfs": -34
+    },
+    {
+      "kind": "switch_click",
+      "time": 17.775,
+      "duration": 0.3,
+      "peak_dbfs": -31
+    },
+    {
+      "kind": "switch_click",
+      "time": 21.245,
+      "duration": 0.3,
+      "peak_dbfs": -32
+    },
+    {
+      "kind": "rain",
+      "time": 26.875,
+      "duration": 5.740000000000002,
+      "peak_dbfs": -39
+    },
+    {
+      "kind": "distant_siren",
+      "time": 27.875,
+      "duration": 3,
+      "peak_dbfs": -37
+    },
+    {
+      "kind": "paper_crease",
+      "time": 32.665,
+      "duration": 0.5,
+      "peak_dbfs": -34
+    },
+    {
+      "kind": "paper_crease",
+      "time": 39.175,
+      "duration": 0.4,
+      "peak_dbfs": -35
+    },
+    {
+      "kind": "paper_rustle",
+      "time": 44.495,
+      "duration": 0.6,
+      "peak_dbfs": -33
+    },
+    {
+      "kind": "original soft wood knock",
+      "time": 16.175,
+      "duration": 0.15,
+      "peak_dbfs": -32.104559052680386
+    },
+    {
+      "kind": "original soft wood knock",
+      "time": 16.435,
+      "duration": 0.15,
+      "peak_dbfs": -31.58867647444029
+    }
+  ],
+  "peak_dbfs": -1.4963754455102476
+}

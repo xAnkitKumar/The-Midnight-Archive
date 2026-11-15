@@ -1,0 +1,325 @@
+{
+  "schema_version": "1.0",
+  "id": "IDEAS-20261114T174959Z-4429",
+  "label": "pilot batch",
+  "provider": "offline",
+  "seed": 20261114,
+  "created_at": "2026-11-14T17:49:59Z",
+  "ideas": [
+    {
+      "schema_version": "1.0",
+      "id": "IDEA-0001",
+      "title": "A Quiet Permanent Guest",
+      "category": "psychological_horror",
+      "premise": "A night archivist is hired to catalogue a municipal swimming pool after hours. By the third night, the night porter greets a guest who checked out decades ago. The building had been waiting for a tenant who would finally read the rules.",
+      "hook": "There is a guest who never checks out.",
+      "twist": "The building had been waiting for a tenant who would finally read the rules.",
+      "visual_hook": "a municipal swimming pool after hours — the night porter greets a guest who checked out decades ago",
+      "scores": {
+        "hook": 9,
+        "originality": 10,
+        "suspense": 8,
+        "visual": 8,
+        "ending": 8
+      },
+      "total": 86.0,
+      "source": "local_generator",
+      "premise_hash": "3707488e450e231c189d45b5612ef318",
+      "created_at": "2026-11-14T17:49:59Z"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "IDEA-0002",
+      "title": "Lost Property, Unlisted",
+      "category": "mystery",
+      "premise": "A locksmith inherits a photography studio above a pawn shop, along with one instruction: Never claim an item. It takes a week to break it. The crime was never committed. Someone needed it investigated.",
+      "hook": "Lost property holds things from unbuilt rooms.",
+      "twist": "The crime was never committed. Someone needed it investigated.",
+      "visual_hook": "a photography studio above a pawn shop — the lost-property drawer holds objects from rooms nobody has built",
+      "scores": {
+        "hook": 8,
+        "originality": 10,
+        "suspense": 9,
+        "visual": 8,
+        "ending": 10
+      },
+      "total": 88.0,
+      "source": "local_generator",
+      "premise_hash": "e98493ee645d04049958225f75444ae7",
+      "created_at": "2026-11-14T17:49:59Z"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "IDEA-0003",
+      "title": "The Last Photograph Files",
+      "category": "mind_bending",
+      "premise": "A grief counsellor takes a job at a lighthouse with no light. The rule is simple: Never take the last one. Then the camera develops the moment just before the photograph is taken. The archive did not store the past. It was deciding what to keep.",
+      "hook": "The camera captures the second before.",
+      "twist": "The archive did not store the past. It was deciding what to keep.",
+      "visual_hook": "a lighthouse with no light — the camera develops the moment just before the photograph is taken",
+      "scores": {
+        "hook": 8,
+        "originality": 9,
+        "suspense": 9,
+        "visual": 9,
+        "ending": 10
+      },
+      "total": 88.5,
+      "source": "local_generator",
+      "premise_hash": "8737e0de49509eca9ef9b7028d0a83d2",
+      "created_at": "2026-11-14T17:49:59Z"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "IDEA-0004",
+      "title": "After the Smoke Alarm",
+      "category": "psychological_horror",
+      "premise": "A tram driver returns to a data centre that hums at 3 a.m. after years away. Nothing has changed, except the smoke alarm sounds at the exact minute someone lies. The rule was never protecting them from it. It was protecting it from them.",
+      "hook": "The alarm sounds whenever someone lies.",
+      "twist": "The rule was never protecting them from it. It was protecting it from them.",
+      "visual_hook": "a data centre that hums at 3 a.m. — the smoke alarm sounds at the exact minute someone lies",
+      "scores": {
+        "hook": 8,
+        "originality": 9,
+        "suspense": 9,
+        "visual": 8,
+        "ending": 10
+      },
+      "total": 86.5,
+      "source": "local_generator",
+      "premise_hash": "28a9cc41473187dc85be2f4edb4191e6",
+      "created_at": "2026-11-14T17:49:59Z"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "IDEA-0005",
+      "title": "Paper Receipt, Unlisted",
+      "category": "mystery",
+      "premise": "A sound engineer is hired to catalogue a library where the shelves rearrange overnight. By the third night, the receipts print tomorrow's date. The missing person had been erased from the register, not from the world.",
+      "hook": "Every receipt is dated tomorrow.",
+      "twist": "The missing person had been erased from the register, not from the world.",
+      "visual_hook": "a library where the shelves rearrange overnight — the receipts print tomorrow's date",
+      "scores": {
+        "hook": 9,
+        "originality": 9,
+        "suspense": 8,
+        "visual": 9,
+        "ending": 9
+      },
+      "total": 88.0,
+      "source": "local_generator",
+      "premise_hash": "8c24b8085549c683ad9217ddb6346be3",
+      "created_at": "2026-11-14T17:49:59Z"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "IDEA-0006",
+      "title": "Leaving Cost, Unlisted",
+      "category": "mind_bending",
+      "premise": "A medical illustrator inherits a night-shift radio station on the coast, along with one instruction: Never write it down. It takes a week to break it. The clocks were not slow. The rest of the world had already left.",
+      "hook": "Leaving costs you one memory a day.",
+      "twist": "The clocks were not slow. The rest of the world had already left.",
+      "visual_hook": "a night-shift radio station on the coast — people who leave lose one memory for every day they were inside",
+      "scores": {
+        "hook": 9,
+        "originality": 8,
+        "suspense": 8,
+        "visual": 8,
+        "ending": 9
+      },
+      "total": 84.5,
+      "source": "local_generator",
+      "premise_hash": "554693766610802a4ee135dcb31294ce",
+      "created_at": "2026-11-14T17:49:59Z"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "IDEA-0007",
+      "title": "The Evening Argument Files",
+      "category": "psychological_horror",
+      "premise": "An insurance clerk takes a job at a hotel where every room has the same view. The rule is simple: Never interrupt the argument. Then the neighbours repeat the same argument every evening, word for word. The caretaker was not replacing the photographs. He was the only one who remembered the original faces.",
+      "hook": "The neighbours argue the same words every night.",
+      "twist": "The caretaker was not replacing the photographs. He was the only one who remembered the original faces.",
+      "visual_hook": "a hotel where every room has the same view — the neighbours repeat the same argument every evening, word for word",
+      "scores": {
+        "hook": 8,
+        "originality": 9,
+        "suspense": 9,
+        "visual": 8,
+        "ending": 9
+      },
+      "total": 85.0,
+      "source": "local_generator",
+      "premise_hash": "8a6386833ebea6bab42fcb1aea6e96ef",
+      "created_at": "2026-11-14T17:49:59Z"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "IDEA-0008",
+      "title": "A Quiet Page Nine",
+      "category": "mystery",
+      "premise": "A forensic accountant returns to a hospital wing sealed in 1974 after years away. Nothing has changed, except the newspaper reports crimes one day before they happen. The detective had solved the case before it happened. That was the case.",
+      "hook": "The paper reports crimes before they occur.",
+      "twist": "The detective had solved the case before it happened. That was the case.",
+      "visual_hook": "a hospital wing sealed in 1974 — the newspaper reports crimes one day before they happen",
+      "scores": {
+        "hook": 10,
+        "originality": 8,
+        "suspense": 10,
+        "visual": 9,
+        "ending": 10
+      },
+      "total": 95.0,
+      "source": "local_generator",
+      "premise_hash": "aac002de4176606ae3fa7ef049c1e6a1",
+      "created_at": "2026-11-14T17:49:59Z"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "IDEA-0009",
+      "title": "After the Unlived File",
+      "category": "mind_bending",
+      "premise": "A hotel porter is hired to catalogue a laundromat that never closes. By the third night, the archive contains a file for every decision nobody made. The file did not describe a life unlived. It was a receipt for the one he was living.",
+      "hook": "There is a file for every life you did not live.",
+      "twist": "The file did not describe a life unlived. It was a receipt for the one he was living.",
+      "visual_hook": "a laundromat that never closes — the archive contains a file for every decision nobody made",
+      "scores": {
+        "hook": 10,
+        "originality": 9,
+        "suspense": 9,
+        "visual": 7,
+        "ending": 10
+      },
+      "total": 90.5,
+      "source": "local_generator",
+      "premise_hash": "e79bffeac0766d084fa33820803950f6",
+      "created_at": "2026-11-14T17:49:59Z"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "IDEA-0010",
+      "title": "Family Photograph, Unlisted",
+      "category": "psychological_horror",
+      "premise": "A lighthouse keeper inherits a car park six storeys underground, along with one instruction: Never compare the faces. It takes a week to break it. The thing at the door had been invited in years ago, and had been trying to leave ever since.",
+      "hook": "The photographs are almost right.",
+      "twist": "The thing at the door had been invited in years ago, and had been trying to leave ever since.",
+      "visual_hook": "a car park six storeys underground — the caretaker replaces family photographs with slightly wrong versions",
+      "scores": {
+        "hook": 8,
+        "originality": 8,
+        "suspense": 8,
+        "visual": 7,
+        "ending": 8
+      },
+      "total": 78.0,
+      "source": "local_generator",
+      "premise_hash": "699a50ba40eb758294bd54f9896b3032",
+      "created_at": "2026-11-14T17:49:59Z"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "IDEA-0011",
+      "title": "Crossword, Unlisted",
+      "category": "mystery",
+      "premise": "An estate agent takes a job at a flooded archive beneath a courthouse. The rule is simple: Never finish the puzzle. Then the crossword answers spell the names of missing people. The witness had been paid to remember the crime, not to see it.",
+      "hook": "The crossword spells missing names.",
+      "twist": "The witness had been paid to remember the crime, not to see it.",
+      "visual_hook": "a flooded archive beneath a courthouse — the crossword answers spell the names of missing people",
+      "scores": {
+        "hook": 8,
+        "originality": 9,
+        "suspense": 8,
+        "visual": 9,
+        "ending": 9
+      },
+      "total": 85.0,
+      "source": "local_generator",
+      "premise_hash": "356590a9e377c1a549b3bd61468604aa",
+      "created_at": "2026-11-14T17:49:59Z"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "IDEA-0012",
+      "title": "Extra Room, Unlisted",
+      "category": "mind_bending",
+      "premise": "A sign-language interpreter returns to a cinema screening films nobody made after years away. Nothing has changed, except the building gains one more room each time someone counts them. The archive had no past to store. It was writing one, and he was the ink.",
+      "hook": "The building grows a room whenever you count.",
+      "twist": "The archive had no past to store. It was writing one, and he was the ink.",
+      "visual_hook": "a cinema screening films nobody made — the building gains one more room each time someone counts them",
+      "scores": {
+        "hook": 8,
+        "originality": 8,
+        "suspense": 8,
+        "visual": 9,
+        "ending": 9
+      },
+      "total": 83.5,
+      "source": "local_generator",
+      "premise_hash": "2afe0d848fe83d3598835f1fda04d0dc",
+      "created_at": "2026-11-14T17:49:59Z"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "IDEA-0013",
+      "title": "The Late Mirror",
+      "category": "psychological_horror",
+      "premise": "A radio producer is hired to catalogue a cul-de-sac where the streetlights never switch off. By the third night, every mirror shows the room four seconds late. Nobody in the building was alive. The rent was still due.",
+      "hook": "The mirror is always four seconds behind.",
+      "twist": "Nobody in the building was alive. The rent was still due.",
+      "visual_hook": "a cul-de-sac where the streetlights never switch off — every mirror shows the room four seconds late",
+      "scores": {
+        "hook": 9,
+        "originality": 9,
+        "suspense": 8,
+        "visual": 8,
+        "ending": 9
+      },
+      "total": 86.0,
+      "source": "local_generator",
+      "premise_hash": "bd0ec3856ba8a91c8df4fcf14fa3fd7f",
+      "created_at": "2026-11-14T17:49:59Z"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "IDEA-0014",
+      "title": "Guest Register, Unlisted",
+      "category": "mystery",
+      "premise": "A security guard inherits a wedding venue after the guests leave, along with one instruction: Never sign last. It takes a week to break it. Every clue pointed to the one person who could not have been there: the one who reported it.",
+      "hook": "The register is full of future names.",
+      "twist": "Every clue pointed to the one person who could not have been there: the one who reported it.",
+      "visual_hook": "a wedding venue after the guests leave — the guest register fills with names that have not been used yet",
+      "scores": {
+        "hook": 8,
+        "originality": 8,
+        "suspense": 8,
+        "visual": 7,
+        "ending": 9
+      },
+      "total": 79.5,
+      "source": "local_generator",
+      "premise_hash": "039118c00b7052d676293eb4c544e66c",
+      "created_at": "2026-11-14T17:49:59Z"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "IDEA-0015",
+      "title": "The Borrowed Tuesday Files",
+      "category": "mind_bending",
+      "premise": "A cartographer takes a job at a ferry that only runs in fog. The rule is simple: Never mention Tuesday. Then Tuesday repeats, and everyone remembers the previous ones. He had not been forgetting details. The details had been forgetting him.",
+      "hook": "Tuesday keeps happening, and everyone remembers.",
+      "twist": "He had not been forgetting details. The details had been forgetting him.",
+      "visual_hook": "a ferry that only runs in fog — Tuesday repeats, and everyone remembers the previous ones",
+      "scores": {
+        "hook": 9,
+        "originality": 9,
+        "suspense": 9,
+        "visual": 9,
+        "ending": 10
+      },
+      "total": 91.5,
+      "source": "local_generator",
+      "premise_hash": "aa89144a8c9b7f08a5458c193bfd646e",
+      "created_at": "2026-11-14T17:49:59Z"
+    }
+  ]
+}

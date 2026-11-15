@@ -1,0 +1,23 @@
+# Phase 1 runtime (installed in .venv)
+pydantic>=2.7,<3
+PyYAML>=6.0
+rich>=13.7
+python-dotenv>=1.0
+
+# Tests
+pytest>=8.0
+
+# Phase 2 runtime
+# Piper engine is GPL-3.0; every voice model has its own licence, recorded in
+# config/settings.yaml before narration is allowed.
+piper-tts==1.8.0
+# Kokoro neural voice runtime (MIT code; Apache-2.0 model/voices). CPU ONNX.
+kokoro-onnx==0.6.1
+faster-whisper==1.2.1
+numpy>=2.0
+Pillow>=11.0
+
+# Downloaded separately (not pip packages):
+# assets/tts/kokoro/kokoro-v1.0.onnx + voices-v1.0.bin - Apache-2.0
+# assets/voices/en_US-ljspeech-high.onnx (+ .onnx.json) - public-domain LJSpeech
+# assets/fonts/Montserrat-Bold.ttf - SIL Open Font License 1.1
