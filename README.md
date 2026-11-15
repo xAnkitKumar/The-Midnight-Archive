@@ -2,7 +2,7 @@
 
 A local Python studio for original cinematic mystery, psychological horror and mind-bending short stories. Your creative agent writes the story and storyboard; Python validates the handoffs, versions the artifacts, generates speech, aligns subtitles, mixes audio and renders vertical video.
 
-**New here?** Start with [a clean story workspace](#start-a-new-story-workspace), then give your agent the [starter prompt](docs/AGENT_START_HERE.md). Do not run new production jobs inside this historical archive checkout.
+**New here?** For a one-page model handoff, read [HANDOFF.md](HANDOFF.md). Then start with [a clean story workspace](#start-a-new-story-workspace), and give your agent the [starter prompt](docs/AGENT_START_HERE.md). Do not run new production jobs inside this historical archive checkout.
 
 ## What is included
 
@@ -43,7 +43,7 @@ git lfs pull
 git lfs fsck
 ~~~
 
-This is a private repository: the owner must grant collaborators access. A complete checkout contains roughly 826 MB before Git metadata. If an ONNX, WAV or MP4 opens as a short text file starting with "version https://git-lfs.github.com/spec/v1", run git lfs pull.
+This repository is public. A complete checkout contains roughly 826 MB before Git metadata. Public access does not grant reuse rights to the project's original code, stories or artwork; see [Licensing and access](#licensing-and-access). If an ONNX, WAV or MP4 opens as a short text file starting with "version https://git-lfs.github.com/spec/v1", run git lfs pull.
 
 For a smaller source-only checkout, set GIT_LFS_SKIP_SMUDGE=1 while cloning, then fetch the assets needed for production:
 
